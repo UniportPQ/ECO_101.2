@@ -1,0 +1,303 @@
+[
+  {
+    "type": "pageInfo",
+    "course_title": "INTRODUCTORY MATH METHODS",
+    "code": "ECO 101.2",
+    "session": "Continuous Assessment Test Second Semester 2016/2017",
+    "kind": "mixed",
+    "topics": [
+      "Functions and Graphs",
+      "Limits and Continuity",
+      "Differentiation",
+      "Integration",
+      "Sequences and Series",
+      "Vectors",
+      "Matrices and Determinants",
+      "Complex Numbers",
+      "Introduction to Ordinary Differential Equations",
+      "Multivariable Calculus Fundamentals",
+      "Mathematical Definitions",
+      "Polynomials",
+      "Rational Functions",
+      "Exponential Functions",
+      "Power Rule",
+      "Introductory Math Methods"
+    ],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": [
+      "There are a total of three (3) problems, attempt all.",
+      "Compulsory write your Name in Full, and Matriculation Number as well as your Faculty and Department clearly in the spaces provided on your answer script on the question paper"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Define the limit of \\(f(x)\\) as \\(x \\rightarrow x_0\\). Does the limit of \\(f(x)\\) exist, if the right and left limits of \\(f(x)\\) are unequal?",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Functions and Graphs",
+      "Mathematical Definitions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Understanding Limits of Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>limit of a function</em> describes the behavior of the function's output (y-values) as its input (x-values) approaches a certain point. It tells us what value the function 'intends' to reach as x gets arbitrarily close to a specific value, without necessarily reaching it.<br>The limit exists if and only if the function approaches the same value from both the left and the right sides of the point.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>1. Define the limit of \\(f(x)\\) as \\(x \\rightarrow x_0\\).<br>2. Determine if the limit of \\(f(x)\\) exists when the right and left limits of \\(f(x)\\) are unequal.</div><p style='margin:8px 0;'><strong>Step 1: Define the intuitive concept of a limit</strong><br>The statement \\\"the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) is \\(L\\)\\\" means that as \\(x\\) gets arbitrarily close to \\(x_0\\) (from either side, but not necessarily equal to \\(x_0\\)), the corresponding values of \\(f(x)\\) get arbitrarily close to \\(L\\).<br>This is formally written as: \\[ \\lim_{x \\to x_0} f(x) = L \\]Here, \\(L\\) is a unique real number.</p><p style='margin:8px 0;'><strong>Step 2: Define Left-Hand and Right-Hand Limits</strong><br>To fully understand the behavior of a function near a point, we consider how it approaches that point from different directions:<br>1. The <em>left-hand limit</em> is the value \\(f(x)\\) approaches as \\(x\\) approaches \\(x_0\\) from values less than \\(x_0\\) (i.e., from the left side). It is denoted as:<br>\\[ \\lim_{x \\to x_0^-} f(x) = L_1 \\]<br>2. The <em>right-hand limit</em> is the value \\(f(x)\\) approaches as \\(x\\) approaches \\(x_0\\) from values greater than \\(x_0\\) (i.e., from the right side). It is denoted as:<br>\\[ \\lim_{x \\to x_0^+} f(x) = L_2 \\]For the overall limit to exist, these two one-sided limits must be considered.</p><p style='margin:8px 0;'><strong>Step 3: State the condition for the existence of a limit</strong><br>For the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) to exist and be equal to \\(L\\), two conditions must be met:<br>1. The left-hand limit must exist.<br>2. The right-hand limit must exist.<br>3. Both one-sided limits must be equal to the same value \\(L\\).<br>In mathematical terms, \\( \\lim_{x \\to x_0} f(x) = L \\) if and only if:<br>\\[ \\lim_{x \\to x_0^-} f(x) = L \\quad \\text{and} \\quad \\lim_{x \\to x_0^+} f(x) = L \\]<br>If these conditions are not met, the limit does not exist.</p><p style='margin:8px 0;'><strong>Step 4: Address the question regarding unequal left and right limits</strong><br>Based on the condition for the existence of a limit (from Step 3), if the left-hand limit and the right-hand limit of \\(f(x)\\) are unequal as \\(x\\) approaches \\(x_0\\), then the overall limit of \\(f(x)\\) as \\(x \\to x_0\\) <span style='color:var(--orange);font-weight:bold;'>does not exist</span>.<br>For example, consider a piecewise function like \\(f(x) = \\begin{cases} x+1 & \\text{if } x < 0 \\ x-1 & \\text{if } x \\ge 0 \\end{cases}\\) at \\(x_0 = 0\\).<br>The left-hand limit is \\( \\lim_{x \\to 0^-} (x+1) = 0+1 = 1 \\).<br>The right-hand limit is \\( \\lim_{x \\to 0^+} (x-1) = 0-1 = -1 \\).<br>Since \\( 1 \\neq -1 \\), the limit \\( \\lim_{x \\to 0} f(x) \\) does not exist.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The definition of a limit explicitly states that for a limit to exist at a point, the function must approach the same value from both the left and the right sides. If the left-hand limit \\(L_1\\) and the right-hand limit \\(L_2\\) are unequal (\\(L_1 \\neq L_2\\)), then there is no single value \\(L\\) that \\(f(x)\\) approaches as \\(x\\) gets arbitrarily close to \\(x_0\\). Therefore, the limit cannot exist. This confirms the conclusion. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The limit of \\(f(x)\\) as \\(x \\to x_0\\) does not exist if the right and left limits are unequal.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No, the limit does not exist."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b)i)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the limit of \\(f(x) = x^4 + 2x^2 + 1\\) as \\(x \\rightarrow 2\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Functions and Graphs",
+      "Polynomials"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Limits of Polynomial Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>limit</em> describes the value that a function approaches as the input (variable) approaches a certain value.<br>A <em>polynomial function</em> is a function of the form \\( P(x) = a_n x^n + a_{n-1} x^{n-1} + \\dots + a_1 x + a_0 \\), where \\( n \\) is a non-negative integer and \\( a_i \\) are real coefficients.<br>For any polynomial function \\( P(x) \\), the limit as \\( x \\) approaches any real number \\( a \\) can be found by direct substitution:<br>\\[ \\lim_{x \\to a} P(x) = P(a) \\]<br>This property holds because polynomial functions are continuous everywhere.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = x^4 + 2x^2 + 1 \\)<br>Value \\( x \\) approaches: \\( a = 2 \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the type of function</strong><br>The given function is \\( f(x) = x^4 + 2x^2 + 1 \\).<br>This is a polynomial function because it is a sum of terms, each consisting of a constant multiplied by a non-negative integer power of \\( x \\).</p><p style='margin:8px 0;'><strong>Step 2: Apply the limit property for polynomial functions</strong><br>For any polynomial function \\( P(x) \\), the limit as \\( x \\) approaches a specific value \\( a \\) is simply the function evaluated at that value, i.e., \\( P(a) \\).<br>Therefore, we can find the limit by directly substituting \\( x = 2 \\) into \\( f(x) \\).<br>The limit expression is:<br>\\[ \\lim_{x \\to 2} (x^4 + 2x^2 + 1) \\]<br>According to the property, this is equal to \\( f(2) \\).</p><p style='margin:8px 0;'><strong>Step 3: Substitute \\( x = 2 \\) into the function</strong><br>Substitute \\( x = 2 \\) into the function \\( f(x) \\):<br>\\[ f(2) = (2)^4 + 2(2)^2 + 1 \\]</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the expression</strong><br>First, calculate the powers:<br>\\( (2)^4 = 2 \\times 2 \\times 2 \\times 2 = 16 \\)<br>\\( (2)^2 = 2 \\times 2 = 4 \\)<br>Substitute these values back into the expression:<br>\\( f(2) = 16 + 2(4) + 1 \\)<br>Next, perform the multiplication:<br>\\( f(2) = 16 + 8 + 1 \\)<br>Finally, perform the additions:<br>\\( f(2) = \\) <span style='color:var(--orange);font-weight:bold;'>25</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Polynomial functions are continuous everywhere. This means that there are no breaks, jumps, or holes in their graphs. For continuous functions, the limit as \\( x \\) approaches a point \\( a \\) is always equal to the function's value at that point, \\( f(a) \\).<br>Since \\( f(x) = x^4 + 2x^2 + 1 \\) is a polynomial, it is continuous for all real numbers. Therefore, the direct substitution method is valid and provides the correct limit.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The limit of \\( f(x) \\) as \\( x \\rightarrow 2 \\) is 25.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "25"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b)ii)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the limit of \\(\\frac{1}{x}\\) as \\(x \\rightarrow 0\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Functions and Graphs"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Limits of Rational Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>limit</em> describes the value that a function approaches as the input (x) approaches some value.<br>For a limit to exist at a specific point \\( a \\), the <em>left-hand limit</em> (approaching \\( a \\) from values less than \\( a \\)) and the <em>right-hand limit</em> (approaching \\( a \\) from values greater than \\( a \\)) must both exist and be equal to the same finite value \\( L \\).<br>If the left-hand limit and right-hand limit are not equal, or if either approaches \\( \\pm\\infty \\), then the overall limit does not exist.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\frac{1}{x} \\)<br>Limit point: \\( x \\rightarrow 0 \\)</div><p style='margin:8px 0;'><strong>Step 1: Understand the function and the point of interest</strong><br>The given function is \\( f(x) = \\frac{1}{x} \\). We are asked to find its limit as \\( x \\) approaches 0.<br>When \\( x=0 \\), the denominator becomes zero, which means the function is undefined at \\( x=0 \\). This often indicates a vertical asymptote or a discontinuity.</p><p style='margin:8px 0;'><strong>Step 2: Evaluate the left-hand limit</strong><br>We need to determine what value \\( f(x) \\) approaches as \\( x \\) gets closer and closer to 0 from the left side (i.e., through negative values).<br>Consider values like -0.1, -0.01, -0.001:<br>If \\( x = -0.1 \\), then \\( \\frac{1}{x} = \\frac{1}{-0.1} = -10 \\)<br>If \\( x = -0.01 \\), then \\( \\frac{1}{x} = \\frac{1}{-0.01} = -100 \\)<br>If \\( x = -0.001 \\), then \\( \\frac{1}{x} = \\frac{1}{-0.001} = -1000 \\)<br>As \\( x \\) approaches 0 from the left, \\( x \\) is a very small negative number. Dividing 1 by a very small negative number results in a very large negative number.<br>Therefore, the left-hand limit is:<br>\\[ \\lim_{x \\to 0^-} \\frac{1}{x} = -\\infty \\]</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the right-hand limit</strong><br>Next, we determine what value \\( f(x) \\) approaches as \\( x \\) gets closer and closer to 0 from the right side (i.e., through positive values).<br>Consider values like 0.1, 0.01, 0.001:<br>If \\( x = 0.1 \\), then \\( \\frac{1}{x} = \\frac{1}{0.1} = 10 \\)<br>If \\( x = 0.01 \\), then \\( \\frac{1}{x} = \\frac{1}{0.01} = 100 \\)<br>If \\( x = 0.001 \\), then \\( \\frac{1}{x} = \\frac{1}{0.001} = 1000 \\)<br>As \\( x \\) approaches 0 from the right, \\( x \\) is a very small positive number. Dividing 1 by a very small positive number results in a very large positive number.<br>Therefore, the right-hand limit is:<br>\\[ \\lim_{x \\to 0^+} \\frac{1}{x} = +\\infty \\]</p><p style='margin:8px 0;'><strong>Step 4: Compare the left-hand and right-hand limits</strong><br>We found that the left-hand limit is \\( -\\infty \\) and the right-hand limit is \\( +\\infty \\).<br>For the overall limit to exist, the left-hand limit and the right-hand limit must be equal and finite.<br>Since \\( -\\infty \\neq +\\infty \\), the overall limit does not exist.</p><p style='margin:8px 0;'><strong>Step 5: Conclude the limit</strong><br>Because the function \\( f(x) = \\frac{1}{x} \\) approaches different infinite values as \\( x \\) approaches 0 from the left and from the right, the limit of the function as \\( x \\rightarrow 0 \\) does not exist. This behavior is characteristic of a vertical asymptote at \\( x=0 \\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Graphing the function \\( f(x) = \\frac{1}{x} \\) visually confirms this. The graph shows that as \\( x \\) approaches 0 from the negative side, the curve goes downwards indefinitely, while as \\( x \\) approaches 0 from the positive side, the curve goes upwards indefinitely. There is no single finite value that the function approaches at \\( x=0 \\).</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The limit of \\(\\frac{1}{x}\\) as \\(x \\rightarrow 0\\) does not exist.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Does not exist"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b)iii)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the limit of \\(\\frac{x^3 - x^2 - 4x + 4}{x^2 - 4}\\) as \\(x \\rightarrow 2\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Polynomials",
+      "Functions and Graphs",
+      "Rational Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Evaluating Limits of Rational Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>limit</em> describes the value that a function approaches as the input (x) approaches some value.<br>When evaluating limits of rational functions, direct substitution is the first step.<br>If direct substitution results in an <em>indeterminate form</em> like \\( \\frac{0}{0} \\), it means the function can often be simplified by factoring the numerator and denominator to cancel common factors. This process allows us to find the limit of the simplified expression.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\frac{x^3 - x^2 - 4x + 4}{x^2 - 4} \\)<br>Limit to find: \\( \\lim_{x \\to 2} f(x) \\)</div><p style='margin:8px 0;'><strong>Step 1: Attempt direct substitution</strong><br>First, substitute \\( x=2 \\) into the function to see if we get a defined value.<br>Numerator: \\( 2^3 - 2^2 - 4(2) + 4 \\)<br>\\( = 8 - 4 - 8 + 4 \\)<br>\\( = 0 \\)<br>Denominator: \\( 2^2 - 4 \\)<br>\\( = 4 - 4 \\)<br>\\( = 0 \\)<br>Since we get \\( \\frac{0}{0} \\), which is an indeterminate form, we need to simplify the expression before evaluating the limit. This indicates that \\( (x-2) \\) is a common factor in both the numerator and the denominator.</p><p style='margin:8px 0;'><strong>Step 2: Factorize the denominator</strong><br>The denominator is a difference of squares.<br>Formula: \\( a^2 - b^2 = (a-b)(a+b) \\)<br>Denominator: \\( x^2 - 4 \\)<br>\\( = x^2 - 2^2 \\)<br>\\( = \\) <span style='color:var(--orange);font-weight:bold;'>\\( (x-2)(x+2) \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Factorize the numerator</strong><br>The numerator is a cubic polynomial: \\( x^3 - x^2 - 4x + 4 \\).<br>Since \\( x=2 \\) makes the numerator zero, \\( (x-2) \\) must be a factor.<br>We can factor by grouping:<br>\\( x^3 - x^2 - 4x + 4 \\)<br>\\( = x^2(x - 1) - 4(x - 1) \\)<br>\\( = (x^2 - 4)(x - 1) \\)<br>Now, factor the difference of squares \\( (x^2 - 4) \\):<br>\\( = \\) <span style='color:var(--orange);font-weight:bold;'>\\( (x-2)(x+2)(x-1) \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Simplify the rational function</strong><br>Substitute the factored forms back into the original function.<br>\\[ f(x) = \\frac{(x-2)(x+2)(x-1)}{(x-2)(x+2)} \\]<br>For \\( x \\neq 2 \\) and \\( x \\neq -2 \\), we can cancel the common factors \\( (x-2) \\) and \\( (x+2) \\).<br>\\[ f(x) = \\frac{\\cancel{(x-2)}\\cancel{(x+2)}(x-1)}{\\cancel{(x-2)}\\cancel{(x+2)}} \\]<br>\\( f(x) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( x-1 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Evaluate the limit of the simplified function</strong><br>Now, substitute \\( x=2 \\) into the simplified expression.<br>\\[ \\lim_{x \\to 2} (x-1) \\]<br>\\( = 2 - 1 \\)<br>\\( = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 1 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The original function \\( f(x) = \\frac{x^3 - x^2 - 4x + 4}{x^2 - 4} \\) simplifies to \\( g(x) = x-1 \\) for all \\( x \\) where the denominator is not zero (i.e., \\( x \\neq 2 \\) and \\( x \\neq -2 \\)).<br>The limit of a function as \\( x \\) approaches a point where it's undefined but can be simplified is equal to the value of the simplified function at that point, provided the simplified function is continuous there.<br>Since \\( g(x) = x-1 \\) is a polynomial, it is continuous everywhere.<br>Thus, \\( \\lim_{x \\to 2} f(x) = \\lim_{x \\to 2} (x-1) = 2-1 = 1 \\). &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The limit of the function as \\( x \\rightarrow 2 \\) is 1.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b)iv)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the limit of \\(\\left(\\frac{3x^2 + x}{x^2 - 1}\\right)e^{x^2}\\) as \\(x \\rightarrow \\infty\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Rational Functions",
+      "Polynomials",
+      "Exponential Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Evaluating Limits at Infinity</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>limit at infinity</em> describes the behavior of a function as its input variable grows infinitely large (positive or negative).<br>For a <em>rational function</em> \\( \\lim_{x \\rightarrow \\infty} \\frac{P(x)}{Q(x)} \\), where \\( P(x) \\) and \\( Q(x) \\) are polynomials, the limit is determined by the ratio of the leading coefficients if the degrees of \\( P(x) \\) and \\( Q(x) \\) are equal. If the degree of \\( P(x) \\) is greater than \\( Q(x) \\), the limit is \\( \\pm \\infty \\). If the degree of \\( P(x) \\) is less than \\( Q(x) \\), the limit is \\( 0 \\).<br>For an <em>exponential function</em> \\( e^{f(x)} \\), if \\( \\lim_{x \\rightarrow \\infty} f(x) = \\infty \\), then \\( \\lim_{x \\rightarrow \\infty} e^{f(x)} = \\infty \\).<br><em>Limit Product Rule:</em> If \\( \\lim_{x \\rightarrow c} f(x) = L \\) and \\( \\lim_{x \\rightarrow c} g(x) = M \\), then \\( \\lim_{x \\rightarrow c} [f(x)g(x)] = LM \\), provided \\( L \\) and \\( M \\) are finite. If one limit is finite and non-zero, and the other is \\( \\pm \\infty \\), the product is \\( \\pm \\infty \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\left(\\frac{3x^2 + x}{x^2 - 1}\\right)e^{x^2} \\)<br>Limit as: \\( x \\rightarrow \\infty \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the limit expression</strong><br>We need to find the value of the following limit:<br>\\[ \\lim_{x \\rightarrow \\infty} \\left(\\frac{3x^2 + x}{x^2 - 1}\\right)e^{x^2} \\]</p><p style='margin:8px 0;'><strong>Step 2: Decompose the function into two parts</strong><br>The given function is a product of two functions. Let's define them:<br>Part 1 (Rational Function): \\( g(x) = \\frac{3x^2 + x}{x^2 - 1} \\)<br>Part 2 (Exponential Function): \\( h(x) = e^{x^2} \\)<br>We will evaluate the limit of each part separately.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the limit of the rational function part</strong><br>To find \\( \\lim_{x \\rightarrow \\infty} g(x) \\), we divide the numerator and the denominator by the highest power of \\( x \\) in the denominator, which is \\( x^2 \\).<br>\\[ \\lim_{x \\rightarrow \\infty} \\frac{3x^2 + x}{x^2 - 1} = \\lim_{x \\rightarrow \\infty} \\frac{\\frac{3x^2}{x^2} + \\frac{x}{x^2}}{\\frac{x^2}{x^2} - \\frac{1}{x^2}} \\]<br>Simplify the expression:<br>\\[ = \\lim_{x \\rightarrow \\infty} \\frac{3 + \\frac{1}{x}}{1 - \\frac{1}{x^2}} \\]<br>Apply the limit. As \\( x \\rightarrow \\infty \\), \\( \\frac{1}{x} \\rightarrow 0 \\) and \\( \\frac{1}{x^2} \\rightarrow 0 \\).<br>\\[ = \\frac{3 + 0}{1 - 0} \\]<br>\\[ = <span style='color:var(--orange);font-weight:bold;'>3</span> \\]</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the limit of the exponential function part</strong><br>Now, let's find \\( \\lim_{x \\rightarrow \\infty} h(x) = \\lim_{x \\rightarrow \\infty} e^{x^2} \\).<br>First, evaluate the limit of the exponent:<br>\\[ \\lim_{x \\rightarrow \\infty} x^2 = \\infty \\]<br>Since the exponent approaches infinity, the exponential function \\( e^{x^2} \\) also approaches infinity.<br>\\[ \\lim_{x \\rightarrow \\infty} e^{x^2} = e^{\\lim_{x \\rightarrow \\infty} x^2} = e^{\\infty} = <span style='color:var(--orange);font-weight:bold;'>\\infty</span> \\]</p><p style='margin:8px 0;'><strong>Step 5: Combine the limits using the product rule</strong><br>We have \\( \\lim_{x \\rightarrow \\infty} g(x) = 3 \\) and \\( \\lim_{x \\rightarrow \\infty} h(x) = \\infty \\).<br>Using the product rule for limits:<br>\\[ \\lim_{x \\rightarrow \\infty} \\left[ g(x) \\cdot h(x) \\right] = \\left( \\lim_{x \\rightarrow \\infty} g(x) \\right) \\cdot \\left( \\lim_{x \\rightarrow \\infty} h(x) \\right) \\]<br>Substitute the evaluated limits:<br>\\[ = 3 \\cdot \\infty \\]<br>The product of a positive finite number and infinity is infinity.<br>\\[ = <span style='color:var(--orange);font-weight:bold;'>\\infty</span> \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>As \\( x \\) becomes very large, the rational part \\( \\frac{3x^2 + x}{x^2 - 1} \\) behaves like \\( \\frac{3x^2}{x^2} = 3 \\).<br>The exponential part \\( e^{x^2} \\) grows without bound as \\( x \\rightarrow \\infty \\).<br>Therefore, the product \\( 3 \\times (\\text{a very large number}) \\) will also be a very large number, tending towards infinity.<br>This confirms our result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The limit of the given function as \\( x \\rightarrow \\infty \\) is \\( \\infty \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\infty\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a)i)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Define the continuity of \\(f(x)\\) at \\(x_0\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Mathematical Definitions",
+      "Functions and Graphs"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Continuity of a Function at a Point</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A function is generally considered <em>continuous</em> if its graph can be drawn without lifting the pen from the paper, meaning there are no breaks, jumps, or holes. When we define continuity <em>at a point</em>, we are examining this property at a specific location, \\( x_0 \\), on the function's domain.<br><br>The <em>limit of a function</em> \\( \\lim_{x \\to x_0} f(x) = L \\) means that as \\( x \\) gets arbitrarily close to \\( x_0 \\) (from both sides, but not necessarily equal to \\( x_0 \\)), the corresponding values of \\( f(x) \\) get arbitrarily close to a specific finite number \\( L \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Define the continuity of a function \\( f(x) \\) at a specific point \\( x_0 \\).</div><p style='margin:8px 0;'><strong>Step 1: State the formal definition of continuity at a point</strong><br>A function \\( f(x) \\) is continuous at a point \\( x_0 \\) if and only if all three of the following conditions are satisfied:</p><p style='margin:8px 0;'>1.  <span style='color:var(--orange);font-weight:bold;'>\\( f(x_0) \\) is defined.</span><br>2.  <span style='color:var(--orange);font-weight:bold;'>\\( \\lim_{x \\to x_0} f(x) \\) exists.</span><br>3.  <span style='color:var(--orange);font-weight:bold;'>\\( \\lim_{x \\to x_0} f(x) = f(x_0) \\).</span></p><p style='margin:8px 0;'><strong>Step 2: Explain Condition 1: \\( f(x_0) \\) is defined</strong><br>This condition means that the point \\( x_0 \\) must be within the domain of the function \\( f \\). The function must yield a specific, finite real number as its output when \\( x = x_0 \\). Graphically, this ensures that there is an actual point \\((x_0, f(x_0))\\) on the graph, preventing scenarios like a vertical asymptote or an undefined hole at \\( x_0 \\).</p><p style='margin:8px 0;'><strong>Step 3: Explain Condition 2: \\( \\lim_{x \\to x_0} f(x) \\) exists</strong><br>For the limit to exist, the function values \\( f(x) \\) must approach the same finite real number as \\( x \\) approaches \\( x_0 \\) from both the left side (values less than \\( x_0 \\)) and the right side (values greater than \\( x_0 \\)). This is formally expressed as:<br>\\[ \\lim_{x \\to x_0^-} f(x) = \\lim_{x \\to x_0^+} f(x) = L \\]<br>where \\( L \\) is a finite real number. If the left-hand limit and the right-hand limit are different (indicating a jump discontinuity) or if the function approaches infinity (indicating a vertical asymptote), then the limit does not exist.</p><p style='margin:8px 0;'><strong>Step 4: Explain Condition 3: \\( \\lim_{x \\to x_0} f(x) = f(x_0) \\)</strong><br>This is the most critical condition, as it ties the previous two together. It means that the value the function 'intends' to reach as \\( x \\) approaches \\( x_0 \\) (the limit) must be exactly equal to the actual value of the function at \\( x_0 \\). Graphically, this ensures that there are no 'jumps' where the function value is defined but displaced from the path the function is following, nor are there 'removable holes' where the limit exists but the function value at \\( x_0 \\) is either undefined or defined elsewhere.</p><p style='margin:8px 0;'><strong>Step 5: Summarize the implications of these conditions</strong><br>If any of these three conditions are not met, the function \\( f(x) \\) is considered discontinuous at \\( x_0 \\). Collectively, these conditions guarantee that the graph of \\( f(x) \\) passes through the point \\( (x_0, f(x_0)) \\) without any breaks, jumps, or holes, ensuring a 'seamless' connection at that specific point.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The three conditions for continuity at a point are fundamental in calculus and are universally accepted. Each condition addresses a specific type of potential discontinuity:<br>1.  \\( f(x_0) \\) defined: Prevents infinite discontinuities (vertical asymptotes) or holes where the function is undefined at \\( x_0 \\).<br>2.  \\( \\lim_{x \\to x_0} f(x) \\) exists: Prevents jump discontinuities, ensuring the function approaches a single value from both sides.<br>3.  \\( \\lim_{x \\to x_0} f(x) = f(x_0) \\): Prevents removable discontinuities (holes where the limit exists but the function value is either undefined or defined elsewhere), ensuring the function value matches the limit.<br>These conditions comprehensively and rigorously define continuity at a single point.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; A function \\( f(x) \\) is continuous at \\( x_0 \\) if \\( f(x_0) \\) is defined, \\( \\lim_{x \\to x_0} f(x) \\) exists, and \\( \\lim_{x \\to x_0} f(x) = f(x_0) \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A function \\(f(x)\\) is continuous at \\(x_0\\) if \\(f(x_0)\\) is defined, \\(\\lim_{x \\to x_0} f(x)\\) exists, and \\(\\lim_{x \\to x_0} f(x) = f(x_0)\\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a)ii)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Is a function whose graph is broken continuous? Why or why not?",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Functions and Graphs",
+      "Mathematical Definitions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Continuity of Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A function \\( f(x) \\) is said to be <em>continuous</em> at a point \\( x=c \\) if the following three conditions are met:<br>1. \\( f(c) \\) is defined (the function value exists at \\( c \\)).<br>2. \\( \\lim_{x \\to c} f(x) \\) exists (the limit of the function as \\( x \\) approaches \\( c \\) exists).<br>3. \\( \\lim_{x \\to c} f(x) = f(c) \\) (the limit equals the function value).<br>Informally, a function is continuous over an interval if its graph can be drawn without lifting the pencil from the paper. This implies there are no gaps, jumps, or holes in the graph.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks whether a function whose graph is \"broken\" is continuous, and to explain why or why not.</div><p style='margin:8px 0;'><strong>Step 1: Understand the definition of a continuous function</strong><br>For a function to be continuous at a specific point, all three conditions mentioned in the Key Concept must be satisfied. If any one of these conditions fails at a point, the function is discontinuous at that point. For a function to be continuous over an entire interval, it must be continuous at every single point within that interval. Graphically, this translates to the ability to trace the function's path without lifting your writing instrument.</p><p style='margin:8px 0;'><strong>Step 2: Interpret what \"a graph is broken\" means in terms of function properties</strong><br>When a graph is described as \"broken,\" it signifies the presence of one or more discontinuities. These breaks typically manifest in specific ways:<br>1. <strong>Holes (Removable Discontinuities):</strong> A single point is missing from the graph, or the function value at that point is different from the limit. This violates condition 1 (if \\( f(c) \\) is undefined) or condition 3 (if \\( \\lim_{x \\to c} f(x) \\neq f(c) \\)).<br>2. <strong>Jumps (Jump Discontinuities):</strong> The function's value abruptly changes at a point, causing a gap between the left-hand limit and the right-hand limit. This violates condition 2, as \\( \\lim_{x \\to c} f(x) \\) does not exist.<br>3. <strong>Vertical Asymptotes (Infinite Discontinuities):</strong> The function's value approaches positive or negative infinity as \\( x \\) approaches a certain point. This violates conditions 1 and 2, as \\( f(c) \\) is undefined and the limit does not exist as a finite number.</p><p style='margin:8px 0;'><strong>Step 3: Relate a \"broken graph\" to the conditions for continuity</strong><br>A function whose graph is \"broken\" inherently means that at the point(s) of the break, at least one of the three conditions for continuity is not met. For instance, if there's a jump, the limit doesn't exist. If there's a hole, either the function isn't defined at that point, or its value doesn't match the limit. In all these scenarios, one would have to lift their pencil to draw the graph, which directly contradicts the informal definition of continuity.</p><p style='margin:8px 0;'><strong>Step 4: Conclude based on the established definitions</strong><br>Since a \"broken\" graph implies the existence of discontinuities (gaps, jumps, or holes), it means that the function fails to satisfy the formal conditions for continuity at those points. Therefore, a function whose graph is broken cannot be considered continuous over any interval that encompasses these points of breakage.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The core definition of a continuous function, both formal and informal, emphasizes an uninterrupted graph without any breaks. A graph described as \"broken\" by definition contains interruptions, which are precisely what continuity excludes. Thus, a broken graph is fundamentally inconsistent with the concept of continuity.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; No, a function whose graph is broken is not continuous.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b)",
+    "topic": [
+      "Limits and Continuity",
+      "Functions and Graphs",
+      "Mathematical Definitions"
+    ],
+    "Question": {
+      "content": "Are the functions in Question 1(b) continuous?",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Function Continuity Analysis</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A function \\( f(x) \\) is considered <em>continuous</em> at a point \\( c \\) if its graph can be drawn through that point without any breaks, jumps, or holes. Formally, three conditions must be met for continuity at \\( x=c \\):<br>1.  \\( f(c) \\) is defined (the function exists at \\( c \\)).<br>2.  \\( \\lim_{x \\to c} f(x) \\) exists (the limit from the left equals the limit from the right at \\( c \\)).<br>3.  \\( \\lim_{x \\to c} f(x) = f(c) \\) (the limit value equals the function value at \\( c \\)).<br>If a function is continuous at every point in its domain, it is said to be continuous over its domain.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks about the continuity of \"the functions in Question 1(b)\".<br>However, the specific functions from Question 1(b) are <span style='color:var(--orange);font-weight:bold;'>not provided</span> in this context. Therefore, a general explanation of how to determine function continuity will be provided.</div><p style='margin:8px 0;'><strong>Step 1: Identify the function's domain</strong><br>Determine all values of \\( x \\) for which the function \\( f(x) \\) is defined. This helps in identifying points where the function might inherently not exist (e.g., division by zero, non-positive arguments for logarithms or even roots).</p><p style='margin:8px 0;'><strong>Step 2: Locate potential points of discontinuity</strong><br>Based on the function's definition, identify any specific points \\( c \\) where continuity might be broken. These commonly include:<br><ul><li>Values that make a denominator zero (for rational functions).</li><li>Values that make the argument of a logarithm zero or negative.</li><li>Values that make the radicand of an even root negative.</li><li>Boundary points for piecewise-defined functions, where the rule for \\( f(x) \\) changes.</li></ul></p><p style='margin:8px 0;'><strong>Step 3: Apply the three conditions for continuity at each potential point \\( c \\)</strong><br>For each identified point \\( c \\), rigorously check the following three conditions:<br><br><strong>Condition 1: Check if \\( f(c) \\) is defined</strong><br>Evaluate the function at \\( x=c \\). If \\( f(c) \\) does not exist, the function is discontinuous at \\( c \\).<br><br><strong>Condition 2: Check if \\( \\lim_{x \\to c} f(x) \\) exists</strong><br>Calculate the limit of \\( f(x) \\) as \\( x \\) approaches \\( c \\). This involves checking if the left-hand limit equals the right-hand limit:<br>\\[ \\lim_{x \\to c^-} f(x) = \\lim_{x \\to c^+} f(x) \\]<br>If the limits are not equal, or if the limit approaches \\( \\pm\\infty \\), the limit does not exist, and the function is discontinuous at \\( c \\).<br><br><strong>Condition 3: Check if \\( \\lim_{x \\to c} f(x) = f(c) \\)</strong><br>If both \\( f(c) \\) is defined and \\( \\lim_{x \\to c} f(x) \\) exists, compare their values. If they are not equal, the function is discontinuous at \\( c \\).</p><p style='margin:8px 0;'><strong>Step 4: Conclude on the function's continuity</strong><br>If all three conditions are met at a point \\( c \\), the function is continuous at \\( c \\). If any condition fails, the function is discontinuous at \\( c \\). If a function is continuous at every point in its domain, it is considered continuous over its domain. For functions like polynomials, exponentials, sines, and cosines, they are continuous everywhere. Rational functions are continuous on their domain (everywhere except where the denominator is zero).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Since the specific functions from Question 1(b) were not provided, direct verification of their continuity is not possible. However, if functions were provided, verification would involve:<br>1.  Graphing the function to visually check for breaks, jumps, or holes.<br>2.  Re-evaluating the three continuity conditions at any identified points of potential discontinuity or over the entire domain.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The continuity of the functions in Question 1(b) depends entirely on their specific definitions, which were not provided.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Continuity depends on the specific functions in Question 1(b)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3a)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Define the derivative.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Differentiation",
+      "Mathematical Definitions",
+      "Limits and Continuity",
+      "Functions and Graphs"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>The Derivative</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>derivative</em> of a function is a fundamental concept in calculus that measures the instantaneous rate of change of the function's output with respect to its input. It can be interpreted both conceptually and geometrically.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The task is to define the derivative of a function.</div><p style='margin:8px 0;'><strong>Step 1: Understand the conceptual meaning</strong><br>The derivative of a function \\( f(x) \\), often denoted as \\( f'(x) \\) or \\( \\frac{dy}{dx} \\), represents the <em>instantaneous rate of change</em> of the function. This means it tells us how quickly the output \\( f(x) \\) is changing at a specific input value \\( x \\), rather than over an interval.</p><p style='margin:8px 0;'><strong>Step 2: Interpret geometrically as the slope of the tangent line</strong><br>Geometrically, the derivative \\( f'(x) \\) at a point \\( x=a \\) is the <em>slope of the tangent line</em> to the graph of \\( y = f(x) \\) at the point \\( (a, f(a)) \\). A tangent line is a straight line that \\\"just touches\\\" the curve at a single point, indicating the direction of the curve at that exact location.</p><p style='margin:8px 0;'><strong>Step 3: Introduce the average rate of change (slope of secant line)</strong><br>The average rate of change of a function \\( f(x) \\) over an interval \\( [x, x+h] \\) is given by the slope of the secant line connecting the points \\( (x, f(x)) \\) and \\( (x+h, f(x+h)) \\).<br>The formula for the average rate of change is:<br>\\[ \\frac{\\Delta y}{\\Delta x} = \\frac{f(x+h) - f(x)}{(x+h) - x} = \\frac{f(x+h) - f(x)}{h} \\]<br>The formal definition of the derivative \\( f'(x) \\) is:<br>\\[ f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\]<br>This limit must exist for the derivative to be defined at \\( x \\).</p><p style='margin:8px 0;'><strong>Step 5: Explain the components of the definition</strong><br><ul><li>\\( f(x+h) - f(x) \\): Represents the change in the function's output (rise).</li><li>\\( h \\): Represents the change in the function's input (run).</li><li>\\( \\frac{f(x+h) - f(x)}{h} \\): This is the <em>difference quotient</em>, which calculates the average rate of change over a small interval \\( h \\).</li><li>\\( \\lim_{h \\to 0} \\): This limit operation means we are examining what happens to the average rate of change as the interval \\( h \\) becomes infinitesimally small, effectively pinpointing the rate of change at a single point.</li></ul></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The definition provided comprehensively covers the conceptual meaning (instantaneous rate of change), the geometric interpretation (slope of the tangent line), and the formal mathematical definition using the limit of the difference quotient. All key aspects required for a complete definition of the derivative are included.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The derivative of a function \\( f(x) \\) is its instantaneous rate of change, which is geometrically the slope of the tangent line to the function's graph, formally defined as \\( f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The derivative of a function \\( f(x) \\) is its instantaneous rate of change, geometrically the slope of the tangent line, and formally defined as \\( f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b)",
+    "topic": [
+      "Differentiation",
+      "Mathematical Definitions",
+      "Functions and Graphs",
+      "Power Rule"
+    ],
+    "Question": {
+      "content": "Show that if \\(f(x) = x^n\\), then \\(f'(x) = nx^{n-1}\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Derivation of the Power Rule for Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>derivative of a function</em> \\(f(x)\\) with respect to \\(x\\), denoted \\(f'(x)\\), represents the instantaneous rate of change of \\(f(x)\\) at a given point. It is formally defined using limits:<br>\\[ f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\]<br>The <em>Binomial Theorem</em> provides a formula for expanding binomials raised to a power:<br>\\[ (a+b)^n = \\sum_{k=0}^n \\binom{n}{k} a^{n-k} b^k = a^n + \\binom{n}{1} a^{n-1}b + \\binom{n}{2} a^{n-2}b^2 + \\dots + b^n \\]<br>For our purpose, we will use the expansion up to terms involving \\(h\\):<br>\\[ (x+h)^n = x^n + nx^{n-1}h + \\frac{n(n-1)}{2!}x^{n-2}h^2 + \\dots + h^n \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = x^n \\)<br>Goal: Show that \\( f'(x) = nx^{n-1} \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the definition of the derivative</strong><br>The derivative of a function \\(f(x)\\) is defined as:<br>\\[ f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\]</p><p style='margin:8px 0;'><strong>Step 2: Substitute \\(f(x)\\) and \\(f(x+h)\\) into the definition</strong><br>Given \\(f(x) = x^n\\), then \\(f(x+h) = (x+h)^n\\).<br>Substitute these into the derivative formula:<br>\\[ f'(x) = \\lim_{h \\to 0} \\frac{(x+h)^n - x^n}{h} \\]</p><p style='margin:8px 0;'><strong>Step 3: Expand \\((x+h)^n\\) using the Binomial Theorem</strong><br>According to the Binomial Theorem, the expansion of \\((x+h)^n\\) is:<br>\\[ (x+h)^n = x^n + nx^{n-1}h + \\frac{n(n-1)}{2!}x^{n-2}h^2 + \\frac{n(n-1)(n-2)}{3!}x^{n-3}h^3 + \\dots + h^n \\]<br>We are particularly interested in the first few terms as \\(h \\to 0\\).</p><p style='margin:8px 0;'><strong>Step 4: Substitute the binomial expansion into the derivative expression</strong><br>Replace \\((x+h)^n\\) in the numerator with its expansion:<br>\\[ f'(x) = \\lim_{h \\to 0} \\frac{\\left(x^n + nx^{n-1}h + \\frac{n(n-1)}{2!}x^{n-2}h^2 + \\dots + h^n\\right) - x^n}{h} \\]</p><p style='margin:8px 0;'><strong>Step 5: Simplify the numerator</strong><br>The \\(x^n\\) terms in the numerator cancel out:<br>\\[ f'(x) = \\lim_{h \\to 0} \\frac{nx^{n-1}h + \\frac{n(n-1)}{2!}x^{n-2}h^2 + \\dots + h^n}{h} \\]<br>The remaining terms all have \\(h\\) as a common factor.</p><p style='margin:8px 0;'><strong>Step 6: Factor out \\(h\\) from the numerator</strong><br>Factor \\(h\\) from each term in the numerator:<br>\\[ f'(x) = \\lim_{h \\to 0} \\frac{h\\left(nx^{n-1} + \\frac{n(n-1)}{2!}x^{n-2}h + \\dots + h^{n-1}\\right)}{h} \\]</p><p style='margin:8px 0;'><strong>Step 7: Cancel \\(h\\) from the numerator and denominator</strong><br>Since \\(h \\to 0\\) but \\(h \\neq 0\\), we can cancel \\(h\\):<br>\\[ f'(x) = \\lim_{h \\to 0} \\left(nx^{n-1} + \\frac{n(n-1)}{2!}x^{n-2}h + \\dots + h^{n-1}\\right) \\]</p><p style='margin:8px 0;'><strong>Step 8: Evaluate the limit as \\(h \\to 0\\)</strong><br>As \\(h\\) approaches 0, all terms containing \\(h\\) (i.e., all terms except the first one) will become zero:<br>\\[ f'(x) = nx^{n-1} + \\frac{n(n-1)}{2!}x^{n-2}(0) + \\dots + (0)^{n-1} \\]<br>\\[ f'(x) = nx^{n-1} + 0 + \\dots + 0 \\]<br>Therefore, the derivative is:<br><span style='color:var(--orange);font-weight:bold;'>\\( f'(x) = nx^{n-1} \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The derivation systematically applies the definition of the derivative and the Binomial Theorem. Each step logically follows from the previous one, leading directly to the power rule. This method is a fundamental proof in calculus for integer values of \\(n\\). For non-integer \\(n\\), the proof requires more advanced techniques (e.g., implicit differentiation or logarithmic differentiation), but the result remains consistent. The logical progression of the limit definition combined with the binomial expansion confirms the formula.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; If \\(f(x) = x^n\\), then \\(f'(x) = nx^{n-1}\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "If \\(f(x) = x^n\\), then \\(f'(x) = nx^{n-1}\\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3c)",
+    "topic": [
+      "Differentiation",
+      "Mathematical Definitions",
+      "Power Rule",
+      "Introductory Math Methods"
+    ],
+    "Question": {
+      "content": "State the rules for differentiation.",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Rules for Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>Differentiation is a process in calculus used to find the derivative of a function. The derivative represents the instantaneous rate of change of a function with respect to its independent variable, often interpreted as the slope of the tangent line to the function's graph at any given point. These rules provide systematic methods for calculating derivatives of various types of functions.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The request is to state the rules for differentiation.</div><p style='margin:8px 0;'><strong>Step 1: The Constant Rule</strong><br>The derivative of a constant function is zero.<br>Formula: \\[ \\frac{d}{dx}(c) = 0 \\]<br>Example: If \\( f(x) = 5 \\), then \\( f'(x) = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 0 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 2: The Power Rule</strong><br>To differentiate a variable raised to a power, multiply the exponent by the base and subtract one from the exponent.<br>Formula: \\[ \\frac{d}{dx}(x^n) = nx^{n-1} \\]<br>Example: If \\( f(x) = x^3 \\), then \\( f'(x) = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 3x^2 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: The Constant Multiple Rule</strong><br>The derivative of a constant multiplied by a function is the constant times the derivative of the function.<br>Formula: \\[ \\frac{d}{dx}(c \\cdot f(x)) = c \\cdot \\frac{d}{dx}(f(x)) \\]<br>Example: If \\( f(x) = 5x^3 \\), then \\( f'(x) = 5 \\cdot (3x^2) = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 15x^2 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: The Sum and Difference Rules</strong><br>The derivative of a sum or difference of functions is the sum or difference of their individual derivatives.<br>Formula: \\[ \\frac{d}{dx}(f(x) \\pm g(x)) = \\frac{d}{dx}(f(x)) \\pm \\frac{d}{dx}(g(x)) \\]<br>Example: If \\( h(x) = x^2 + 3x \\), then \\( h'(x) = 2x + 3 \\).</p><p style='margin:8px 0;'><strong>Step 5: The Product Rule</strong><br>The derivative of the product of two functions \\( u(x) \\) and \\( v(x) \\) is the first function times the derivative of the second, plus the second function times the derivative of the first.<br>Formula: \\[ \\frac{d}{dx}(u(x) \\cdot v(x)) = u(x)v'(x) + v(x)u'(x) \\]<br>Example: If \\( h(x) = x^2 \\sin(x) \\), then \\( h'(x) = x^2 \\cos(x) + \\sin(x)(2x) = \\)<span style='color:var(--orange);font-weight:bold;'>\\( x^2 \\cos(x) + 2x \\sin(x) \\)</span>.</p><p style='margin:8px 0;'><strong>Step 6: The Quotient Rule</strong><br>The derivative of the quotient of two functions \\( u(x) \\) and \\( v(x) \\) is the denominator times the derivative of the numerator, minus the numerator times the derivative of the denominator, all divided by the square of the denominator.<br>Formula: \\[ \\frac{d}{dx}\\left(\\frac{u(x)}{v(x)}\\right) = \\frac{v(x)u'(x) - u(x)v'(x)}{(v(x))^2} \\]<br>Example: If \\( h(x) = \\frac{\\sin(x)}{x} \\), then \\( h'(x) = \\frac{x \\cos(x) - \\sin(x)(1)}{x^2} = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{x \\cos(x) - \\sin(x)}{x^2} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 7: The Chain Rule</strong><br>Used for differentiating composite functions. If \\( y = f(g(x)) \\), then the derivative is the derivative of the outer function evaluated at the inner function, multiplied by the derivative of the inner function.<br>Formula: \\[ \\frac{d}{dx}(f(g(x))) = f'(g(x)) \\cdot g'(x) \\]<br>Example: If \\( h(x) = (x^2 + 1)^3 \\), let \\( u = x^2 + 1 \\) and \\( y = u^3 \\). Then \\( \\frac{dy}{du} = 3u^2 \\) and \\( \\frac{du}{dx} = 2x \\). So \\( h'(x) = 3(x^2+1)^2 \\cdot (2x) = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 6x(x^2+1)^2 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 8: Derivatives of Trigonometric Functions</strong><br>Common derivatives for trigonometric functions include:<br>\\( \\frac{d}{dx}(\\sin(x)) = \\cos(x) \\)<br>\\( \\frac{d}{dx}(\\cos(x)) = -\\sin(x) \\)<br>\\( \\frac{d}{dx}(\\tan(x)) = \\sec^2(x) \\)<br>And similar rules exist for \\( \\cot(x) \\), \\( \\sec(x) \\), and \\( \\csc(x) \\).</p><p style='margin:8px 0;'><strong>Step 9: Derivatives of Exponential Functions</strong><br>Common derivatives for exponential functions include:<br>\\( \\frac{d}{dx}(e^x) = e^x \\)<br>\\( \\frac{d}{dx}(a^x) = a^x \\ln(a) \\) (where \\( a > 0, a \\neq 1 \\)).</p><p style='margin:8px 0;'><strong>Step 10: Derivatives of Logarithmic Functions</strong><br>Common derivatives for logarithmic functions include:<br>\\( \\frac{d}{dx}(\\ln(x)) = \\frac{1}{x} \\) (for \\( x > 0 \\))<br>\\( \\frac{d}{dx}(\\log_a(x)) = \\frac{1}{x \\ln(a)} \\) (for \\( x > 0, a > 0, a \\neq 1 \\)).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The explanation systematically lists and defines the fundamental rules of differentiation, covering basic functions, operations, composite functions, and specific function types, directly addressing the question's requirement.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The rules for differentiation include the Constant Rule, Power Rule, Constant Multiple Rule, Sum/Difference Rule, Product Rule, Quotient Rule, Chain Rule, and specific rules for trigonometric, exponential, and logarithmic functions.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The rules for differentiation include the Constant Rule, Power Rule, Constant Multiple Rule, Sum/Difference Rule, Product Rule, Quotient Rule, Chain Rule, and specific rules for trigonometric, exponential, and logarithmic functions."
+    }
+  }
+]
