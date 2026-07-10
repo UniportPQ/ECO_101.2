@@ -1,0 +1,394 @@
+[
+  {
+    "type": "pageInfo",
+    "course_title": "Introductory Mathematics for Economist II",
+    "code": "ECO 101",
+    "session": "2017/2018",
+    "kind": "mixed",
+    "topics": [
+      "Multivariable Calculus",
+      "Partial Differentiation",
+      "Unconstrained Optimization",
+      "Constrained Optimization",
+      "Lagrangian Multipliers",
+      "Kuhn-Tucker Conditions",
+      "Implicit Function Theorem",
+      "Comparative Statics",
+      "Quadratic Forms",
+      "Definiteness of Matrices",
+      "First-Order Differential Equations",
+      "Difference Equations",
+      "Limits",
+      "Implicit Differentiation",
+      "Differentiation",
+      "Quotient Rule",
+      "De Young's Theorem",
+      "Introductory Mathematics for Economist II",
+      "Functions",
+      "Cost Theory",
+      "Revenue Functions",
+      "Marginal Cost",
+      "Marginal Revenue",
+      "Integration",
+      "Definite Integral"
+    ],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": [
+      "Answer all Questions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the limits of the function: \\(\\frac{x^2 - 3x - 4}{x - 4}\\) as \\(x \\to 4\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Limits",
+      "Multivariable Calculus"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Evaluating Limits of Rational Functions by Factoring</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>limit</em> describes the behavior of a function as the input approaches a certain value. For a function \\( f(x) \\), the limit as \\( x \\) approaches \\( a \\), denoted \\( \\lim_{x \\to a} f(x) \\), is the value that \\( f(x) \\) gets arbitrarily close to as \\( x \\) gets arbitrarily close to \\( a \\) (but not necessarily equal to \\( a \\)).<br><br>An <em>indeterminate form</em> occurs when direct substitution into a limit expression results in an expression like \\( \\frac{0}{0} \\), \\( \\frac{\\infty}{\\infty} \\), \\( 0 \\cdot \\infty \\), etc. These forms do not immediately tell us the limit's value, requiring further algebraic manipulation or other techniques. For rational functions yielding \\( \\frac{0}{0} \\), <em>factoring</em> and <em>canceling common terms</em> is a common method to simplify the expression before re-evaluating the limit.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\frac{x^2 - 3x - 4}{x - 4} \\)<br>Limit as: \\( x \\to 4 \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the given limit expression</strong><br>We need to find the limit of the function \\( f(x) \\) as \\( x \\) approaches 4.<br>\\[ \\lim_{x \\to 4} \\frac{x^2 - 3x - 4}{x - 4} \\]<br></p><p style='margin:8px 0;'><strong>Step 2: Attempt direct substitution of the limit value</strong><br>Substitute \\( x = 4 \\) into the function to check for an indeterminate form.<br>Numerator: \\( (4)^2 - 3(4) - 4 = 16 - 12 - 4 = \\)<span style='color:var(--orange);font-weight:bold;'>0</span><br>Denominator: \\( 4 - 4 = \\)<span style='color:var(--orange);font-weight:bold;'>0</span><br>Since we get \\( \\frac{0}{0} \\), this is an indeterminate form, meaning we need to simplify the expression further.</p><p style='margin:8px 0;'><strong>Step 3: Factor the numerator</strong><br>Factor the quadratic expression in the numerator, \\( x^2 - 3x - 4 \\). We look for two numbers that multiply to -4 and add to -3. These numbers are -4 and +1.<br>\\[ x^2 - 3x - 4 = (x - 4)(x + 1) \\]<br></p><p style='margin:8px 0;'><strong>Step 4: Rewrite the function with the factored numerator</strong><br>Substitute the factored form of the numerator back into the original function.<br>\\[ f(x) = \\frac{(x - 4)(x + 1)}{x - 4} \\]<br></p><p style='margin:8px 0;'><strong>Step 5: Simplify the expression by canceling common factors</strong><br>Since we are taking the limit as \\( x \\to 4 \\), \\( x \\) approaches 4 but is not equal to 4. Therefore, \\( (x - 4) \\neq 0 \\), and we can cancel the common factor \\( (x - 4) \\) from the numerator and the denominator.<br>\\[ f(x) = \\frac{\\cancel{(x - 4)}(x + 1)}{\\cancel{(x - 4)}} = x + 1 \\]<br></p><p style='margin:8px 0;'><strong>Step 6: Substitute the limit value into the simplified expression</strong><br>Now, substitute \\( x = 4 \\) into the simplified function \\( x + 1 \\).<br>\\[ \\lim_{x \\to 4} (x + 1) \\]<br>Substitute \\( x = 4 \\):<br>\\( 4 + 1 = \\)<span style='color:var(--orange);font-weight:bold;'>5</span><br></p><p style='margin:8px 0;'><strong>Step 7: State the final limit value</strong><br>The limit of the function as \\( x \\) approaches 4 is 5.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The original function \\( f(x) = \\frac{x^2 - 3x - 4}{x - 4} \\) has a removable discontinuity (a hole) at \\( x = 4 \\). The simplified function \\( g(x) = x + 1 \\) is identical to \\( f(x) \\) everywhere except at \\( x = 4 \\). Since the limit only cares about values of \\( x \\) <em>near</em> 4, not <em>at</em> 4, the limit of \\( f(x) \\) as \\( x \\to 4 \\) is the same as the limit of \\( g(x) \\) as \\( x \\to 4 \\).<br>For the continuous function \\( g(x) = x + 1 \\), the limit as \\( x \\to 4 \\) is simply \\( g(4) = 4 + 1 = 5 \\). This confirms our result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The limit of the function is 5.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the equation \\(y^3 - 2x^2y^2 + x^4 = 0\\), find \\(\\frac{dy}{dx}\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Implicit Function Theorem",
+      "Implicit Differentiation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Implicit Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Implicit Differentiation</em> is a technique used to differentiate equations involving both \\(x\\) and \\(y\\) where \\(y\\) is not explicitly defined as a function of \\(x\\) (i.e., \\(y = f(x)\\)). When differentiating terms involving \\(y\\) with respect to \\(x\\), we apply the Chain Rule, multiplying by \\(\\frac{dy}{dx}\\).<br><em>Chain Rule:</em> If \\(F(y)\\) is a function of \\(y\\), and \\(y\\) is a function of \\(x\\), then \\(\\frac{d}{dx}[F(y)] = F'(y) \\cdot \\frac{dy}{dx}\\).<br><em>Product Rule:</em> If \\(f(x) = u(x)v(x)\\), then \\(f'(x) = u'(x)v(x) + u(x)v'(x)\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Equation: \\( y^3 - 2x^2y^2 + x^4 = 0 \\)<br>Find: \\( \\frac{dy}{dx} \\)</div><p style='margin:8px 0;'><strong>Step 1: Differentiate both sides of the equation with respect to \\(x\\)</strong><br>Apply the differential operator \\(\\frac{d}{dx}\\) to every term in the given equation.<br>\\[ \\frac{d}{dx}(y^3) - \\frac{d}{dx}(2x^2y^2) + \\frac{d}{dx}(x^4) = \\frac{d}{dx}(0) \\]</p><p style='margin:8px 0;'><strong>Step 2: Differentiate the first term, \\(y^3\\)</strong><br>Apply the power rule and the chain rule for \\(y\\).<br>Formula: \\( \\frac{d}{dx}(y^n) = ny^{n-1} \\frac{dy}{dx} \\)<br>Substitute: \\( \\frac{d}{dx}(y^3) = 3y^{3-1} \\frac{dy}{dx} \\)<br>Simplify: \\( \\frac{d}{dx}(y^3) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 3y^2 \\frac{dy}{dx} \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Differentiate the second term, \\(-2x^2y^2\\)</strong><br>This term requires the product rule, where \\(u = 2x^2\\) and \\(v = y^2\\). Remember to apply the chain rule for \\(y^2\\).<br>Product Rule: \\( \\frac{d}{dx}(uv) = u'v + uv' \\)<br>Let \\( u = 2x^2 \\) and \\( v = y^2 \\).<br>Calculate \\(u'\\): \\( u' = \\frac{d}{dx}(2x^2) = 2 \\cdot 2x^{2-1} = 4x \\)<br>Calculate \\(v'\\): \\( v' = \\frac{d}{dx}(y^2) = 2y^{2-1} \\frac{dy}{dx} = 2y \\frac{dy}{dx} \\)<br>Apply Product Rule: \\( \\frac{d}{dx}(2x^2y^2) = (4x)(y^2) + (2x^2)\\left(2y \\frac{dy}{dx}\\right) \\)<br>Simplify: \\( \\frac{d}{dx}(2x^2y^2) = 4xy^2 + 4x^2y \\frac{dy}{dx} \\)<br>Since the original term was \\(-2x^2y^2\\), we have: <span style='color:var(--orange);font-weight:bold;'>\\( -\\left(4xy^2 + 4x^2y \\frac{dy}{dx}\\right) = -4xy^2 - 4x^2y \\frac{dy}{dx} \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Differentiate the third term, \\(x^4\\)</strong><br>Apply the power rule.<br>Formula: \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\)<br>Substitute: \\( \\frac{d}{dx}(x^4) = 4x^{4-1} \\)<br>Simplify: \\( \\frac{d}{dx}(x^4) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 4x^3 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Differentiate the constant term, \\(0\\)</strong><br>The derivative of a constant is zero.<br>Formula: \\( \\frac{d}{dx}(c) = 0 \\)<br>Substitute: \\( \\frac{d}{dx}(0) = 0 \\)<br>Simplify: \\( \\frac{d}{dx}(0) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 0 \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Substitute the differentiated terms back into the equation</strong><br>Combine the results from Steps 2, 3, 4, and 5.<br>\\[ \\left(3y^2 \\frac{dy}{dx}\\right) - \\left(4xy^2 + 4x^2y \\frac{dy}{dx}\\right) + \\left(4x^3\\right) = 0 \\]<br>Distribute the negative sign:<br><span style='color:var(--orange);font-weight:bold;'>\\( 3y^2 \\frac{dy}{dx} - 4xy^2 - 4x^2y \\frac{dy}{dx} + 4x^3 = 0 \\)</span></p><p style='margin:8px 0;'><strong>Step 7: Group terms containing \\(\\frac{dy}{dx}\\) on one side and other terms on the other side</strong><br>Move terms without \\(\\frac{dy}{dx}\\) to the right side of the equation.<br>\\[ 3y^2 \\frac{dy}{dx} - 4x^2y \\frac{dy}{dx} = 4xy^2 - 4x^3 \\]</p><p style='margin:8px 0;'><strong>Step 8: Factor out \\(\\frac{dy}{dx}\\) from the terms on the left side</strong><br>\\[ \\frac{dy}{dx}(3y^2 - 4x^2y) = 4xy^2 - 4x^3 \\]</p><p style='margin:8px 0;'><strong>Step 9: Solve for \\(\\frac{dy}{dx}\\)</strong><br>Divide both sides by \\( (3y^2 - 4x^2y) \\).<br>\\[ \\frac{dy}{dx} = \\frac{4xy^2 - 4x^3}{3y^2 - 4x^2y} \\]</p><p style='margin:8px 0;'><strong>Step 10: Simplify the expression by factoring common terms</strong><br>Factor \\(4x\\) from the numerator and \\(y\\) from the denominator.<br>Numerator: \\( 4xy^2 - 4x^3 = 4x(y^2 - x^2) \\)<br>Denominator: \\( 3y^2 - 4x^2y = y(3y - 4x^2) \\)<br>Substitute the factored forms back into the expression for \\(\\frac{dy}{dx}\\).<br>\\[ \\frac{dy}{dx} = \\frac{4x(y^2 - x^2)}{y(3y - 4x^2)} \\]<br>This is the simplified form of the derivative. <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{dy}{dx} = \\frac{4x(y^2 - x^2)}{y(3y - 4x^2)} \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify this result, we meticulously reviewed each differentiation step, ensuring correct application of the product rule and chain rule. The algebraic manipulation to isolate and simplify \\(\\frac{dy}{dx}\\) was also checked for accuracy. The factorization in the final step is correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The derivative is \\( \\frac{dy}{dx} = \\frac{4x(y^2 - x^2)}{y(3y - 4x^2)} \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{dy}{dx} = \\frac{4x(y^2 - x^2)}{y(3y - 4x^2)}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1c)i",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the derivative for the function \\(y = x^3 (\\sqrt{6x + 3}))\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Limits",
+      "Differentiation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Differentiation using the Product and Chain Rules</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>derivative</em> of a function measures the rate at which the function's output changes with respect to its input.<br><br><strong>Product Rule:</strong> If a function \\(y\\) is the product of two differentiable functions, \\(u(x)\\) and \\(v(x)\\), i.e., \\(y = u(x)v(x)\\), then its derivative is given by:<br>\\[ \\frac{dy}{dx} = u'(x)v(x) + u(x)v'(x) \\]<br>where \\(u'(x)\\) and \\(v'(x)\\) are the derivatives of \\(u(x)\\) and \\(v(x)\\) respectively.<br><br><strong>Chain Rule:</strong> If a function \\(y = f(g(x))\\) is a composite function, then its derivative is given by:<br>\\[ \\frac{dy}{dx} = f'(g(x)) \\cdot g'(x) \\]<br><strong>Power Rule:</strong> The derivative of \\(x^n\\) is \\(nx^{n-1}\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( y = x^3 (\\sqrt{6x + 3}) \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the primary differentiation rule</strong><br>The given function \\( y = x^3 (\\sqrt{6x + 3}) \\) is a product of two functions: \\( u = x^3 \\) and \\( v = \\sqrt{6x + 3} \\). Therefore, we must use the Product Rule for differentiation.</p><p style='margin:8px 0;'><strong>Step 2: Define \\(u\\) and \\(v\\)</strong><br>Let the first function be \\(u\\):<br>\\[ u = x^3 \\]<br>Let the second function be \\(v\\):<br>\\[ v = \\sqrt{6x + 3} \\]<br>It's often helpful to rewrite the square root using fractional exponents:<br>\\[ v = (6x + 3)^{1/2} \\]</p><p style='margin:8px 0;'><strong>Step 3: Find the derivative of \\(u\\), denoted as \\(u'\\)</strong><br>Using the Power Rule \\( \\frac{d}{dx}[x^n] = nx^{n-1} \\):<br>\\[ u' = \\frac{d}{dx}[x^3] \\]<br>\\[ u' = 3x^{3-1} \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( u' = 3x^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Find the derivative of \\(v\\), denoted as \\(v'\\)</strong><br>For \\( v = (6x + 3)^{1/2} \\), we need to apply the Chain Rule. Let \\( f(w) = w^{1/2} \\) and \\( g(x) = 6x + 3 \\).<br>First, find the derivative of the outer function \\(f(w)\\) with respect to \\(w\\):<br>\\[ f'(w) = \\frac{d}{dw}[w^{1/2}] = \\frac{1}{2}w^{(1/2)-1} = \\frac{1}{2}w^{-1/2} \\]<br>Next, find the derivative of the inner function \\(g(x)\\) with respect to \\(x\\):<br>\\[ g'(x) = \\frac{d}{dx}[6x + 3] = 6 \\]<br>Now, apply the Chain Rule \\( v' = f'(g(x)) \\cdot g'(x) \\):<br>\\[ v' = \\frac{1}{2}(6x + 3)^{-1/2} \\cdot 6 \\]<br>Simplify the expression:<br>\\[ v' = 3(6x + 3)^{-1/2} \\]<br>Rewrite with a positive exponent and radical form:<br><span style='color:var(--orange);font-weight:bold;'>\\( v' = \\frac{3}{\\sqrt{6x + 3}} \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Apply the Product Rule formula</strong><br>The Product Rule states:<br>\\[ \\frac{dy}{dx} = u'v + uv' \\]<br></p><p style='margin:8px 0;'><strong>Step 6: Substitute \\(u, v, u', v'\\) into the Product Rule formula</strong><br>Substitute the expressions found in Steps 2, 3, and 4:<br>\\[ \\frac{dy}{dx} = (3x^2)(\\sqrt{6x + 3}) + (x^3)\\left(\\frac{3}{\\sqrt{6x + 3}}\\right) \\]<br></p><p style='margin:8px 0;'><strong>Step 7: Simplify the expression by finding a common denominator</strong><br>To combine the two terms, find a common denominator, which is \\( \\sqrt{6x + 3} \\).<br>Multiply the first term by \\( \\frac{\\sqrt{6x + 3}}{\\sqrt{6x + 3}} \\):<br>\\[ \\frac{dy}{dx} = \\frac{3x^2\\sqrt{6x + 3} \\cdot \\sqrt{6x + 3}}{\\sqrt{6x + 3}} + \\frac{3x^3}{\\sqrt{6x + 3}} \\]<br>Simplify the numerator of the first term (\\( \\sqrt{A} \\cdot \\sqrt{A} = A \\)):<br>\\[ \\frac{dy}{dx} = \\frac{3x^2(6x + 3)}{\\sqrt{6x + 3}} + \\frac{3x^3}{\\sqrt{6x + 3}} \\]<br>Combine the numerators over the common denominator:<br>\\[ \\frac{dy}{dx} = \\frac{3x^2(6x + 3) + 3x^3}{\\sqrt{6x + 3}} \\]<br>Distribute \\(3x^2\\) in the first term of the numerator:<br>\\[ \\frac{dy}{dx} = \\frac{18x^3 + 9x^2 + 3x^3}{\\sqrt{6x + 3}} \\]<br>Combine like terms in the numerator (\\(18x^3 + 3x^3\\)):<br><span style='color:var(--orange);font-weight:bold;'>\\[ \\frac{dy}{dx} = \\frac{21x^3 + 9x^2}{\\sqrt{6x + 3}} \\]</span></p><p style='margin:8px 0;'><strong>Step 8: Factor out common terms from the numerator</strong><br>Factor out the greatest common factor from \\( 21x^3 + 9x^2 \\), which is \\( 3x^2 \\):<br>\\[ \\frac{dy}{dx} = \\frac{3x^2(7x + 3)}{\\sqrt{6x + 3}} \\]<br><span style='color:var(--orange);font-weight:bold;'>The simplified derivative is \\( \\frac{3x^2(7x + 3)}{\\sqrt{6x + 3}} \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we re-examined each step of the differentiation process, ensuring correct application of the Power Rule, Chain Rule, and Product Rule, as well as algebraic simplification. The steps are logically sound and calculations are accurate.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The derivative of the function is \\( y' = \\frac{3x^2(7x+3)}{\\sqrt{6x+3}} \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(y' = \\frac{3x^2(7x+3)}{\\sqrt{6x+3}}\\) "
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1c)ii",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the derivative for the function \\(y = \\frac{4x(3x - 8)}{2x - 1}\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Differentiation",
+      "Limits",
+      "Quotient Rule"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Differentiation using the Quotient Rule</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>derivative</em> of a function measures the rate at which the function's output changes with respect to its input.<br>The <em>Quotient Rule</em> is used to find the derivative of a function that is the ratio of two differentiable functions. If \\( y = \\frac{u}{v} \\), where \\( u \\) and \\( v \\) are differentiable functions of \\( x \\), then the derivative \\( y' \\) is given by the formula:<br>\\[ y' = \\frac{u'v - uv'}{v^2} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( y = \\frac{4x(3x - 8)}{2x - 1} \\)</div><p style='margin:8px 0;'><strong>Step 1: Simplify the numerator</strong><br>First, expand the numerator of the given function to make it easier to identify \\(u\\).<br>\\[ y = \\frac{4x(3x - 8)}{2x - 1} \\]<br>\\[ y = \\frac{12x^2 - 32x}{2x - 1} \\]<br>The simplified function is: <span style='color:var(--orange);font-weight:bold;'>\\( y = \\frac{12x^2 - 32x}{2x - 1} \\)</span></p><p style='margin:8px 0;'><strong>Step 2: Identify u and v</strong><br>From the simplified function \\( y = \\frac{12x^2 - 32x}{2x - 1} \\), we identify the numerator as \\( u \\) and the denominator as \\( v \\).<br>\\( u = 12x^2 - 32x \\)<br>\\( v = 2x - 1 \\)</p><p style='margin:8px 0;'><strong>Step 3: Find the derivatives u' and v'</strong><br>Differentiate \\( u \\) with respect to \\( x \\):<br>\\[ u' = \\frac{d}{dx}(12x^2 - 32x) \\]<br>\\[ u' = 12(2x) - 32(1) \\]<br>\\( u' = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 24x - 32 \\)</span><br><br>Differentiate \\( v \\) with respect to \\( x \\):<br>\\[ v' = \\frac{d}{dx}(2x - 1) \\]<br>\\[ v' = 2(1) - 0 \\]<br>\\( v' = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 2 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: State the Quotient Rule formula</strong><br>The Quotient Rule formula for finding the derivative \\( y' \\) of a function \\( y = \\frac{u}{v} \\) is:<br>\\[ y' = \\frac{u'v - uv'}{v^2} \\]</p><p style='margin:8px 0;'><strong>Step 5: Substitute u, u', v, v' into the formula</strong><br>Substitute the expressions for \\( u, u', v, \\) and \\( v' \\) into the Quotient Rule formula.<br>\\[ y' = \\frac{(24x - 32)(2x - 1) - (12x^2 - 32x)(2)}{(2x - 1)^2} \\]</p><p style='margin:8px 0;'><strong>Step 6: Expand the terms in the numerator</strong><br>Expand the products in the numerator.<br>First term: \\( (24x - 32)(2x - 1) \\)<br>\\[ = 24x(2x) + 24x(-1) - 32(2x) - 32(-1) \\]<br>\\[ = 48x^2 - 24x - 64x + 32 \\]<br>\\[ = 48x^2 - 88x + 32 \\]<br><br>Second term: \\( (12x^2 - 32x)(2) \\)<br>\\[ = 24x^2 - 64x \\]<br><br>Now substitute these back into the numerator expression:<br>Numerator \\( = (48x^2 - 88x + 32) - (24x^2 - 64x) \\)</p><p style='margin:8px 0;'><strong>Step 7: Simplify the numerator by combining like terms</strong><br>Combine the terms in the numerator.<br>Numerator \\( = 48x^2 - 88x + 32 - 24x^2 + 64x \\]<br>\\[ = (48x^2 - 24x^2) + (-88x + 64x) + 32 \\]<br>\\[ = 24x^2 - 24x + 32 \\]<br>The simplified numerator is: <span style='color:var(--orange);font-weight:bold;'>\\( 24x^2 - 24x + 32 \\)</span></p><p style='margin:8px 0;'><strong>Step 8: Factorize the numerator and write the final derivative</strong><br>Factor out the common factor from the numerator \\( 24x^2 - 24x + 32 \\). The greatest common factor is 8.<br>\\[ 24x^2 - 24x + 32 = 8(3x^2 - 3x + 4) \\]<br><br>Now, substitute this back into the derivative expression:<br>\\[ y' = \\frac{8(3x^2 - 3x + 4)}{(2x - 1)^2} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can re-evaluate the steps carefully. Let's re-check the expansion and simplification of the numerator.<br>Numerator \\( = (24x - 32)(2x - 1) - (12x^2 - 32x)(2) \\]<br>\\[ = (48x^2 - 24x - 64x + 32) - (24x^2 - 64x) \\]<br>\\[ = 48x^2 - 88x + 32 - 24x^2 + 64x \\]<br>\\[ = (48x^2 - 24x^2) + (-88x + 64x) + 32 \\]<br>\\[ = 24x^2 - 24x + 32 \\]<br>Factoring out 8: \\( 8(3x^2 - 3x + 4) \\)<br>The denominator \\( (2x - 1)^2 \\) remains unchanged.<br>The result is consistent with the derived answer. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The derivative is \\( y' = \\frac{8(3x^2 - 3x + 4)}{(2x - 1)^2} \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(y' = \\frac{8(3x^2 - 3x + 4)}{(2x - 1)^2}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1d",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the second order and cross partial derivative of \\(q = 2x_1^3 x_2^4 + 3x_1x_2^3 - 4x_1x_2^2 + 27\\). Is De Young’s Theorem vindicated?",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Partial Differentiation",
+      "Differentiation",
+      "De Young's Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Multivariable Partial Differentiation and De Young's Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>partial derivative</em> measures the rate of change of a multivariable function with respect to one variable, holding all other variables constant.<br><em>Second-order partial derivatives</em> involve differentiating a first-order partial derivative again with respect to the same variable (e.g., \\(q_{x_1x_1}\\)) or a different variable (<em>cross partial derivatives</em>, e.g., \\(q_{x_1x_2}\\)).<br><strong>De Young's Theorem</strong> (also known as Clairaut's Theorem or Schwarz's Theorem) states that if the second-order partial derivatives \\(q_{x_1x_2}\\) and \\(q_{x_2x_1}\\) are continuous in a region, then the mixed partial derivatives are equal: \\(q_{x_1x_2} = q_{x_2x_1}\\). Polynomial functions, like the one given, are continuous everywhere.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\(q = 2x_1^3 x_2^4 + 3x_1x_2^3 - 4x_1x_2^2 + 27\\)</div><p style='margin:8px 0;'><strong>Step 1: Find the first-order partial derivative with respect to \\(x_1\\) (\\(q_{x_1}\\))</strong><br>Treat \\(x_2\\) as a constant and differentiate with respect to \\(x_1\\).<br>\\[ q_{x_1} = \\frac{\\partial}{\\partial x_1} (2x_1^3 x_2^4 + 3x_1x_2^3 - 4x_1x_2^2 + 27) \\]<br>\\[ q_{x_1} = 2(3x_1^2)x_2^4 + 3(1)x_2^3 - 4(1)x_2^2 + 0 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{x_1} = 6x_1^2 x_2^4 + 3x_2^3 - 4x_2^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 2: Find the first-order partial derivative with respect to \\(x_2\\) (\\(q_{x_2}\\))</strong><br>Treat \\(x_1\\) as a constant and differentiate with respect to \\(x_2\\).<br>\\[ q_{x_2} = \\frac{\\partial}{\\partial x_2} (2x_1^3 x_2^4 + 3x_1x_2^3 - 4x_1x_2^2 + 27) \\]<br>\\[ q_{x_2} = 2x_1^3(4x_2^3) + 3x_1(3x_2^2) - 4x_1(2x_2) + 0 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{x_2} = 8x_1^3 x_2^3 + 9x_1x_2^2 - 8x_1x_2 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Find the second-order partial derivative \\(q_{x_1x_1}\\)</strong><br>Differentiate \\(q_{x_1}\\) with respect to \\(x_1\\).<br>\\[ q_{x_1x_1} = \\frac{\\partial}{\\partial x_1} (6x_1^2 x_2^4 + 3x_2^3 - 4x_2^2) \\]<br>\\[ q_{x_1x_1} = 6(2x_1)x_2^4 + 0 - 0 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{x_1x_1} = 12x_1 x_2^4 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Find the second-order partial derivative \\(q_{x_2x_2}\\)</strong><br>Differentiate \\(q_{x_2}\\) with respect to \\(x_2\\).<br>\\[ q_{x_2x_2} = \\frac{\\partial}{\\partial x_2} (8x_1^3 x_2^3 + 9x_1x_2^2 - 8x_1x_2) \\]<br>\\[ q_{x_2x_2} = 8x_1^3(3x_2^2) + 9x_1(2x_2) - 8x_1(1) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{x_2x_2} = 24x_1^3 x_2^2 + 18x_1x_2 - 8x_1 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Find the cross partial derivative \\(q_{x_1x_2}\\)</strong><br>Differentiate \\(q_{x_1}\\) (from Step 1) with respect to \\(x_2\\).<br>\\[ q_{x_1x_2} = \\frac{\\partial}{\\partial x_2} (6x_1^2 x_2^4 + 3x_2^3 - 4x_2^2) \\]<br>\\[ q_{x_1x_2} = 6x_1^2(4x_2^3) + 3(3x_2^2) - 4(2x_2) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{x_1x_2} = 24x_1^2 x_2^3 + 9x_2^2 - 8x_2 \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Find the cross partial derivative \\(q_{x_2x_1}\\)</strong><br>Differentiate \\(q_{x_2}\\) (from Step 2) with respect to \\(x_1\\).<br>\\[ q_{x_2x_1} = \\frac{\\partial}{\\partial x_1} (8x_1^3 x_2^3 + 9x_1x_2^2 - 8x_1x_2) \\]<br>\\[ q_{x_2x_1} = 8(3x_1^2)x_2^3 + 9(1)x_2^2 - 8(1)x_2 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{x_2x_1} = 24x_1^2 x_2^3 + 9x_2^2 - 8x_2 \\)</span></p><p style='margin:8px 0;'><strong>Step 7: Compare cross partial derivatives and apply De Young's Theorem</strong><br>We compare the results from Step 5 and Step 6:<br>\\( q_{x_1x_2} = 24x_1^2 x_2^3 + 9x_2^2 - 8x_2 \\)<br>\\( q_{x_2x_1} = 24x_1^2 x_2^3 + 9x_2^2 - 8x_2 \\)<br>Since \\( q_{x_1x_2} = q_{x_2x_1} \\), the mixed partial derivatives are equal. The function \\(q\\) and all its partial derivatives are polynomials, which are continuous everywhere. Therefore, De Young's Theorem is vindicated.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculation of each partial derivative was performed step-by-step, applying the power rule and treating other variables as constants. The results for \\(q_{x_1x_2}\\) and \\(q_{x_2x_1}\\) are identical, which is consistent with De Young's Theorem given the continuous nature of polynomial functions.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The second-order derivatives are \\(q_{x_1x_1} = 12x_1 x_2^4\\) and \\(q_{x_2x_2} = 24x_1^3 x_2^2 + 18x_1x_2 - 8x_1\\).<br>&#8756; The cross partial derivatives are \\(q_{x_1x_2} = 24x_1^2 x_2^3 + 9x_2^2 - 8x_2\\) and \\(q_{x_2x_1} = 24x_1^2 x_2^3 + 9x_2^2 - 8x_2\\).<br>&#8756; Yes, De Young’s Theorem is vindicated because \\(q_{x_1x_2} = q_{x_2x_1}\\) and all partial derivatives are continuous.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The second-order derivatives are \\(q_{x_1x_1} = 12x_1 x_2^4\\) and \\(q_{x_2x_2} = 24x_1^3 x_2^2 + 18x_1x_2 - 8x_1\\).<br>The cross partial derivatives are \\(q_{x_1x_2} = 24x_1^2 x_2^3 + 9x_2^2 - 8x_2\\) and \\(q_{x_2x_1} = 24x_1^2 x_2^3 + 9x_2^2 - 8x_2\\).<br>Yes, De Young’s Theorem is vindicated."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2i",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the demand function \\(p = 1000 - \\frac{1}{3}x^2\\) and the cost function \\(C = 500 + 40x + \\frac{1}{3}x^3\\), find the Total revenue function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Functions",
+      "Differentiation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Total Revenue Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>demand function</em>, \\(p\\), expresses the price per unit of a product as a function of the quantity demanded, \\(x\\).<br>The <em>Total Revenue (TR)</em> is the total income a firm receives from selling a certain quantity of goods. It is calculated by multiplying the price per unit by the quantity sold.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Demand function: \\(p = 1000 - \\frac{1}{3}x^2\\)<br>Cost function: \\(C = 500 + 40x + \\frac{1}{3}x^3\\) (Note: This function is provided but not needed for finding Total Revenue.)<br><strong>Known Formula</strong><br>Total Revenue: \\(TR = p \\cdot x\\)</div><p style='margin:8px 0;'><strong>Step 1: State the formula for Total Revenue</strong><br>The total revenue is the product of the price per unit and the quantity sold.<br>\\[ TR = p \\cdot x \\]</p><p style='margin:8px 0;'><strong>Step 2: Substitute the given demand function into the Total Revenue formula</strong><br>The demand function \\(p\\) is given as \\(1000 - \\frac{1}{3}x^2\\). We substitute this expression for \\(p\\) into the TR formula.<br>Formula: \\(TR = p \\cdot x\\)<br>Substitute: \\(TR = \\left(1000 - \\frac{1}{3}x^2\\right) \\cdot x\\)</p><p style='margin:8px 0;'><strong>Step 3: Simplify the expression for Total Revenue</strong><br>Distribute \\(x\\) across the terms inside the parenthesis.<br>Expression: \\(TR = \\left(1000 - \\frac{1}{3}x^2\\right)x\\)<br>Simplify: \\(TR = 1000x - \\frac{1}{3}x^2 \\cdot x\\)<br>Simplify further: <span style='color:var(--orange);font-weight:bold;'>\\(TR = 1000x - \\frac{1}{3}x^3\\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The total revenue function is derived directly from its definition \\(TR = p \\cdot x\\) by substituting the given demand function for \\(p\\).<br>Given \\(p = 1000 - \\frac{1}{3}x^2\\).<br>Multiplying by \\(x\\) yields \\(TR = x \\cdot (1000 - \\frac{1}{3}x^2) = 1000x - \\frac{1}{3}x^3\\).<br>This confirms the derived Total Revenue function.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Total Revenue function is \\(TR = 1000x - \\frac{1}{3}x^3\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(TR = 1000x - \\frac{1}{3}x^3\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2ii",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the demand function \\(p = 1000 - \\frac{1}{3}x^2\\) and the cost function \\(C = 500 + 40x + \\frac{1}{3}x^3\\), find the Total variable cost function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Functions",
+      "Cost Theory"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Total Variable Cost Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In economics, the <em>Total Cost (TC)</em> of production is the sum of <em>Fixed Costs (FC)</em> and <em>Total Variable Costs (TVC)</em>.<br>\\[ TC = FC + TVC \\]<br><em>Fixed Costs (FC)</em> are expenses that do not change with the level of output, such as rent or insurance. These are represented by constant terms in the cost function.<br><em>Total Variable Costs (TVC)</em> are expenses that change with the level of output, such as raw materials or labor directly involved in production. These are represented by terms containing the output variable (e.g., \\(x\\)) in the cost function.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Demand function: \\( p = 1000 - \\frac{1}{3}x^2 \\)<br>Cost function: \\( C = 500 + 40x + \\frac{1}{3}x^3 \\)<br>Find: Total Variable Cost function.</div><p style='margin:8px 0;'><strong>Step 1: State the general formula for Total Cost</strong><br>The total cost \\( TC \\) is composed of fixed costs \\( FC \\) and total variable costs \\( TVC \\).<br>\\[ TC = FC + TVC \\]</p><p style='margin:8px 0;'><strong>Step 2: Identify the Fixed Cost (FC) component from the given cost function</strong><br>Fixed costs are the part of the total cost that does not depend on the quantity of output \\( x \\). In a cost function, this is typically the constant term.<br>Given cost function: \\( C = 500 + 40x + \\frac{1}{3}x^3 \\)<br>The constant term is <span style='color:var(--orange);font-weight:bold;'>\\( FC = 500 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Identify the Total Variable Cost (TVC) component from the given cost function</strong><br>Total variable costs are the part of the total cost that varies with the quantity of output \\( x \\). These are the terms in the cost function that contain the variable \\( x \\).<br>Given cost function: \\( C = 500 + 40x + \\frac{1}{3}x^3 \\)<br>The terms containing \\( x \\) are \\( 40x \\) and \\( \\frac{1}{3}x^3 \\).<br>Therefore, <span style='color:var(--orange);font-weight:bold;'>\\( TVC = 40x + \\frac{1}{3}x^3 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Formulate the Total Variable Cost function</strong><br>Based on the identification in Step 3, the total variable cost function is the sum of all terms that depend on \\( x \\).<br>\\[ TVC(x) = 40x + \\frac{1}{3}x^3 \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can add the identified Fixed Cost and Total Variable Cost to see if it equals the original Total Cost function.<br>\\[ FC + TVC = 500 + (40x + \\frac{1}{3}x^3) \\]<br>\\[ FC + TVC = 500 + 40x + \\frac{1}{3}x^3 \\]<br>This matches the given cost function \\( C = 500 + 40x + \\frac{1}{3}x^3 \\). The identification is correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Total Variable Cost function is \\( TVC = 40x + \\frac{1}{3}x^3 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(TVC = 40x + \\frac{1}{3}x^3\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2iii",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the demand function \\\\(p = 1000 - \\\\frac{1}{3}x^2\\\\) and the cost function \\\\(C = 500 + 40x + \\\\frac{1}{3}x^3\\\\), find the Marginal revenue function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Functions",
+      "Differentiation",
+      "Cost Theory",
+      "Revenue Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Marginal Revenue Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Total Revenue (TR)</em> function represents the total income a firm receives from selling a certain quantity of a product. It is calculated as the product of price (p) and quantity (x): \\\\(TR = p \\\\cdot x\\\\).<br><br>The <em>Marginal Revenue (MR)</em> function measures the change in total revenue resulting from selling one additional unit of output. Mathematically, it is the first derivative of the total revenue function with respect to quantity (x): \\\\(MR = \\\\frac{d(TR)}{dx}\\\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Demand function: \\\\(p = 1000 - \\\\frac{1}{3}x^2\\\\)<br>Cost function: \\\\(C = 500 + 40x + \\\\frac{1}{3}x^3\\\\) (Note: This is not needed for finding Marginal Revenue)<br><strong>Find:</strong> Marginal Revenue (MR) function.</div><p style='margin:8px 0;'><strong>Step 1: Write the formula for Total Revenue (TR)</strong><br>Total Revenue is the product of price and quantity.<br>\\[ TR = p \\\\cdot x \\]</p><p style='margin:8px 0;'><strong>Step 2: Substitute the demand function into the TR formula</strong><br>Substitute the given demand function \\\\(p = 1000 - \\\\frac{1}{3}x^2\\\\) into the TR formula.<br>\\[ TR = \\\\left(1000 - \\\\frac{1}{3}x^2\\\\right)x \\]</p><p style='margin:8px 0;'><strong>Step 3: Simplify the Total Revenue function</strong><br>Distribute \\\\(x\\\\) across the terms in the parenthesis.<br>\\[ TR = 1000x - \\\\frac{1}{3}x^3 \\]<br>The Total Revenue function is <span style='color:var(--orange);font-weight:bold;'>\\\\(TR = 1000x - \\\\frac{1}{3}x^3\\\\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Write the formula for Marginal Revenue (MR)</strong><br>Marginal Revenue is the first derivative of the Total Revenue function with respect to \\\\(x\\\\).<br>\\[ MR = \\\\frac{d(TR)}{dx} \\]</p><p style='margin:8px 0;'><strong>Step 5: Differentiate the Total Revenue function with respect to \\\\(x\\\\)</strong><br>Apply the power rule of differentiation \\\\(\\frac{d}{dx}(ax^n) = anx^{n-1}\\\\) to each term in the TR function.<br>\\[ MR = \\\\frac{d}{dx}\\\\left(1000x - \\\\frac{1}{3}x^3\\\\right) \\]<br>Differentiate the first term:<br>\\[ \\\\frac{d}{dx}(1000x) = 1000 \\\\cdot 1 \\\\cdot x^{1-1} = 1000 \\\\cdot x^0 = 1000 \\]<br>Differentiate the second term:<br>\\[ \\\\frac{d}{dx}\\\\left(-\\\\frac{1}{3}x^3\\\\right) = -\\\\frac{1}{3} \\\\cdot 3 \\\\cdot x^{3-1} = -1 \\\\cdot x^2 = -x^2 \\]<br>Combine the derivatives of the terms:<br>\\[ MR = 1000 - x^2 \\]<br>The Marginal Revenue function is <span style='color:var(--orange);font-weight:bold;'>\\\\(MR = 1000 - x^2\\\\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can integrate the Marginal Revenue function to see if it yields the Total Revenue function (ignoring the constant of integration, which is zero for TR when \\\\(x=0\\\\)).<br>\\[ \\\\int MR \\\\, dx = \\\\int (1000 - x^2) \\\\, dx \\]<br>\\[ = 1000x - \\\\frac{x^{2+1}}{2+1} + C \\]<br>\\[ = 1000x - \\\\frac{1}{3}x^3 + C \\]<br>Comparing this with our derived Total Revenue function \\\\(TR = 1000x - \\\\frac{1}{3}x^3\\\\), we see they match when \\\\(C=0\\\\). This confirms our Marginal Revenue function is correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Marginal Revenue function is \\\\(MR = 1000 - x^2\\\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\\\(MR = 1000 - x^2\\\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2iv",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the demand function \\(p = 1000 - \\frac{1}{3}x^2\\) and the cost function \\(C = 500 + 40x + \\frac{1}{3}x^3\\), find the Marginal cost function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Differentiation",
+      "Cost Theory",
+      "Functions",
+      "Marginal Cost"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Marginal Cost Function Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><ul><li><strong>Total Cost Function (\\(C\\))</strong>: A mathematical function that represents the total cost of producing a certain quantity of goods or services. It typically includes fixed costs and variable costs.</li><li><strong>Marginal Cost Function (\\(MC\\))</strong>: The additional cost incurred by producing one more unit of a good or service. Mathematically, it is the first derivative of the Total Cost function with respect to the quantity produced (\\(x\\)).<br>\\[ MC = \\frac{dC}{dx} \\]<br></li><li><strong>Differentiation</strong>: A mathematical operation that finds the rate at which a function changes with respect to a variable. For a term \\(ax^n\\), its derivative is \\(anx^{n-1}\\). The derivative of a constant is 0.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br><ul><li>Demand function: \\(p = 1000 - \\frac{1}{3}x^2\\) (Note: This function is not required to find the marginal cost.)</li><li>Total Cost function: \\(C = 500 + 40x + \\frac{1}{3}x^3\\)</li><li>Formula for Marginal Cost: \\(MC = \\frac{dC}{dx}\\)</li></ul></div><p style='margin:8px 0;'><strong>Step 1: State the formula for Marginal Cost</strong><br>The Marginal Cost (MC) is the derivative of the Total Cost (C) function with respect to the quantity (x).<br>\\[ MC = \\frac{dC}{dx} \\]</p><p style='margin:8px 0;'><strong>Step 2: Write down the given Total Cost function</strong><br>The total cost function is provided as:<br>\\[ C = 500 + 40x + \\frac{1}{3}x^3 \\]</p><p style='margin:8px 0;'><strong>Step 3: Differentiate each term of the Total Cost function with respect to \\(x\\)</strong><br>We apply the power rule of differentiation, \\( \\frac{d}{dx}(ax^n) = anx^{n-1} \\), and the rule that the derivative of a constant is zero.<br><br>Differentiate the constant term:<br>\\[ \\frac{d}{dx}(500) = 0 \\]<br><br>Differentiate the linear term:<br>\\[ \\frac{d}{dx}(40x) = 40 \\cdot 1 \\cdot x^{1-1} = 40x^0 = 40 \\cdot 1 = 40 \\]<br><br>Differentiate the cubic term:<br>\\[ \\frac{d}{dx}\\left(\\frac{1}{3}x^3\\right) = \\frac{1}{3} \\cdot 3 \\cdot x^{3-1} = 1 \\cdot x^2 = x^2 \\]</p><p style='margin:8px 0;'><strong>Step 4: Combine the derivatives of each term to form the Marginal Cost function</strong><br>Sum the derivatives found in Step 3:<br>\\[ MC = 0 + 40 + x^2 \\]<br>Simplify the expression:<br><span style='color:var(--orange);font-weight:bold;'>\\[ MC = 40 + x^2 \\]</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can integrate the Marginal Cost function to see if we get back the original Total Cost function (minus the constant of integration, which corresponds to the fixed cost).<br><br>Integrate \\( MC = 40 + x^2 \\) with respect to \\(x\\):<br>\\[ \\int (40 + x^2) dx \\]<br>Apply the power rule for integration, \\( \\int ax^n dx = a\\frac{x^{n+1}}{n+1} + K \\):<br>\\[ \\int 40 dx + \\int x^2 dx \\]<br>\\[ = 40x + \\frac{x^{2+1}}{2+1} + K \\]<br>\\[ = 40x + \\frac{1}{3}x^3 + K \\]<br>Comparing this to the original cost function \\(C = 500 + 40x + \\frac{1}{3}x^3\\), we see that \\(K = 500\\).<br><br>Thus, the integration of the derived Marginal Cost function yields the original variable cost terms plus the fixed cost, confirming the correctness of the Marginal Cost function.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Marginal Cost function is \\( MC = 40 + x^2 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Marginal Cost (MC) = \\(40 + x^2\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2v",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the demand function \\(p = 1000 - \\frac{1}{3}x^2\\) and the cost function \\(C = 500 + 40x + \\frac{1}{3}x^3\\), find the level of output that maximizes total revenue.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Functions",
+      "Revenue Functions",
+      "Differentiation",
+      "Unconstrained Optimization",
+      "Marginal Revenue"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Maximizing Total Revenue</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Total Revenue (TR):</strong> The total income received by a firm from the sale of a given quantity of goods or services. It is calculated as the product of price (p) and quantity (x): \\( TR = p \\cdot x \\).<br><strong>Marginal Revenue (MR):</strong> The additional revenue generated from selling one more unit of output. It is the first derivative of the total revenue function with respect to quantity: \\( MR = \\frac{d(TR)}{dx} \\).<br><strong>Maximization Condition:</strong> To maximize a function (like Total Revenue), we use calculus. The first-order condition requires the first derivative to be zero (\\( MR = 0 \\)). The second-order condition requires the second derivative to be negative (\\( \\frac{d^2(TR)}{dx^2} < 0 \\)) at the critical point to ensure it is a maximum.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Demand function: \\( p = 1000 - \\frac{1}{3}x^2 \\)<br>Cost function: \\( C = 500 + 40x + \\frac{1}{3}x^3 \\) (Note: This is not needed for maximizing total revenue).<br>Goal: Find the level of output \\( x \\) that maximizes Total Revenue.</div><p style='margin:8px 0;'><strong>Step 1: Write the formula for Total Revenue (TR)</strong><br>Total Revenue is the product of price and quantity.<br>\\[ TR = p \\cdot x \\]</p><p style='margin:8px 0;'><strong>Step 2: Substitute the demand function into the TR formula</strong><br>Substitute the given demand function \\( p = 1000 - \\frac{1}{3}x^2 \\) into the TR formula.<br>\\[ TR = \\left(1000 - \\frac{1}{3}x^2\\right) \\cdot x \\]<br>Simplify the expression for TR.<br>\\[ TR = 1000x - \\frac{1}{3}x^3 \\]<br>This is our total revenue function: <span style='color:var(--orange);font-weight:bold;'>\\( TR(x) = 1000x - \\frac{1}{3}x^3 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Differentiate TR with respect to x to find Marginal Revenue (MR)</strong><br>To find the marginal revenue, we take the first derivative of the total revenue function with respect to \\( x \\).<br>\\[ MR = \\frac{d(TR)}{dx} = \\frac{d}{dx}\\left(1000x - \\frac{1}{3}x^3\\right) \\]<br>Apply the power rule for differentiation \\( \\frac{d}{dx}(ax^n) = nax^{n-1} \\).<br>\\[ MR = 1000 \\cdot 1 \\cdot x^{1-1} - \\frac{1}{3} \\cdot 3 \\cdot x^{3-1} \\]<br>\\[ MR = 1000x^0 - x^2 \\]<br>\\[ MR = 1000 - x^2 \\]<br>This is our marginal revenue function: <span style='color:var(--orange);font-weight:bold;'>\\( MR(x) = 1000 - x^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Set MR to zero to find critical points (First-Order Condition)</strong><br>To maximize total revenue, we set the marginal revenue equal to zero.<br>\\[ MR = 0 \\]<br>\\[ 1000 - x^2 = 0 \\]</p><p style='margin:8px 0;'><strong>Step 5: Solve for x</strong><br>Rearrange the equation to solve for \\( x \\).<br>\\[ x^2 = 1000 \\]<br>Take the square root of both sides.<br>\\[ x = \\pm\\sqrt{1000} \\]<br>Since output \\( x \\) cannot be negative in an economic context, we take the positive root.<br>\\[ x = \\sqrt{1000} \\]<br>Calculate the numerical value.<br>\\[ x \\approx 31.6227766 \\]<br>Rounding to two decimal places, the critical point is <span style='color:var(--orange);font-weight:bold;'>\\( x \\approx 31.62 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 6: Find the second derivative of TR (Second-Order Condition)</strong><br>To confirm that this critical point corresponds to a maximum, we need to check the second-order condition. We differentiate the MR function with respect to \\( x \\).<br>\\[ \\frac{d^2(TR)}{dx^2} = \\frac{d(MR)}{dx} = \\frac{d}{dx}(1000 - x^2) \\]<br>Apply the power rule for differentiation.<br>\\[ \\frac{d^2(TR)}{dx^2} = 0 - 2x \\]<br>\\[ \\frac{d^2(TR)}{dx^2} = -2x \\]</p><p style='margin:8px 0;'><strong>Step 7: Evaluate the second derivative at the critical point</strong><br>Substitute \\( x = 31.62 \\) into the second derivative.<br>\\[ \\frac{d^2(TR)}{dx^2} \\Big|_{x=31.62} = -2(31.62) \\]<br>\\[ \\frac{d^2(TR)}{dx^2} \\Big|_{x=31.62} = -63.24 \\]<br>Since \\( -63.24 < 0 \\), the second-order condition for a maximum is satisfied. Therefore, \\( x \\approx 31.62 \\) indeed maximizes total revenue.</div><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We found that total revenue is maximized when \\( MR = 0 \\).<br>Our MR function is \\( MR = 1000 - x^2 \\).<br>If we substitute \\( x = \\sqrt{1000} \\) (the exact value) back into MR:<br>\\[ MR = 1000 - (\\sqrt{1000})^2 \\]<br>\\[ MR = 1000 - 1000 \\]<br>\\[ MR = 0 \\]<br>This confirms that \\( x = \\sqrt{1000} \\) is the level of output where marginal revenue is zero, which is the condition for maximizing total revenue. The second derivative test also confirmed it's a maximum.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The level of output that maximizes total revenue is approximately \\( x = 31.62 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x = 31.62"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2vi",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the demand function \\\\(p = 1000 - \\\\frac{1}{3}x^2\\\\) and the cost function \\\\(C = 500 + 40x + \\\\frac{1}{3}x^3\\\\), determine the profit maximizing level of output, price and maximum profit or loss.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Unconstrained Optimization",
+      "Differentiation",
+      "Cost Theory",
+      "Revenue Functions",
+      "Marginal Cost",
+      "Marginal Revenue"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Profit Maximization using Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Profit Maximization</em> is the process by which a firm determines the output level that results in the greatest possible profit. This is achieved when marginal revenue (MR) equals marginal cost (MC), or equivalently, when the first derivative of the profit function with respect to output is zero, and the second derivative is negative.<br>The <em>Profit Function</em> (\\\\(\\\\pi\\\\)) is defined as Total Revenue (TR) minus Total Cost (TC): \\\\(\\\\pi = TR - TC\\\\).<br><em>Total Revenue</em> (TR) is Price (p) multiplied by Quantity (x): \\\\(TR = p \\\\times x\\\\).<br><em>Marginal Revenue</em> (MR) is the derivative of TR with respect to x: \\\\(MR = \\\\frac{dTR}{dx}\\\\) .<br><em>Marginal Cost</em> (MC) is the derivative of TC with respect to x: \\\\(MC = \\\\frac{dTC}{dx}\\\\) .<br>For a maximum profit, two conditions must be met:<br>1. First Order Condition (FOC): \\\\(\\\\frac{d\\\\pi}{dx} = 0\\\\)<br>2. Second Order Condition (SOC): \\\\(\\\\frac{d^2\\\\pi}{dx^2} < 0\\\\)</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Demand function: \\\\(p = 1000 - \\\\frac{1}{3}x^2\\\\)<br>Cost function: \\\\(C = 500 + 40x + \\\\frac{1}{3}x^3\\\\)</div><p style='margin:8px 0;'><strong>Step 1: Determine the Total Revenue (TR) function</strong><br>The total revenue is given by the price multiplied by the quantity.<br>Formula: \\\\(TR = p \\\\times x\\\\)<br>Substitute the demand function for \\\\(p\\\\):<br>\\\\[ TR = \\\\left(1000 - \\\\frac{1}{3}x^2\\\\right)x \\\\\\]<br>Simplify the expression:<br>\\\\[ TR = 1000x - \\\\frac{1}{3}x^3 \\\\\\]<br>So, the total revenue function is <span style='color:var(--orange);font-weight:bold;'>\\\\(TR = 1000x - \\\\frac{1}{3}x^3\\\\)</span>.</p><p style='margin:8px 0;'><strong>Step 2: Determine the Profit (\\\\(\\\\pi\\\\)) function</strong><br>The profit function is the total revenue minus the total cost.<br>Formula: \\\\(\\\\pi = TR - C\\\\)<br>Substitute the expressions for TR and C:<br>\\\\[ \\\\pi = \\\\left(1000x - \\\\frac{1}{3}x^3\\\\right) - \\\\left(500 + 40x + \\\\frac{1}{3}x^3\\\\right) \\\\\\]<br>Distribute the negative sign and combine like terms:<br>\\\\[ \\\\pi = 1000x - \\\\frac{1}{3}x^3 - 500 - 40x - \\\\frac{1}{3}x^3 \\\\\\]<br>\\\\[ \\\\pi = (1000x - 40x) + \\\\left(-\\\\frac{1}{3}x^3 - \\\\frac{1}{3}x^3\\\\right) - 500 \\\\\\]<br>\\\\[ \\\\pi = 960x - \\\\frac{2}{3}x^3 - 500 \\\\\\]<br>Thus, the profit function is <span style='color:var(--orange);font-weight:bold;'>\\\\(\\\\pi = 960x - \\\\frac{2}{3}x^3 - 500\\\\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Find the First Order Condition (FOC) for profit maximization</strong><br>To find the profit-maximizing output, we take the first derivative of the profit function with respect to \\\\(x\\\\) and set it to zero.<br>Formula: \\\\(\\\\frac{d\\\\pi}{dx} = 0\\\\)<br>Differentiate the profit function:<br>\\\\[ \\\\frac{d\\\\pi}{dx} = \\\\frac{d}{dx}\\\\left(960x - \\\\frac{2}{3}x^3 - 500\\\\right) \\\\\\]<br>\\\\[ \\\\frac{d\\\\pi}{dx} = 960 - \\\\frac{2}{3}(3x^2) - 0 \\\\\\]<br>\\\\[ \\\\frac{d\\\\pi}{dx} = 960 - 2x^2 \\\\\\]<br>Set the first derivative to zero:<br>\\\\[ 960 - 2x^2 = 0 \\\\\\]</p><p style='margin:8px 0;'><strong>Step 4: Solve for the profit-maximizing level of output (x)</strong><br>From the FOC, we have:<br>\\\\[ 960 - 2x^2 = 0 \\\\\\]<br>Rearrange the equation:<br>\\\\[ 2x^2 = 960 \\\\\\]<br>Divide by 2:<br>\\\\[ x^2 = \\\\frac{960}{2} \\\\\\]<br>\\\\[ x^2 = 480 \\\\\\]<br>Take the square root of both sides. Since output cannot be negative, we consider only the positive root:<br>\\\\[ x = \\\\sqrt{480} \\\\\\]<br>To simplify the radical, find the largest perfect square factor of 480 (which is 16):<br>\\\\[ x = \\\\sqrt{16 \\\\times 30} = \\\\sqrt{16} \\\\times \\\\sqrt{30} = 4\\\\sqrt{30} \\\\\\]<br>Calculate the approximate numerical value:<br>\\\\[ x \\\\approx 4 \\\\times 5.477225 \\\\\\]<br>\\\\[ x \\\\approx 21.9089 \\\\\\]<br>Rounding to two decimal places, the profit-maximizing output is <span style='color:var(--orange);font-weight:bold;'>\\\\(x \\\\approx 21.91\\\\) units</span>.</p><p style='margin:8px 0;'><strong>Step 5: Find the Second Order Condition (SOC) to confirm maximum profit</strong><br>To confirm that this output level corresponds to a maximum profit, we need to check the second derivative of the profit function. For a maximum, the second derivative must be negative.<br>Formula: \\\\(\\\\frac{d^2\\\\pi}{dx^2} < 0\\\\)<br>Differentiate the first derivative \\\\(\\\\frac{d\\\\pi}{dx} = 960 - 2x^2\\\\) with respect to \\\\(x\\\\):<br>\\\\[ \\\\frac{d^2\\\\pi}{dx^2} = \\\\frac{d}{dx}(960 - 2x^2) \\\\\\]<br>\\\\[ \\\\frac{d^2\\\\pi}{dx^2} = 0 - 2(2x) \\\\\\]<br>\\\\[ \\\\frac{d^2\\\\pi}{dx^2} = -4x \\\\\\]<br>Now, substitute the profit-maximizing output \\\\(x = 4\\\\sqrt{30}\\\\) into the second derivative:<br>\\\\[ \\\\frac{d^2\\\\pi}{dx^2} = -4(4\\\\sqrt{30}) = -16\\\\sqrt{30} \\\\\\]<br>Since \\\\(-16\\\\sqrt{30}\\\\) is a negative value (approximately -87.64), the second-order condition for a maximum is satisfied. This confirms that \\\\(x \\\\approx 21.91\\\\) units is indeed the profit-maximizing output level.</p><p style='margin:8px 0;'><strong>Step 6: Determine the profit-maximizing price (p)</strong><br>Substitute the profit-maximizing output \\\\(x^2 = 480\\\\) into the demand function.<br>Formula: \\\\(p = 1000 - \\\\frac{1}{3}x^2\\\\)<br>Substitute \\\\(x^2 = 480\\\\):<br>\\\\[ p = 1000 - \\\\frac{1}{3}(480) \\\\\\]<br>Perform the multiplication:<br>\\\\[ p = 1000 - 160 \\\\\\]<br>Calculate the price:<br>\\\\[ p = 840 \\\\\\]<br>The profit-maximizing price is <span style='color:var(--orange);font-weight:bold;'>\\\\(p = 840\\\\)</span>.</p><p style='margin:8px 0;'><strong>Step 7: Calculate the maximum profit (\\\\(\\\\pi\\\\))</strong><br>Substitute the profit-maximizing output \\\\(x = 4\\\\sqrt{30}\\\\) (or \\\\(x \\\\approx 21.91\\\\)) into the profit function.<br>Formula: \\\\(\\\\pi = 960x - \\\\frac{2}{3}x^3 - 500\\\\)<br>It's often easier to substitute \\\\(x^2 = 480\\\\) and \\\\(x = \\\\sqrt{480}\\\\):<br>\\\\[ \\\\pi = 960\\\\sqrt{480} - \\\\frac{2}{3}(\\\\sqrt{480})^3 - 500 \\\\\\]<br>Recall that \\\\((\\\\sqrt{480})^3 = \\\\sqrt{480} \\\\times (\\\\sqrt{480})^2 = \\\\sqrt{480} \\\\times 480\\\\):<br>\\\\[ \\\\pi = 960\\\\sqrt{480} - \\\\frac{2}{3}(480)\\\\sqrt{480} - 500 \\\\\\]<br>\\\\[ \\\\pi = 960\\\\sqrt{480} - 320\\\\sqrt{480} - 500 \\\\\\]<br>Combine the terms with \\\\(\\\\sqrt{480}\\\\):<br>\\\\[ \\\\pi = (960 - 320)\\\\sqrt{480} - 500 \\\\\\]<br>\\\\[ \\\\pi = 640\\\\sqrt{480} - 500 \\\\\\]<br>Now, use the approximate value \\\\(\\\\sqrt{480} \\\\approx 21.9089\\\\):<br>\\\\[ \\\\pi \\\\approx 640(21.9089) - 500 \\\\\\]<br>\\\\[ \\\\pi \\\\approx 14021.70 - 500 \\\\\\]<br>\\\\[ \\\\pi \\\\approx 13521.70 \\\\\\]<br>The maximum profit is <span style='color:var(--orange);font-weight:bold;'>\\\\(\\\\pi \\\\approx 13521.70\\\\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We can verify the profit-maximizing output by setting Marginal Revenue (MR) equal to Marginal Cost (MC).<br>First, find MR:<br>\\\\[ TR = 1000x - \\\\frac{1}{3}x^3 \\\\\\]<br>\\\\[ MR = \\\\frac{dTR}{dx} = 1000 - x^2 \\\\\\]<br>Next, find MC:<br>\\\\[ C = 500 + 40x + \\\\frac{1}{3}x^3 \\\\\\]<br>\\\\[ MC = \\\\frac{dC}{dx} = 40 + \\\\frac{1}{3}(3x^2) = 40 + x^2 \\\\\\]<br>Set MR = MC:<br>\\\\[ 1000 - x^2 = 40 + x^2 \\\\\\]<br>\\\\[ 1000 - 40 = x^2 + x^2 \\\\\\]<br>\\\\[ 960 = 2x^2 \\\\\\]<br>\\\\[ x^2 = 480 \\\\\\]<br>\\\\[ x = \\\\sqrt{480} \\\\approx 21.91 \\\\\\]<br>This matches the output level derived from the profit function's first derivative, confirming the output is correct. We also confirmed the second-order condition for a maximum.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Profit-maximizing output: \\\\(x \\\\approx 21.91\\\\) units<br>&#8756; Profit-maximizing price: \\\\(p = 840\\\\)<br>&#8756; Maximum profit: \\\\(\\\\pi \\\\approx 13521.70\\\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Output: \\\\(x \\\\approx 21.91\\\\) units<br>Price: \\\\(p = 840\\\\)<br>Max Profit: \\\\(\\\\pi \\\\approx 13521.70\\\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3a",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the integral of \\(\\sqrt{2x}\\) with respect to \\(x\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Functions",
+      "Integration"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Integration of Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Integration</em> is the process of finding the antiderivative of a function. It is the reverse operation of differentiation.<br><br><strong>Power Rule for Integration:</strong><br>For any real number \\( n \\neq -1 \\), the integral of \\( x^n \\) with respect to \\( x \\) is given by:<br>\\[ \\int x^n \\,dx = \\frac{x^{n+1}}{n+1} + C \\]<br>where \\( C \\) is the constant of integration.<br><br><strong>U-Substitution:</strong><br>This technique simplifies integrals that are in the form \\( \\int f(g(x))g'(x) \\,dx \\). By letting \\( u = g(x) \\) and \\( du = g'(x) \\,dx \\), the integral transforms into \\( \\int f(u) \\,du \\), which is often easier to solve.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The function to integrate: \\( \\sqrt{2x} \\)<br>The integral to find: \\( \\int \\sqrt{2x} \\,dx \\)</div><p style='margin:8px 0;'><strong>Step 1: Rewrite the integrand using fractional exponents</strong><br>The square root can be expressed as a power of \\( 1/2 \\).<br>Original integrand: \\( \\sqrt{2x} \\)<br>Rewritten form: <span style='color:var(--orange);font-weight:bold;'>\\( (2x)^{1/2} \\)</span></p><p style='margin:8px 0;'><strong>Step 2: Identify the integration method</strong><br>The integrand \\( (2x)^{1/2} \\) is a composite function of the form \\( (ax+b)^n \\). This suggests using the power rule for integration in conjunction with u-substitution to handle the inner function \\( 2x \\).</p><p style='margin:8px 0;'><strong>Step 3: Perform u-substitution</strong><br>Let \\( u \\) be the inner function.<br>Let \\( u = 2x \\)<br>Differentiate \\( u \\) with respect to \\( x \\) to find \\( du \\).<br>\\( \\frac{du}{dx} = \\frac{d}{dx}(2x) \\)<br>\\( \\frac{du}{dx} = 2 \\)<br>Solve for \\( dx \\):<br>\\( du = 2 \\,dx \\)<br>\\( dx = \\frac{1}{2} du \\)</p><p style='margin:8px 0;'><strong>Step 4: Substitute into the integral and apply the power rule</strong><br>Substitute \\( u = 2x \\) and \\( dx = \\frac{1}{2} du \\) into the integral:<br>\\[ \\int (2x)^{1/2} \\,dx = \\int u^{1/2} \\left(\\frac{1}{2} du\\right) \\]<br>Move the constant \\( \\frac{1}{2} \\) outside the integral:<br>\\[ = \\frac{1}{2} \\int u^{1/2} \\,du \\]<br>Apply the power rule for integration \\( \\int u^n \\,du = \\frac{u^{n+1}}{n+1} + C \\), where \\( n = 1/2 \\):<br>\\[ = \\frac{1}{2} \\left( \\frac{u^{1/2+1}}{1/2+1} \\right) + C \\]<br>Simplify the exponent and the denominator:<br>\\[ = \\frac{1}{2} \\left( \\frac{u^{3/2}}{3/2} \\right) + C \\]<br>Simplify the fraction:<br>\\[ = \\frac{1}{2} \\cdot \\frac{2}{3} u^{3/2} + C \\]<br>Result after integration: <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{1}{3} u^{3/2} + C \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Substitute back for \\( u \\) and simplify the expression</strong><br>Replace \\( u \\) with its original expression, \\( 2x \\):<br>\\[ = \\frac{1}{3} (2x)^{3/2} + C \\]<br>This is the final integrated form of the function.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the answer, differentiate the result with respect to \\( x \\) and check if it matches the original integrand.<br>Let \\( F(x) = \\frac{1}{3} (2x)^{3/2} + C \\)<br>Differentiate \\( F(x) \\) using the chain rule \\( \\frac{d}{dx}[g(h(x))] = g'(h(x))h'(x) \\):<br>\\[ \\frac{d}{dx} \\left( \\frac{1}{3} (2x)^{3/2} + C \\right) \\]<br>\\[ = \\frac{1}{3} \\cdot \\frac{3}{2} (2x)^{3/2 - 1} \\cdot \\frac{d}{dx}(2x) \\]<br>\\[ = \\frac{1}{2} (2x)^{1/2} \\cdot 2 \\]<br>\\[ = (2x)^{1/2} \\]<br>\\[ = \\sqrt{2x} \\]<br>Since the derivative of our answer is \\( \\sqrt{2x} \\), which is the original integrand, the integration is correct. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The integral of \\( \\sqrt{2x} \\) with respect to \\( x \\) is \\( \\frac{1}{3} (2x)^{3/2} + C \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{3} (2x)^{3/2} + C\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Evaluate the definite integral \\(\\int_4^8 12\\sqrt{x} dx\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Integration",
+      "Functions",
+      "Definite Integral"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Definite Integral Evaluation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>definite integral</em> calculates the net signed area between a function's graph and the x-axis over a specified interval \\([a, b]\\).<br><br>The <em>Fundamental Theorem of Calculus, Part 2</em>, states that if \\( F(x) \\) is any antiderivative of \\( f(x) \\), then the definite integral of \\( f(x) \\) from \\( a \\) to \\( b \\) is given by:<br>\\[ \\int_a^b f(x) dx = F(b) - F(a) \\]<br><br>The <em>Power Rule for Integration</em> is used to find the antiderivative of power functions:<br>\\[ \\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\quad \\text{for } n \\neq -1 \\]<br>For definite integrals, the constant of integration \\( C \\) is not needed as it cancels out.<br><br>The <em>Constant Multiple Rule</em> states that for a constant \\( c \\):<br>\\[ \\int c \\cdot f(x) dx = c \\cdot \\int f(x) dx \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Definite integral: \\( \\int_4^8 12\\sqrt{x} dx \\)<br>Lower limit: \\( a = 4 \\)<br>Upper limit: \\( b = 8 \\)</div><p style='margin:8px 0;'><strong>Step 1: Rewrite the integrand in power form</strong><br>First, express the square root term as a power of \\( x \\).<br>Formula: \\( \\sqrt{x} = x^{1/2} \\)<br>Substitution: The integral becomes \\( \\int_4^8 12x^{1/2} dx \\)</p><p style='margin:8px 0;'><strong>Step 2: Apply the Constant Multiple Rule</strong><br>Move the constant factor \\( 12 \\) outside the integral sign.<br>Formula: \\( \\int c \\cdot f(x) dx = c \\cdot \\int f(x) dx \\)<br>Substitution: \\( 12 \\int_4^8 x^{1/2} dx \\)</p><p style='margin:8px 0;'><strong>Step 3: Find the antiderivative of \\( x^{1/2} \\)</strong><br>Use the Power Rule for Integration.<br>Formula: \\( \\int x^n dx = \\frac{x^{n+1}}{n+1} \\)<br>Substitution: For \\( n = 1/2 \\), we have \\( \\frac{x^{1/2+1}}{1/2+1} \\)<br>Simplify: \\( \\frac{x^{3/2}}{3/2} = \\frac{2}{3}x^{3/2} \\)<br>So, the antiderivative of \\( x^{1/2} \\) is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{2}{3}x^{3/2} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Combine the constant with the antiderivative</strong><br>Multiply the constant \\( 12 \\) by the antiderivative found in Step 3.<br>Calculation: \\( 12 \\cdot \\frac{2}{3}x^{3/2} \\)<br>Simplify: \\( \\frac{24}{3}x^{3/2} = 8x^{3/2} \\)<br>Thus, the antiderivative \\( F(x) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 8x^{3/2} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Apply the Fundamental Theorem of Calculus</strong><br>Evaluate the antiderivative at the upper and lower limits and subtract.<br>Formula: \\( \\int_a^b f(x) dx = F(b) - F(a) \\)<br>Substitution: \\( [8x^{3/2}]_4^8 = 8(8)^{3/2} - 8(4)^{3/2} \\)</p><p style='margin:8px 0;'><strong>Step 6: Evaluate \\( 8^{3/2} \\)</strong><br>Calculate the value of \\( 8^{3/2} \\).<br>Calculation: \\( 8^{3/2} = (\\sqrt{8})^3 = (\\sqrt{4 \\cdot 2})^3 = (2\\sqrt{2})^3 \\)<br>Simplify: \\( 2^3 \\cdot (\\sqrt{2})^3 = 8 \\cdot (\\sqrt{2} \\cdot \\sqrt{2} \\cdot \\sqrt{2}) = 8 \\cdot (2\\sqrt{2}) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 16\\sqrt{2} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 7: Evaluate \\( 4^{3/2} \\)</strong><br>Calculate the value of \\( 4^{3/2} \\).<br>Calculation: \\( 4^{3/2} = (\\sqrt{4})^3 = (2)^3 \\)<br>Simplify: \\( 2^3 = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 8 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 8: Substitute the evaluated powers back into the expression</strong><br>Replace \\( 8^{3/2} \\) and \\( 4^{3/2} \\) with their calculated values.<br>Substitution: \\( 8(16\\sqrt{2}) - 8(8) \\)</p><p style='margin:8px 0;'><strong>Step 9: Simplify the final expression</strong><br>Perform the multiplications and subtraction.<br>Calculation: \\( 128\\sqrt{2} - 64 \\)<br>The final value of the definite integral is <span style='color:var(--orange);font-weight:bold;'>\\( 128\\sqrt{2} - 64 \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the antiderivative, we differentiate \\( F(x) = 8x^{3/2} \\):<br>\\[ \\frac{d}{dx}(8x^{3/2}) = 8 \\cdot \\frac{3}{2} x^{(3/2)-1} \\]<br>\\[ = 12x^{1/2} = 12\\sqrt{x} \\]<br>This matches the original integrand, so our antiderivative is correct.<br><br>Now, let's re-evaluate the limits with the correct antiderivative:<br>\\[ F(8) - F(4) = 8(8)^{3/2} - 8(4)^{3/2} \\]<br>\\[ = 8(16\\sqrt{2}) - 8(8) \\]<br>\\[ = 128\\sqrt{2} - 64 \\]<br>The calculation is consistent and verified.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The definite integral is \\( 128\\sqrt{2} - 64 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(128\\sqrt{2} - 64\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3c",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Estimate the additional total revenue received from increasing sales from 6 to 8 units, given Marginal Revenue (MR) = \\(140 - 8x\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Introductory Mathematics for Economist II",
+      "Marginal Revenue",
+      "Revenue Functions",
+      "Integration",
+      "Definite Integral",
+      "Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Calculating Additional Revenue using Marginal Revenue</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Marginal Revenue (MR):</strong> The additional revenue generated from selling one more unit of a good or service. Mathematically, it is the derivative of the total revenue function with respect to quantity, \\( x \\).<br><strong>Total Revenue (TR):</strong> The total income a business receives from selling a certain quantity of goods or services.<br>The <em>additional total revenue</em> received from increasing sales from an initial quantity \\( x_1 \\) to a final quantity \\( x_2 \\) is found by calculating the definite integral of the Marginal Revenue function over the interval \\( [x_1, x_2] \\).<br>Formula: \\( \\Delta TR = \\int_{x_1}^{x_2} MR(x) \\, dx \\)</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Marginal Revenue function: \\( MR(x) = 140 - 8x \\)<br>Initial sales units: \\( x_1 = 6 \\) units<br>Final sales units: \\( x_2 = 8 \\) units<br>Goal: Estimate the additional total revenue received.</div><p style='margin:8px 0;'><strong>Step 1: Identify the method to calculate additional revenue</strong><br>To find the additional total revenue from increasing sales from \\( x_1 \\) to \\( x_2 \\) units, we need to integrate the Marginal Revenue function \\( MR(x) \\) over this specific interval.<br>The formula for additional total revenue \\( \\Delta TR \\) is:<br>\\[ \\Delta TR = \\int_{x_1}^{x_2} MR(x) \\, dx \\] </p><p style='margin:8px 0;'><strong>Step 2: Set up the definite integral with the given values</strong><br>Substitute the given Marginal Revenue function \\( MR(x) = 140 - 8x \\) and the sales limits \\( x_1 = 6 \\) and \\( x_2 = 8 \\) into the integral formula.<br>\\[ \\Delta TR = \\int_{6}^{8} (140 - 8x) \\, dx \\] </p><p style='margin:8px 0;'><strong>Step 3: Find the antiderivative of the Marginal Revenue function</strong><br>Integrate each term of the \\( MR(x) \\) function with respect to \\( x \\).<br>Recall the power rule for integration: \\( \\int c \\, dx = cx \\) and \\( \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} \\).<br>Integrate \\( 140 \\):<br>\\[ \\int 140 \\, dx = 140x \\]<br>Integrate \\( -8x \\):<br>\\[ \\int -8x \\, dx = -8\\left(\\frac{x^{1+1}}{1+1}\\right) \\]<br>\\[ = -8\\left(\\frac{x^2}{2}\\right) \\]<br>\\[ = -4x^2 \\]<br>Combining these, the antiderivative \\( F(x) \\) is: <span style='color:var(--orange);font-weight:bold;'>\\( F(x) = 140x - 4x^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Evaluate the definite integral using the Fundamental Theorem of Calculus</strong><br>The Fundamental Theorem of Calculus states that \\( \\int_{a}^{b} f(x) \\, dx = F(b) - F(a) \\), where \\( F(x) \\) is the antiderivative of \\( f(x) \\).<br>First, evaluate \\( F(x) \\) at the upper limit \\( x_2 = 8 \\):<br>\\[ F(8) = 140(8) - 4(8)^2 \\]<br>\\[ = 1120 - 4(64) \\]<br>\\[ = 1120 - 256 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( F(8) = 864 \\)</span><br>Next, evaluate \\( F(x) \\) at the lower limit \\( x_1 = 6 \\):<br>\\[ F(6) = 140(6) - 4(6)^2 \\]<br>\\[ = 840 - 4(36) \\]<br>\\[ = 840 - 144 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( F(6) = 696 \\)</span><br>Finally, calculate the difference \\( F(8) - F(6) \\) to find the additional total revenue:<br>\\[ \\Delta TR = F(8) - F(6) \\]<br>\\[ = 864 - 696 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( \\Delta TR = 168 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We can verify this by calculating the total revenue function \\( TR(x) = 140x - 4x^2 \\) (ignoring the constant of integration for change in revenue).<br>Total Revenue at 6 units: \\( TR(6) = 140(6) - 4(6)^2 = 840 - 4(36) = 840 - 144 = 696 \\)<br>Total Revenue at 8 units: \\( TR(8) = 140(8) - 4(8)^2 = 1120 - 4(64) = 1120 - 256 = 864 \\)<br>Additional Total Revenue = \\( TR(8) - TR(6) = 864 - 696 = 168 \\)<br>The result obtained from the definite integral matches the change in total revenue. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The additional total revenue received is $168.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "$168"
+    }
+  }
+]
