@@ -1,0 +1,587 @@
+[
+  {
+    "type": "pageInfo",
+    "course_title": "INTRODUCTORY MATHS FOR ECONOMIST II",
+    "code": "ECO 101.2",
+    "session": "2022/2024",
+    "kind": "mixed",
+    "topics": [
+      "Multivariable Calculus",
+      "Partial Differentiation",
+      "Unconstrained Optimization",
+      "Constrained Optimization",
+      "Lagrange Multipliers",
+      "Matrix Algebra",
+      "Systems of Linear Equations",
+      "Determinants",
+      "Integration in Economics",
+      "Difference Equations",
+      "Concavity and Convexity",
+      "Economic Applications of Calculus",
+      "Calculus",
+      "Limits",
+      "Differentiation",
+      "Chain Rule",
+      "Higher-order derivatives",
+      "De Young’s Theorem",
+      "Cost Functions",
+      "Microeconomics",
+      "Revenue Functions",
+      "Profit Maximization",
+      "Relative Extrema",
+      "Integration",
+      "Definite Integration"
+    ],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": [
+      "Answer any Three (3) Questions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the limits of the function \\( \\frac{8x^2 - 49}{3x^3 + 16} \\) as \\( x \\to \\infty \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Calculus",
+      "Multivariable Calculus",
+      "Economic Applications of Calculus"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Limit of Rational Functions at Infinity</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>rational function</em> is a function that can be expressed as the ratio of two polynomials, \\( f(x) = \\frac{P(x)}{Q(x)} \\).<br>To find the <em>limit of a rational function as \\( x \\to \\infty \\)</em> (or \\( x \\to -\\infty \\)), we can divide every term in the numerator and denominator by the highest power of \\( x \\) present in the <strong>denominator</strong>.<br>The key property used is that for any constant \\( C \\) and any positive integer \\( n \\),<br>\\[ \\lim_{x \\to \\infty} \\frac{C}{x^n} = 0 \\]<br>This means that as \\( x \\) gets infinitely large, terms like \\( \\frac{8}{x} \\) or \\( \\frac{49}{x^3} \\) approach zero.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\frac{8x^2 - 49}{3x^3 + 16} \\)<br>Limit condition: \\( x \\to \\infty \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the highest power of \\( x \\) in the denominator.</strong><br>The given function is \\( f(x) = \\frac{8x^2 - 49}{3x^3 + 16} \\).<br>The denominator polynomial is \\( 3x^3 + 16 \\).<br>The highest power of \\( x \\) in the denominator is \\( \\text{<span style='color:var(--orange);font-weight:bold;'>}x^3{\\text{</span>}} \\).</p><p style='margin:8px 0;'><strong>Step 2: Divide every term in the numerator and denominator by \\( x^3 \\).</strong><br>We will divide each term in both the numerator and the denominator by \\( x^3 \\).<br>Numerator terms divided by \\( x^3 \\): \\( \\frac{8x^2}{x^3} - \\frac{49}{x^3} \\)<br>Denominator terms divided by \\( x^3 \\): \\( \\frac{3x^3}{x^3} + \\frac{16}{x^3} \\)<br>The expression for the limit becomes:<br>\\[ \\lim_{x \\to \\infty} \\frac{\\frac{8x^2}{x^3} - \\frac{49}{x^3}}{\\frac{3x^3}{x^3} + \\frac{16}{x^3}} \\]</p><p style='margin:8px 0;'><strong>Step 3: Simplify the expression.</strong><br>Simplify each term after division:<br>\\( \\frac{8x^2}{x^3} = \\frac{8}{x} \\)<br>\\( \\frac{49}{x^3} \\) remains as \\( \\frac{49}{x^3} \\)<br>\\( \\frac{3x^3}{x^3} = 3 \\)<br>\\( \\frac{16}{x^3} \\) remains as \\( \\frac{16}{x^3} \\)<br>So, the simplified expression inside the limit is:<br>\\[ \\frac{\\frac{8}{x} - \\frac{49}{x^3}}{3 + \\frac{16}{x^3}} \\]</p><p style='margin:8px 0;'><strong>Step 4: Apply the limit as \\( x \\to \\infty \\).</strong><br>We use the property that \\( \\lim_{x \\to \\infty} \\frac{C}{x^n} = 0 \\) for any constant \\( C \\) and any positive integer \\( n \\).<br>Apply the limit to each term:<br>\\( \\lim_{x \\to \\infty} \\frac{8}{x} = 0 \\)<br>\\( \\lim_{x \\to \\infty} \\frac{49}{x^3} = 0 \\)<br>\\( \\lim_{x \\to \\infty} 3 = 3 \\) (The limit of a constant is the constant itself)<br>\\( \\lim_{x \\to \\infty} \\frac{16}{x^3} = 0 \\)<br>Substitute these limit values into the simplified expression:<br>\\[ \\lim_{x \\to \\infty} \\frac{\\frac{8}{x} - \\frac{49}{x^3}}{3 + \\frac{16}{x^3}} = \\frac{0 - 0}{3 + 0} \\]</p><p style='margin:8px 0;'><strong>Step 5: Calculate the final value.</strong><br>Perform the arithmetic with the limit values:<br>\\[ \\frac{0 - 0}{3 + 0} = \\frac{0}{3} = \\text{<span style='color:var(--orange);font-weight:bold;'>0</span>} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A general rule for limits of rational functions as \\( x \\to \\infty \\) is to compare the degrees of the numerator and denominator polynomials.<br>If the degree of the numerator is less than the degree of the denominator, the limit is 0.<br>In our function \\( f(x) = \\frac{8x^2 - 49}{3x^3 + 16} \\):<br>Degree of numerator (\\( 8x^2 - 49 \\)) is 2.<br>Degree of denominator (\\( 3x^3 + 16 \\)) is 3.<br>Since \\( 2 < 3 \\), the degree of the numerator is less than the degree of the denominator. Therefore, the limit as \\( x \\to \\infty \\) is 0. This confirms our calculation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The limit of the function as \\( x \\to \\infty \\) is 0.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the limits of the function \\( \\frac{x^2 + 7x - 120}{x - 8} \\) as \\( x \\to 8 \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Calculus",
+      "Limits"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Limits of Rational Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>limit</em> describes the behavior of a function as the input approaches a certain value. For rational functions, if direct substitution leads to the <em>indeterminate form</em> \\( \\frac{0}{0} \\), it implies that there is a common factor in the numerator and denominator that can be canceled. This algebraic simplification allows for the evaluation of the limit by direct substitution into the simplified expression.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\( f(x) = \\frac{x^2 + 7x - 120}{x - 8} \\)<br>Limit as: \\( x \\to 8 \\)</div><p style='margin:8px 0;'><strong>Step 1: Attempt direct substitution</strong><br>First, substitute the value \\( x=8 \\) into the function to determine if it yields an indeterminate form.<br>Substitute \\( x=8 \\) into the numerator:<br>\\( 8^2 + 7(8) - 120 \\)<br>\\( = 64 + 56 - 120 \\)<br>\\( = 120 - 120 = 0 \\)<br>Substitute \\( x=8 \\) into the denominator:<br>\\( 8 - 8 = 0 \\)<br>Since direct substitution results in \\( \\frac{0}{0} \\), this is an <span style='color:var(--orange);font-weight:bold;'>indeterminate form</span>, indicating that algebraic manipulation is necessary to find the limit.</p><p style='margin:8px 0;'><strong>Step 2: Factorize the numerator</strong><br>We need to factor the quadratic expression in the numerator, \\( x^2 + 7x - 120 \\).<br>We look for two numbers that multiply to \\( -120 \\) (the constant term) and add up to \\( 7 \\) (the coefficient of the \\( x \\) term).<br>These numbers are \\( 15 \\) and \\( -8 \\) (since \\( 15 \\times -8 = -120 \\) and \\( 15 + (-8) = 7 \\)).<br>Therefore, the numerator can be factored as:<br>\\( x^2 + 7x - 120 = (x+15)(x-8) \\)</p><p style='margin:8px 0;'><strong>Step 3: Rewrite the function with the factored numerator</strong><br>Substitute the factored form of the numerator back into the original function:<br>\\[ f(x) = \\frac{(x+15)(x-8)}{x - 8} \\]</p><p style='margin:8px 0;'><strong>Step 4: Simplify the function by canceling common factors</strong><br>Since we are evaluating the limit as \\( x \\to 8 \\), \\( x \\) is approaching 8 but is not exactly 8. This means that \\( (x-8) \\neq 0 \\). Therefore, we can cancel the common factor \\( (x-8) \\) from the numerator and the denominator.<br>\\[ f(x) = x+15 \\quad \\text{for } x \\neq 8 \\]</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the limit of the simplified function</strong><br>Now that the indeterminate form has been resolved, we can find the limit by directly substituting \\( x=8 \\) into the simplified function:<br>\\[ \\lim_{x \\to 8} (x+15) \\]<br>Substitute \\( x=8 \\):<br>\\( = 8+15 \\)<br>\\( = \\text{<span style='color:var(--orange);font-weight:bold;'>23</span>} \\)</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification (using L'Hopital's Rule)</strong><br>Since the direct substitution resulted in the indeterminate form \\( \\frac{0}{0} \\), L'Hopital's Rule can be applied as an alternative verification method.<br>L'Hopital's Rule states that if \\( \\lim_{x \\to c} \\frac{f(x)}{g(x)} \\) is of the form \\( \\frac{0}{0} \\) or \\( \\frac{\\infty}{\\infty} \\), then \\( \\lim_{x \\to c} \\frac{f(x)}{g(x)} = \\lim_{x \\to c} \\frac{f'(x)}{g'(x)} \\).<br>Let \\( f(x) = x^2 + 7x - 120 \\) and \\( g(x) = x - 8 \\).<br>Find the derivatives of the numerator and denominator:<br>\\( f'(x) = \\frac{d}{dx}(x^2 + 7x - 120) = 2x + 7 \\)<br>\\( g'(x) = \\frac{d}{dx}(x - 8) = 1 \\)<br>Apply L'Hopital's Rule:<br>\\[ \\lim_{x \\to 8} \\frac{f'(x)}{g'(x)} = \\lim_{x \\to 8} \\frac{2x + 7}{1} \\]<br>Substitute \\( x=8 \\) into the derivative expression:<br>\\( = 2(8) + 7 \\)<br>\\( = 16 + 7 \\)<br>\\( = 23 \\)<br>The result obtained using L'Hopital's Rule matches the answer found through factorization, confirming the solution.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The limit of the function as \\( x \\to 8 \\) is 23.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "23"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1c)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "This question part is blank or missing.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Calculus",
+      "Multivariable Calculus",
+      "Unconstrained Optimization",
+      "Constrained Optimization",
+      "Matrix Algebra",
+      "Economic Applications of Calculus"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Question Unavailable</h4><p style='margin:8px 0;'>The question provided was blank or missing, therefore a specific solution cannot be generated.<br>Please ensure the question text is included for a detailed step-by-step explanation.<br>We are prepared to offer a clear, newbie-friendly analysis once the question is provided.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Question missing"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1d)i",
+    "topic": [
+      "Calculus",
+      "Differentiation"
+    ],
+    "Question": {
+      "content": "Differentiate the function \\( y = \\frac{12x+7}{(5x+2)^2} \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Differentiation using the Quotient Rule and Chain Rule</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Quotient Rule</em> is used to differentiate functions that are a ratio of two other functions. If \\( y = \\frac{u}{v} \\), then its derivative is given by:<br>\\[ \\frac{dy}{dx} = \\frac{u'v - uv'}{v^2} \\]<br>The <em>Chain Rule</em> is used to differentiate composite functions. If \\( y = f(g(x)) \\), then \\( \\frac{dy}{dx} = f'(g(x)) \\cdot g'(x) \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function to differentiate: \\( y = \\frac{12x+7}{(5x+2)^2} \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify u and v</strong><br>We identify the numerator as \\( u \\) and the denominator as \\( v \\).<br>Let \\( u = 12x+7 \\)<br>Let \\( v = (5x+2)^2 \\)</p><p style='margin:8px 0;'><strong>Step 2: Find the derivative of u (u')</strong><br>Differentiate \\( u \\) with respect to \\( x \\).<br>\\[ u' = \\frac{d}{dx}(12x+7) \\]<br>\\[ u' = 12 \\]</p><p style='margin:8px 0;'><strong>Step 3: Find the derivative of v (v') using the Chain Rule</strong><br>Differentiate \\( v = (5x+2)^2 \\) with respect to \\( x \\). This requires the Chain Rule.<br>Let \\( w = 5x+2 \\), so \\( v = w^2 \\).<br>First, find the derivative of \\( v \\) with respect to \\( w \\):<br>\\[ \\frac{dv}{dw} = \\frac{d}{dw}(w^2) = 2w \\]<br>Next, find the derivative of \\( w \\) with respect to \\( x \\):<br>\\[ \\frac{dw}{dx} = \\frac{d}{dx}(5x+2) = 5 \\]<br>Now, apply the Chain Rule: \\( v' = \\frac{dv}{dx} = \\frac{dv}{dw} \\cdot \\frac{dw}{dx} \\)<br>\\[ v' = (2w)(5) \\]<br>Substitute back \\( w = 5x+2 \\):<br>\\[ v' = 2(5x+2)(5) \\]<br>\\[ v' = 10(5x+2) \\]</p><p style='margin:8px 0;'><strong>Step 4: Apply the Quotient Rule formula</strong><br>The Quotient Rule formula is: \\( \\frac{dy}{dx} = \\frac{u'v - uv'}{v^2} \\).<br>Substitute \\( u, v, u' \\), and \\( v' \\) into the formula:<br>\\[ \\frac{dy}{dx} = \\frac{(12)(5x+2)^2 - (12x+7)(10(5x+2))}{((5x+2)^2)^2} \\]</p><p style='margin:8px 0;'><strong>Step 5: Simplify the denominator</strong><br>Apply the power rule \\( (a^m)^n = a^{mn} \\).<br>\\[ ((5x+2)^2)^2 = (5x+2)^{2 \\cdot 2} \\]<br>\\[ = (5x+2)^4 \\]<br>So the denominator is <span style='color:var(--orange);font-weight:bold;'>\\( (5x+2)^4 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 6: Simplify the numerator - Factor out the common term</strong><br>The numerator is \\( 12(5x+2)^2 - 10(12x+7)(5x+2) \\).<br>Notice that \\( (5x+2) \\) is a common factor in both terms.<br>Factor out \\( (5x+2) \\):<br>\\[ (5x+2) [12(5x+2) - 10(12x+7)] \\]</p><p style='margin:8px 0;'><strong>Step 7: Expand and simplify the expression inside the brackets in the numerator</strong><br>Expand the terms inside the square brackets:<br>\\[ 12(5x+2) - 10(12x+7) \\]<br>\\[ = (12 \\cdot 5x + 12 \\cdot 2) - (10 \\cdot 12x + 10 \\cdot 7) \\]<br>\\[ = (60x + 24) - (120x + 70) \\]<br>Distribute the negative sign:<br>\\[ = 60x + 24 - 120x - 70 \\]<br>Combine like terms:<br>\\[ = (60x - 120x) + (24 - 70) \\]<br>\\[ = -60x - 46 \\]<br>So the numerator simplifies to <span style='color:var(--orange);font-weight:bold;'>\\( (5x+2)(-60x-46) \\)</span>.</p><p style='margin:8px 0;'><strong>Step 8: Combine the simplified numerator and denominator</strong><br>Substitute the simplified numerator and denominator back into the derivative expression:<br>\\[ \\frac{dy}{dx} = \\frac{(5x+2)(-60x-46)}{(5x+2)^4} \\]</p><p style='margin:8px 0;'><strong>Step 9: Cancel common factors</strong><br>Cancel one factor of \\( (5x+2) \\) from the numerator and the denominator.<br>\\[ \\frac{dy}{dx} = \\frac{-60x-46}{(5x+2)^{4-1}} \\]<br>\\[ \\frac{dy}{dx} = \\frac{-60x-46}{(5x+2)^3} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we re-examined each step for algebraic correctness. The application of the Quotient Rule and Chain Rule was done according to their definitions. The simplification steps, including factoring and combining like terms, were performed systematically. All calculations were checked to ensure accuracy. The final simplified form is consistent with standard differentiation practices.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The derivative is \\( \\frac{dy}{dx} = \\frac{-60x-46}{(5x+2)^3} \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{dy}{dx} = \\frac{-60x-46}{(5x+2)^3} \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1d)ii",
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Chain Rule"
+    ],
+    "Question": {
+      "content": "Differentiate the function \\( y = \\frac{1}{(3x^2-11)^3} \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Differentiation using the Chain Rule</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Differentiation:</strong> The process of finding the derivative of a function, which represents the rate at which the function's value changes with respect to an independent variable.<br><strong>Power Rule:</strong> If \\( f(x) = x^n \\), then its derivative is \\( f'(x) = nx^{n-1} \\).<br><strong>Chain Rule:</strong> Used to differentiate composite functions. If \\( y = f(g(x)) \\), then its derivative is \\( \\frac{dy}{dx} = f'(g(x)) \\cdot g'(x) \\). Alternatively, if \\( y = u^n \\) where \\( u \\) is a function of \\( x \\), then \\( \\frac{dy}{dx} = n u^{n-1} \\frac{du}{dx} \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function to differentiate: \\( y = \\frac{1}{(3x^2-11)^3} \\)</div><p style='margin:8px 0;'><strong>Step 1: Rewrite the function using a negative exponent</strong><br>To prepare for differentiation using the power rule and chain rule, express the function with a negative exponent.<br>\\[ y = (3x^2-11)^{-3} \\]</p><p style='margin:8px 0;'><strong>Step 2: Identify the inner and outer functions for the Chain Rule</strong><br>Let \\( u \\) be the inner function and \\( y \\) be the outer function in terms of \\( u \\).<br>Inner function: <span style='color:var(--orange);font-weight:bold;'>\\( u = 3x^2-11 \\)</span><br>Outer function: <span style='color:var(--orange);font-weight:bold;'>\\( y = u^{-3} \\)</span></p><p style='margin:8px 0;'><strong>Step 3: State the Chain Rule formula</strong><br>The Chain Rule states that if \\( y \\) is a function of \\( u \\) and \\( u \\) is a function of \\( x \\), then the derivative of \\( y \\) with respect to \\( x \\) is:<br>\\[ \\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx} \\]</p><p style='margin:8px 0;'><strong>Step 4: Differentiate the outer function with respect to \\( u \\)</strong><br>Using the power rule \\( \\frac{d}{du}(u^n) = nu^{n-1} \\):<br>Given: \\( y = u^{-3} \\)<br>Derivative: \\( \\frac{dy}{du} = -3u^{-3-1} \\)<br><span style='color:var(--orange);font-weight:bold;'>\\( \\frac{dy}{du} = -3u^{-4} \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Differentiate the inner function with respect to \\( x \\)</strong><br>Using the power rule \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\) and the constant rule \\( \\frac{d}{dx}(c) = 0 \\):<br>Given: \\( u = 3x^2-11 \\)<br>Derivative: \\( \\frac{du}{dx} = \\frac{d}{dx}(3x^2) - \\frac{d}{dx}(11) \\)<br>\\( \\frac{du}{dx} = 3 \\cdot 2x^{2-1} - 0 \\)<br><span style='color:var(--orange);font-weight:bold;'>\\( \\frac{du}{dx} = 6x \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Apply the Chain Rule by multiplying the derivatives</strong><br>Substitute the results from Step 4 and Step 5 into the Chain Rule formula:<br>Formula: \\( \\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx} \\)<br>Substitution: \\( \\frac{dy}{dx} = (-3u^{-4}) \\cdot (6x) \\)<br>Now, substitute back \\( u = 3x^2-11 \\):<br>\\[ \\frac{dy}{dx} = -3(3x^2-11)^{-4} \\cdot (6x) \\]</p><p style='margin:8px 0;'><strong>Step 7: Simplify the expression</strong><br>Multiply the constant and variable terms outside the parenthesis:<br>\\[ \\frac{dy}{dx} = (-3 \\cdot 6x)(3x^2-11)^{-4} \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( \\frac{dy}{dx} = -18x(3x^2-11)^{-4} \\)</span></p><p style='margin:8px 0;'><strong>Step 8: Rewrite the result with positive exponents</strong><br>Move the term with the negative exponent to the denominator to make the exponent positive:<br>\\[ \\frac{dy}{dx} = \\frac{-18x}{(3x^2-11)^4} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can mentally re-trace the steps or use an online derivative calculator to confirm the result.<br>Given \\( y = (3x^2-11)^{-3} \\).<br>Applying the chain rule: \\( \\frac{dy}{dx} = -3(3x^2-11)^{-3-1} \\cdot \\frac{d}{dx}(3x^2-11) \\)<br>\\( \\frac{dy}{dx} = -3(3x^2-11)^{-4} \\cdot (6x) \\)<br>\\( \\frac{dy}{dx} = -18x(3x^2-11)^{-4} \\)<br>\\( \\frac{dy}{dx} = \\frac{-18x}{(3x^2-11)^4} \\)<br>The steps are consistent and the result is confirmed.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The derivative of the function is \\( \\frac{-18x}{(3x^2-11)^4} \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{-18x}{(3x^2-11)^4} \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1e)",
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Higher-order derivatives"
+    ],
+    "Question": {
+      "content": "Find the \\( 2^{nd} \\) order derivative of \\( f(x) = (4x-1)(3x^2+2) \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Higher-Order Derivatives and Product Rule</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>derivative</em> represents the instantaneous rate of change of a function.<br>The <em>first order derivative</em>, denoted \\( f'(x) \\) or \\( \\frac{dy}{dx} \\), is obtained by differentiating the function once.<br>The <em>second order derivative</em>, denoted \\( f''(x) \\) or \\( \\frac{d^2y}{dx^2} \\), is obtained by differentiating the first derivative.<br>The <em>Product Rule</em> states that if \\( f(x) = u(x)v(x) \\), then \\( f'(x) = u'(x)v(x) + u(x)v'(x) \\).<br>The <em>Power Rule</em> states that if \\( f(x) = ax^n \\), then \\( f'(x) = nax^{n-1} \\).<br>The <em>Constant Rule</em> states that if \\( f(x) = c \\) (where \\( c \\) is a constant), then \\( f'(x) = 0 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = (4x-1)(3x^2+2) \\)<br>Task: Find the second order derivative, \\( f''(x) \\).</div><p style='margin:8px 0;'><strong>Step 1: Expand the function \\( f(x) \\)</strong><br>To simplify differentiation, we first expand the product of the two binomials.<br>Formula: \\( (a+b)(c+d) = ac + ad + bc + bd \\)<br>\\( f(x) = (4x-1)(3x^2+2) \\)<br>\\( f(x) = (4x)(3x^2) + (4x)(2) + (-1)(3x^2) + (-1)(2) \\)<br>\\( f(x) = 12x^3 + 8x - 3x^2 - 2 \\)<br>Rearrange in standard polynomial form:<br>\\( f(x) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 12x^3 - 3x^2 + 8x - 2 \\)</span></p><p style='margin:8px 0;'><strong>Step 2: Find the first order derivative, \\( f'(x) \\)</strong><br>Differentiate each term of the expanded function \\( f(x) \\) using the Power Rule and Constant Rule.<br>Formula: \\( \\frac{d}{dx}(ax^n) = nax^{n-1} \\) and \\( \\frac{d}{dx}(c) = 0 \\)<br>Differentiate \\( 12x^3 \\):<br>\\( \\frac{d}{dx}(12x^3) = 3 \\cdot 12x^{3-1} = 36x^2 \\)<br>Differentiate \\( -3x^2 \\):<br>\\( \\frac{d}{dx}(-3x^2) = 2 \\cdot (-3)x^{2-1} = -6x \\)<br>Differentiate \\( 8x \\):<br>\\( \\frac{d}{dx}(8x) = 1 \\cdot 8x^{1-1} = 8x^0 = 8 \\)<br>Differentiate \\( -2 \\):<br>\\( \\frac{d}{dx}(-2) = 0 \\)<br>Combine the derivatives of each term:<br>\\( f'(x) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 36x^2 - 6x + 8 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Find the second order derivative, \\( f''(x) \\)</strong><br>Differentiate the first order derivative \\( f'(x) \\) using the Power Rule and Constant Rule.<br>Formula: \\( \\frac{d}{dx}(ax^n) = nax^{n-1} \\) and \\( \\frac{d}{dx}(c) = 0 \\)<br>Differentiate \\( 36x^2 \\):<br>\\( \\frac{d}{dx}(36x^2) = 2 \\cdot 36x^{2-1} = 72x \\)<br>Differentiate \\( -6x \\):<br>\\( \\frac{d}{dx}(-6x) = 1 \\cdot (-6)x^{1-1} = -6x^0 = -6 \\)<br>Differentiate \\( 8 \\):<br>\\( \\frac{d}{dx}(8) = 0 \\)<br>Combine the derivatives of each term:<br>\\( f''(x) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 72x - 6 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Alternatively, we can use the Product Rule for the first derivative and then differentiate the result.<br>Given \\( f(x) = (4x-1)(3x^2+2) \\). Let \\( u = 4x-1 \\) and \\( v = 3x^2+2 \\).<br>Then \\( u' = \\frac{d}{dx}(4x-1) = 4 \\).<br>And \\( v' = \\frac{d}{dx}(3x^2+2) = 6x \\).<br>Using the Product Rule \\( f'(x) = u'v + uv' \\):<br>\\( f'(x) = (4)(3x^2+2) + (4x-1)(6x) \\)<br>\\( f'(x) = 12x^2 + 8 + 24x^2 - 6x \\)<br>\\( f'(x) = 36x^2 - 6x + 8 \\)<br>This matches the first derivative found in Step 2.<br>Now, differentiate \\( f'(x) \\) to find \\( f''(x) \\):<br>\\( f''(x) = \\frac{d}{dx}(36x^2 - 6x + 8) \\)<br>\\( f''(x) = \\frac{d}{dx}(36x^2) - \\frac{d}{dx}(6x) + \\frac{d}{dx}(8) \\)<br>\\( f''(x) = 72x - 6 + 0 \\)<br>\\( f''(x) = 72x - 6 \\)<br>The result is consistent with the calculation in Step 3. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The second order derivative \\( f''(x) = 72x - 6 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 72x - 6 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the second order and cross partial derivative of \\( q = 5x^3y^4 + 3xy^3 - 4xy^2 + 27 \\). State whether De Young’s Theorem is vindicated.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Partial Differentiation",
+      "Higher-order derivatives",
+      "Differentiation",
+      "Economic Applications of Calculus",
+      "De Young’s Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Multivariable Differentiation and Young's Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>partial derivative</em> of a multivariable function is its derivative with respect to one variable, treating other variables as constants.<br><em>Second-order partial derivatives</em> involve differentiating a first-order partial derivative with respect to the same variable again (e.g., \\( q_{xx} \\) or \\( q_{yy} \\)).<br><em>Cross-partial derivatives</em> involve differentiating a first-order partial derivative with respect to a different variable (e.g., \\( q_{xy} \\) or \\( q_{yx} \\)).<br><em>Young's Theorem (Clairaut's Theorem)</em> states that if the second-order mixed partial derivatives of a function \\( q(x, y) \\) are continuous in a region, then the order of differentiation does not matter; that is, \\( q_{xy} = q_{yx} \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( q = 5x^3y^4 + 3xy^3 - 4xy^2 + 27 \\)</div><p style='margin:8px 0;'><strong>Step 1: Find the first-order partial derivative with respect to \\( x \\)</strong><br>To find \\( q_x \\), we differentiate \\( q \\) with respect to \\( x \\), treating \\( y \\) as a constant. We apply the power rule \\( \\frac{d}{dx}(ax^n) = nax^{n-1} \\) and the sum/difference rule.<br>\\[ q_x = \\frac{\\partial}{\\partial x}(5x^3y^4 + 3xy^3 - 4xy^2 + 27) \\]<br>\\[ q_x = 5(3x^{3-1})y^4 + 3(1x^{1-1})y^3 - 4(1x^{1-1})y^2 + 0 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_x = 15x^2y^4 + 3y^3 - 4y^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 2: Find the first-order partial derivative with respect to \\( y \\)</strong><br>To find \\( q_y \\), we differentiate \\( q \\) with respect to \\( y \\), treating \\( x \\) as a constant. We apply the power rule and the sum/difference rule.<br>\\[ q_y = \\frac{\\partial}{\\partial y}(5x^3y^4 + 3xy^3 - 4xy^2 + 27) \\]<br>\\[ q_y = 5x^3(4y^{4-1}) + 3x(3y^{3-1}) - 4x(2y^{2-1}) + 0 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_y = 20x^3y^3 + 9xy^2 - 8xy \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Find the second-order partial derivative \\( q_{xx} \\)</strong><br>To find \\( q_{xx} \\), we differentiate \\( q_x \\) with respect to \\( x \\), treating \\( y \\) as a constant.<br>\\[ q_{xx} = \\frac{\\partial}{\\partial x}(15x^2y^4 + 3y^3 - 4y^2) \\]<br>\\[ q_{xx} = 15(2x^{2-1})y^4 + 0 + 0 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{xx} = 30xy^4 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Find the second-order partial derivative \\( q_{yy} \\)</strong><br>To find \\( q_{yy} \\), we differentiate \\( q_y \\) with respect to \\( y \\), treating \\( x \\) as a constant.<br>\\[ q_{yy} = \\frac{\\partial}{\\partial y}(20x^3y^3 + 9xy^2 - 8xy) \\]<br>\\[ q_{yy} = 20x^3(3y^{3-1}) + 9x(2y^{2-1}) - 8x(1y^{1-1}) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{yy} = 60x^3y^2 + 18xy - 8x \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Find the cross-partial derivative \\( q_{xy} \\)</strong><br>To find \\( q_{xy} \\), we differentiate \\( q_x \\) with respect to \\( y \\), treating \\( x \\) as a constant.<br>\\[ q_{xy} = \\frac{\\partial}{\\partial y}(15x^2y^4 + 3y^3 - 4y^2) \\]<br>\\[ q_{xy} = 15x^2(4y^{4-1}) + 3(3y^{3-1}) - 4(2y^{2-1}) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{xy} = 60x^2y^3 + 9y^2 - 8y \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Find the cross-partial derivative \\( q_{yx} \\)</strong><br>To find \\( q_{yx} \\), we differentiate \\( q_y \\) with respect to \\( x \\), treating \\( y \\) as a constant.<br>\\[ q_{yx} = \\frac{\\partial}{\\partial x}(20x^3y^3 + 9xy^2 - 8xy) \\]<br>\\[ q_{yx} = 20(3x^{3-1})y^3 + 9(1x^{1-1})y^2 - 8(1x^{1-1})y \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( q_{yx} = 60x^2y^3 + 9y^2 - 8y \\)</span></p><p style='margin:8px 0;'><strong>Step 7: Verify Young's Theorem</strong><br>Compare the cross-partial derivatives \\( q_{xy} \\) and \\( q_{yx} \\).<br>We found:<br>\\( q_{xy} = 60x^2y^3 + 9y^2 - 8y \\)<br>\\( q_{yx} = 60x^2y^3 + 9y^2 - 8y \\)<br>Since <span style='color:var(--orange);font-weight:bold;'>\\( q_{xy} = q_{yx} \\)</span>, Young's Theorem is vindicated.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The original function \\( q(x,y) \\) is a polynomial. All its partial derivatives, including the first and second-order derivatives, are also polynomials. Polynomials are continuous functions everywhere. Since the mixed partial derivatives \\( q_{xy} \\) and \\( q_{yx} \\) are continuous, Young's Theorem guarantees that they must be equal. Our calculations confirm this, as we found \\( q_{xy} = q_{yx} = 60x^2y^3 + 9y^2 - 8y \\).</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The second-order partial derivatives are \\( q_{xx} = 30xy^4 \\) and \\( q_{yy} = 60x^3y^2 + 18xy - 8x \\).<br>The cross-partial derivatives are \\( q_{xy} = q_{yx} = 60x^2y^3 + 9y^2 - 8y \\).<br>De Young’s Theorem is vindicated as \\( q_{xy} = q_{yx} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The second-order partial derivatives are \\( q_{xx} = 30xy^4 \\) and \\( q_{yy} = 60x^3y^2 + 18xy - 8x \\).<br>The cross-partial derivatives are \\( q_{xy} = q_{yx} = 60x^2y^3 + 9y^2 - 8y \\).<br>De Young’s Theorem is vindicated."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3i)",
+    "topic": [
+      "Economic Applications of Calculus",
+      "Calculus",
+      "Cost Functions"
+    ],
+    "Question": {
+      "content": "Given the cost function of a perfect competitive firm as \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\) and a market price of #60, find the Total variable cost function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Cost Functions in Economics</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In economics, a firm's <em>Total Cost (TC)</em> is the sum of its <em>Total Fixed Cost (TFC)</em> and <em>Total Variable Cost (TVC)</em>.<br><ul><li><strong>Total Fixed Cost (TFC):</strong> Costs that do not change with the level of output (q). These costs are incurred even if production is zero.</li><li><strong>Total Variable Cost (TVC):</strong> Costs that change with the level of output (q). These costs are zero if production is zero.</li></ul>The relationship is expressed as: \\( TC = TFC + TVC \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Total Cost function: \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>Market price: #60 (This information is not needed to find the Total Variable Cost function.)</div><p style='margin:8px 0;'><strong>Step 1: Understand the components of the Total Cost function</strong><br>The total cost function \\( TC(q) \\) expresses the total cost of producing a quantity \\( q \\).<br>Terms in the function that do not depend on \\( q \\) represent fixed costs.<br>Terms in the function that depend on \\( q \\) represent variable costs.</p><p style='margin:8px 0;'><strong>Step 2: Identify the Total Fixed Cost (TFC)</strong><br>From the given total cost function, the term that does not contain the variable \\( q \\) is the constant term.<br>Given: \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>The constant term is <span style='color:var(--orange);font-weight:bold;'>\\( 100 \\)</span>.<br>Therefore, \\( TFC = 100 \\).</p><p style='margin:8px 0;'><strong>Step 3: Identify the Total Variable Cost (TVC)</strong><br>The total variable cost consists of all terms in the total cost function that vary with the quantity \\( q \\).<br>Given: \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>The terms involving \\( q \\) are \\( 4q \\), \\( -10q^2 \\), and \\( \\frac{1}{3}q^3 \\).<br>Therefore, <span style='color:var(--orange);font-weight:bold;'>\\( TVC = 4q - 10q^2 + \\frac{1}{3}q^3 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: State the Total Variable Cost function</strong><br>Based on the identification in Step 3, the total variable cost function is:<br>\\[ TVC(q) = 4q - 10q^2 + \\frac{1}{3}q^3 \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We know that \\( TC = TFC + TVC \\).<br>Substitute the identified TFC and TVC:<br>\\( TC = 100 + (4q - 10q^2 + \\frac{1}{3}q^3) \\)<br>\\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>This matches the given total cost function, confirming our TVC function is correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Total Variable Cost function is \\( TVC = 4q - 10q^2 + \\frac{1}{3}q^3 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( TVC = 4q - 10q^2 + \\frac{1}{3}q^3 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3ii)",
+    "topic": [
+      "Cost Functions",
+      "Economic Applications of Calculus",
+      "Microeconomics"
+    ],
+    "Question": {
+      "content": "Given the cost function of a perfect competitive firm as \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\) and a market price of #60, find the Total Fixed cost function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Cost Functions: Total Fixed Cost</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In economics, a firm's <em>Total Cost (TC)</em> is the sum of its <em>Total Fixed Costs (TFC)</em> and <em>Total Variable Costs (TVC)</em>.<br>\\[ TC = TFC + TVC \\]<br><strong>Total Fixed Costs (TFC)</strong> are costs that do not change with the level of output (\\( q \\)). These costs are incurred even if no output is produced (\\( q = 0 \\)).<br><strong>Total Variable Costs (TVC)</strong> are costs that vary directly with the level of output (\\( q \\)). These costs are zero when no output is produced.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Total Cost function: \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>Market price: #60 (This information is not required to find the Total Fixed Cost function).</div><p style='margin:8px 0;'><strong>Step 1: Recall the definition of Total Fixed Cost (TFC)</strong><br>Total Fixed Costs (TFC) are the costs that a firm incurs regardless of the quantity of output (\\( q \\)) it produces. This means that if the firm produces zero output (\\( q = 0 \\)), the TFC will still be present.</p><p style='margin:8px 0;'><strong>Step 2: Examine the given Total Cost (TC) function</strong><br>The given total cost function is:<br>\\[ TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\]<br>We need to identify which terms in this equation do not depend on \\( q \\).</p><p style='margin:8px 0;'><strong>Step 3: Identify the constant term in the TC function</strong><br>In the given TC function, the terms \\( 4q \\), \\( -10q^2 \\), and \\( \\frac{1}{3}q^3 \\) all contain the variable \\( q \\). This means they are variable costs because their values change as \\( q \\) changes.<br>The term <span style='color:var(--orange);font-weight:bold;'>\\( 100 \\)</span> is a constant and does not have \\( q \\) associated with it. Therefore, this term represents the Total Fixed Cost.</p><p style='margin:8px 0;'><strong>Step 4: State the Total Fixed Cost function</strong><br>Based on the identification in Step 3, the Total Fixed Cost (TFC) is the constant part of the Total Cost function.<br>\\[ TFC = 100 \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can set the quantity of output \\( q \\) to zero in the Total Cost function. When \\( q = 0 \\), all variable costs should become zero, leaving only the fixed costs.<br>Substitute \\( q = 0 \\) into the TC function:<br>\\[ TC(0) = 100 + 4(0) - 10(0)^2 + \\frac{1}{3}(0)^3 \\]<br>\\[ TC(0) = 100 + 0 - 0 + 0 \\]<br>\\[ TC(0) = 100 \\]<br>Since the Total Cost when producing zero output is 100, this confirms that the Total Fixed Cost is <span style='color:var(--orange);font-weight:bold;'>100</span>. The market price of #60 is extraneous information for this specific question.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Total Fixed Cost function is \\( TFC = 100 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( TFC = 100 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3iii)",
+    "topic": [
+      "Microeconomics",
+      "Cost Functions",
+      "Economic Applications of Calculus",
+      "Differentiation"
+    ],
+    "Question": {
+      "content": "Given the cost function of a perfect competitive firm as \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\) and a market price of #60, find the Marginal revenue function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Marginal Revenue in Perfect Competition</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In economics, <em>Total Revenue (TR)</em> is the total income a firm receives from selling a given quantity of output. It is calculated as Price (P) multiplied by Quantity (q): \\( TR = P \\times q \\).<br><em>Marginal Revenue (MR)</em> is the additional revenue generated from selling one more unit of output. Mathematically, it is the derivative of the Total Revenue function with respect to quantity: \\( MR = \\frac{dTR}{dq} \\).<br>A <em>perfectly competitive firm</em> is a price taker, meaning it must accept the market price for its product. For such a firm, the market price (P) is equal to its Average Revenue (AR) and its Marginal Revenue (MR). Thus, \\( P = AR = MR \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Cost function: \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>Market price: \\( P = \\#60 \\)<br>Firm type: Perfectly competitive firm</div><p style='margin:8px 0;'><strong>Step 1: Understand Total Revenue (TR)</strong><br>Total Revenue (TR) is the product of the market price (P) and the quantity sold (q).<br>Formula: \\( TR = P \\times q \\)</p><p style='margin:8px 0;'><strong>Step 2: Apply the condition for a perfectly competitive firm</strong><br>For a perfectly competitive firm, the market price (P) is constant and does not change with the quantity sold by the individual firm. This means that each additional unit sold brings in revenue equal to the market price.<br>Therefore, for a perfectly competitive firm:<br>\\( P = AR = MR \\)<br>Given market price \\( P = \\#60 \\).<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( MR = \\#60 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: State the Marginal Revenue function</strong><br>Since the firm is perfectly competitive and the market price is constant at #60, the marginal revenue function is simply the market price.<br>\\( MR(q) = P \\)<br>Substitute the given market price:<br>\\( MR(q) = \\#60 \\)</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>In perfect competition, a firm is a price taker. This means it can sell any quantity of its product at the prevailing market price without affecting that price. If the market price is #60, then selling one more unit will always add #60 to the total revenue. Thus, the marginal revenue is constant and equal to the market price. The Total Cost function is irrelevant for determining the Marginal Revenue function itself, though it would be crucial for determining the profit-maximizing output level.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Marginal Revenue function is \\( MR = \\#60 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The Marginal Revenue function is \\( MR = \\#60 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3iv)",
+    "topic": [
+      "Cost Functions",
+      "Microeconomics",
+      "Economic Applications of Calculus"
+    ],
+    "Question": {
+      "content": "Given the cost function of a perfect competitive firm as \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\) and a market price of #60, find the Average total cost function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Average Total Cost (ATC) Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Total Cost (TC)</em> function represents the total expenses incurred by a firm in producing a certain quantity of output.<br>The <em>Average Total Cost (ATC)</em> function represents the total cost per unit of output. It is calculated by dividing the Total Cost (TC) by the quantity of output (q).<br>The formula is: \\( ATC = \\frac{TC}{q} \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Total Cost function: \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>Market price: #60 (This information is not required for finding the ATC function).</div><p style='margin:8px 0;'><strong>Step 1: State the formula for Average Total Cost (ATC)</strong><br>The Average Total Cost is found by dividing the Total Cost by the quantity produced.<br>\\[ ATC = \\frac{TC}{q} \\]</p><p style='margin:8px 0;'><strong>Step 2: Substitute the given Total Cost (TC) function into the ATC formula</strong><br>We are given \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\). Substitute this into the formula from Step 1.<br>\\[ ATC = \\frac{100 + 4q - 10q^2 + \\frac{1}{3}q^3}{q} \\]</p><p style='margin:8px 0;'><strong>Step 3: Divide each term of the Total Cost function by quantity (q)</strong><br>To simplify the expression, divide each individual term in the numerator by \\( q \\).<br>\\[ ATC = \\frac{100}{q} + \\frac{4q}{q} - \\frac{10q^2}{q} + \\frac{\\frac{1}{3}q^3}{q} \\]</p><p style='margin:8px 0;'><strong>Step 4: Simplify each term to obtain the Average Total Cost function</strong><br>Perform the division for each term.<br>\\[ ATC = \\frac{100}{q} + 4 - 10q + \\frac{1}{3}q^2 \\]<br>The simplified Average Total Cost function is: <span style='color:var(--orange);font-weight:bold;'>\\( ATC = \\frac{100}{q} + 4 - 10q + \\frac{1}{3}q^2 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the ATC function, multiply it by \\( q \\) to see if it yields the original TC function.<br>\\[ TC = ATC \\times q \\]<br>Substitute the derived ATC function:<br>\\[ TC = \\left( \\frac{100}{q} + 4 - 10q + \\frac{1}{3}q^2 \\right) \\times q \\]<br>Distribute \\( q \\) to each term:<br>\\[ TC = \\left( \\frac{100}{q} \\times q \\right) + (4 \\times q) - (10q \\times q) + \\left( \\frac{1}{3}q^2 \\times q \\right) \\]<br>Simplify:<br>\\[ TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\]<br>This matches the original Total Cost function provided in the question. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Average Total Cost function is \\( ATC = \\frac{100}{q} + 4 - 10q + \\frac{1}{3}q^2 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( ATC = \\frac{100}{q} + 4 - 10q + \\frac{1}{3}q^2 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3v)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the cost function of a perfect competitive firm as \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\) and a market price of #60, find the Marginal cost function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Cost Functions",
+      "Differentiation",
+      "Calculus",
+      "Economic Applications of Calculus",
+      "Microeconomics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Marginal Cost Function Derivation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In economics, the <em>Total Cost (TC) function</em> represents the total expenses incurred by a firm in producing a certain quantity of output, \\( q \\).<br>The <em>Marginal Cost (MC) function</em> measures the change in total cost when one additional unit of output is produced. Mathematically, MC is the first derivative of the Total Cost function with respect to quantity, \\( q \\).<br>\\[ MC = \\frac{dTC}{dq} \\]<br>To differentiate polynomial terms like \\( ax^n \\), we use the <em>power rule</em>: \\( \\frac{d}{dx}(ax^n) = n \\cdot ax^{n-1} \\). The derivative of a constant is zero.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Total Cost function: \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)</div><p style='margin:8px 0;'><strong>Step 1: State the formula for Marginal Cost</strong><br>Marginal Cost (MC) is the derivative of the Total Cost (TC) function with respect to quantity (q).<br>\\[ MC = \\frac{dTC}{dq} \\]</p><p style='margin:8px 0;'><strong>Step 2: Write down the given Total Cost function</strong><br>The total cost function is:<br>\\[ TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\]</p><p style='margin:8px 0;'><strong>Step 3: Differentiate each term of the Total Cost function</strong><br>We will apply the power rule of differentiation to each term separately.</p><p style='margin:8px 0;'><strong>Step 3a: Differentiate the constant term</strong><br>The derivative of a constant is zero.<br>\\[ \\frac{d}{dq}(100) = 0 \\]</p><p style='margin:8px 0;'><strong>Step 3b: Differentiate the linear term</strong><br>Applying the power rule \\( \\frac{d}{dq}(aq^1) = 1 \\cdot a q^{1-1} = a \\).<br>\\[ \\frac{d}{dq}(4q) = 4 \\]</p><p style='margin:8px 0;'><strong>Step 3c: Differentiate the quadratic term</strong><br>Applying the power rule \\( \\frac{d}{dq}(aq^n) = n \\cdot aq^{n-1} \\). Here \\( a = -10 \\) and \\( n = 2 \\).<br>\\[ \\frac{d}{dq}(-10q^2) = 2 \\cdot (-10)q^{2-1} \\]<br>\\[ = -20q^1 \\]<br>\\[ = \\text{<span style='color:var(--orange);font-weight:bold;'>-20q</span>} \\]</p><p style='margin:8px 0;'><strong>Step 3d: Differentiate the cubic term</strong><br>Applying the power rule \\( \\frac{d}{dq}(aq^n) = n \\cdot aq^{n-1} \\). Here \\( a = \\frac{1}{3} \\) and \\( n = 3 \\).<br>\\[ \\frac{d}{dq}\\left(\\frac{1}{3}q^3\\right) = 3 \\cdot \\frac{1}{3}q^{3-1} \\]<br>\\[ = 1 \\cdot q^2 \\]<br>\\[ = \\text{<span style='color:var(--orange);font-weight:bold;'>q^2</span>} \\]</p><p style='margin:8px 0;'><strong>Step 4: Combine the derivatives to form the Marginal Cost function</strong><br>Summing the derivatives of each term:<br>\\[ MC = 0 + 4 - 20q + q^2 \\]<br>Rearranging the terms in standard polynomial form:<br>\\[ MC = \\text{<span style='color:var(--orange);font-weight:bold;'>q^2 - 20q + 4</span>} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can re-check each differentiation step:<br>1. \\( \\frac{d}{dq}(100) = 0 \\) (Correct)<br>2. \\( \\frac{d}{dq}(4q) = 4 \\) (Correct)<br>3. \\( \\frac{d}{dq}(-10q^2) = -10 \\cdot 2q^{2-1} = -20q \\) (Correct)<br>4. \\( \\frac{d}{dq}(\\frac{1}{3}q^3) = \\frac{1}{3} \\cdot 3q^{3-1} = q^2 \\) (Correct)<br>Combining these gives \\( MC = 0 + 4 - 20q + q^2 = q^2 - 20q + 4 \\). The derivation is consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Marginal Cost function is \\( MC = q^2 - 20q + 4 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( MC = q^2 - 20q + 4 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3vi)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the cost function of a perfect competitive firm as \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\) and a market price of #60, find the Total revenue function.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Microeconomics",
+      "Economic Applications of Calculus",
+      "Cost Functions",
+      "Revenue Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Total Revenue Function in Perfect Competition</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In <em>perfect competition</em>, individual firms are price takers, meaning they must accept the market price for their product. The <em>Total Revenue (TR)</em> of a firm is the total income received from the sale of a given quantity of goods or services. It is calculated by multiplying the market price (P) by the quantity sold (q).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Market Price (\\( P \\)): #60<br>Quantity (\\( q \\)): Variable<br>Cost Function (\\( TC \\)): \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\) (This function is not directly needed to find the Total Revenue function for this specific question.)<br><strong>Goal:</strong> Find the Total Revenue function (\\( TR \\)).</div><p style='margin:8px 0;'><strong>Step 1: Define Total Revenue (TR)</strong><br>Total Revenue is the total amount of money a firm earns from selling its output.<br>In general, it is the product of price and quantity sold.</p><p style='margin:8px 0;'><strong>Step 2: State the formula for Total Revenue in perfect competition</strong><br>For a perfectly competitive firm, the price (\\( P \\)) is constant and determined by the market. Therefore, the formula for Total Revenue is:<br>\\[ TR = P \\times q \\]</p><p style='margin:8px 0;'><strong>Step 3: Identify the given market price</strong><br>The question states that the market price is #60.<br>\\[ P = 60 \\]</p><p style='margin:8px 0;'><strong>Step 4: Substitute the market price into the Total Revenue formula</strong><br>Substitute the value of \\( P \\) from Step 3 into the formula from Step 2.<br>\\[ TR = 60 \\times q \\]<br>Simplify the expression:<br><span style='color:var(--orange);font-weight:bold;'>\\( TR = 60q \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The definition of Total Revenue is Price multiplied by Quantity. For a perfectly competitive firm, the price is given and constant. Given a price of #60, the total revenue generated by selling \\( q \\) units will always be \\( 60q \\). The cost function is irrelevant for determining the total revenue function itself, only for profit calculations. The derived function directly follows the economic definition.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Total Revenue function is \\( TR = 60q \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "TR = 60q"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3vii)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the cost function of a perfect competitive firm as \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\) and a market price of #60, determine the profit maximizing level of output, price and maximum profit or loss.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Microeconomics",
+      "Economic Applications of Calculus",
+      "Cost Functions",
+      "Unconstrained Optimization",
+      "Differentiation",
+      "Profit Maximization"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Profit Maximization in Perfect Competition</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In a <em>perfectly competitive market</em>, individual firms are price takers, meaning they must accept the market price for their output. To maximize profit, a firm produces at the output level where <em>Marginal Revenue (MR) equals Marginal Cost (MC)</em>. For a perfectly competitive firm, MR is equal to the market price (P).<br><em>Profit (\\( \\pi \\))</em> is calculated as Total Revenue (TR) minus Total Cost (TC).<br>The <em>First Order Condition (FOC)</em> for profit maximization requires that the first derivative of the profit function with respect to quantity (q) be equal to zero: \\( \\frac{d\\pi}{dq} = 0 \\).<br>The <em>Second Order Condition (SOC)</em> for profit maximization requires that the second derivative of the profit function with respect to quantity (q) be negative: \\( \\frac{d^2\\pi}{dq^2} < 0 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Cost Function (TC): \\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>Market Price (P): #60<br>Objective: Determine profit-maximizing output (q), price, and maximum profit or loss.</div><p style='margin:8px 0;'><strong>Step 1: Identify Total Revenue (TR)</strong><br>For a perfectly competitive firm, Total Revenue is the market price multiplied by the quantity produced.<br>Formula: \\( TR = P \\times q \\)<br>Substitute values:<br>\\( TR = 60 \\times q \\)<br>\\( TR = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 60q \\)</span></p><p style='margin:8px 0;'><strong>Step 2: Formulate the Profit Function (\\( \\pi \\))</strong><br>Profit is the difference between Total Revenue and Total Cost.<br>Formula: \\( \\pi = TR - TC \\)<br>Substitute expressions:<br>\\( \\pi = 60q - \\left(100 + 4q - 10q^2 + \\frac{1}{3}q^3\\right) \\)<br>Simplify:<br>\\( \\pi = 60q - 100 - 4q + 10q^2 - \\frac{1}{3}q^3 \\)<br>\\( \\pi = \\)<span style='color:var(--orange);font-weight:bold;'>\\( -100 + 56q + 10q^2 - \\frac{1}{3}q^3 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Find the First Derivative of the Profit Function (FOC)</strong><br>To find the profit-maximizing output, we set the first derivative of the profit function with respect to quantity (q) equal to zero.<br>Formula: \\( \\frac{d\\pi}{dq} = 0 \\)<br>Differentiate \\( \\pi = -100 + 56q + 10q^2 - \\frac{1}{3}q^3 \\):<br>\\( \\frac{d\\pi}{dq} = \\frac{d}{dq}(-100) + \\frac{d}{dq}(56q) + \\frac{d}{dq}(10q^2) - \\frac{d}{dq}\\left(\\frac{1}{3}q^3\\right) \\)<br>\\( \\frac{d\\pi}{dq} = 0 + 56 + 10(2q) - \\frac{1}{3}(3q^2) \\)<br>\\( \\frac{d\\pi}{dq} = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 56 + 20q - q^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Solve for the Profit-Maximizing Output (q)</strong><br>Set the first derivative equal to zero and solve the quadratic equation for q.<br>Equation: \\( 56 + 20q - q^2 = 0 \\)<br>Rearrange into standard quadratic form \\( aq^2 + bq + c = 0 \\):<br>\\( q^2 - 20q - 56 = 0 \\)<br>Use the quadratic formula \\( q = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\) where \\( a=1, b=-20, c=-56 \\).<br>Substitute values:<br>\\( q = \\frac{-(-20) \\pm \\sqrt{(-20)^2 - 4(1)(-56)}}{2(1)} \\)<br>\\( q = \\frac{20 \\pm \\sqrt{400 + 224}}{2} \\)<br>\\( q = \\frac{20 \\pm \\sqrt{624}}{2} \\)<br>Simplify the square root: \\( \\sqrt{624} = \\sqrt{4 \\times 156} = 2\\sqrt{156} \\)<br>\\( q = \\frac{20 \\pm 2\\sqrt{156}}{2} \\)<br>\\( q = 10 \\pm \\sqrt{156} \\)<br>Calculate numerical values:<br>\\( \\sqrt{156} \\approx 12.489996 \\)<br>\\( q_1 = 10 + 12.489996 = 22.489996 \\)<br>\\( q_2 = 10 - 12.489996 = -2.489996 \\)<br>Since output cannot be negative, we choose the positive value.<br>Profit-maximizing output: \\( q \\approx \\)<span style='color:var(--orange);font-weight:bold;'>\\( 22.49 \\) units</span> (rounded to two decimal places).</p><p style='margin:8px 0;'><strong>Step 5: Verify the Second Order Condition (SOC)</strong><br>To ensure this output level maximizes profit, we check the second derivative of the profit function.<br>Formula: \\( \\frac{d^2\\pi}{dq^2} < 0 \\)<br>Differentiate \\( \\frac{d\\pi}{dq} = 56 + 20q - q^2 \\):<br>\\( \\frac{d^2\\pi}{dq^2} = \\frac{d}{dq}(56) + \\frac{d}{dq}(20q) - \\frac{d}{dq}(q^2) \\)<br>\\( \\frac{d^2\\pi}{dq^2} = 0 + 20 - 2q \\)<br>\\( \\frac{d^2\\pi}{dq^2} = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 20 - 2q \\)</span><br>Substitute \\( q \\approx 22.489996 \\) into the second derivative:<br>\\( \\frac{d^2\\pi}{dq^2} = 20 - 2(22.489996) \\)<br>\\( \\frac{d^2\\pi}{dq^2} = 20 - 44.979992 \\)<br>\\( \\frac{d^2\\pi}{dq^2} = \\)<span style='color:var(--orange);font-weight:bold;'>\\( -24.979992 \\)</span><br>Since \\( -24.979992 < 0 \\), the second order condition is satisfied, confirming that \\( q \\approx 22.49 \\) is a profit-maximizing output.</p><p style='margin:8px 0;'><strong>Step 6: Determine the Profit-Maximizing Price</strong><br>In a perfectly competitive market, the firm is a price taker, so the price is given by the market.<br>Market Price (P): \\( \\text{#60} \\)<br>Profit-maximizing price: \\( P = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\text{#60} \\)</span></p><p style='margin:8px 0;'><strong>Step 7: Calculate the Maximum Profit or Loss</strong><br>Substitute the profit-maximizing output \\( q \\approx 22.489996 \\) into the profit function.<br>Profit function: \\( \\pi = -100 + 56q + 10q^2 - \\frac{1}{3}q^3 \\)<br>Substitute \\( q \\approx 22.489996 \\):<br>\\( \\pi = -100 + 56(22.489996) + 10(22.489996)^2 - \\frac{1}{3}(22.489996)^3 \\)<br>Calculate terms:<br>\\( 56(22.489996) \\approx 1259.439776 \\)<br>\\( 10(22.489996)^2 \\approx 10(505.800076) \\approx 5058.00076 \\)<br>\\( \\frac{1}{3}(22.489996)^3 \\approx \\frac{1}{3}(11375.2533) \\approx 3791.7511 \\)<br>Sum terms:<br>\\( \\pi = -100 + 1259.439776 + 5058.00076 - 3791.7511 \\)<br>\\( \\pi = 6317.440536 - 3791.7511 \\)<br>Maximum Profit: \\( \\pi \\approx \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\text{#2425.69} \\)</span> (rounded to two decimal places).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We can verify the profit by calculating TR and TC separately at \\( q \\approx 22.489996 \\) and then finding their difference.<br>Total Revenue (TR):<br>\\( TR = P \\times q \\)<br>\\( TR = 60 \\times 22.489996 \\)<br>\\( TR \\approx \\)<span style='color:var(--orange);font-weight:bold;'>\\( 1349.39976 \\)</span><br>Total Cost (TC):<br>\\( TC = 100 + 4q - 10q^2 + \\frac{1}{3}q^3 \\)<br>\\( TC = 100 + 4(22.489996) - 10(22.489996)^2 + \\frac{1}{3}(22.489996)^3 \\)<br>\\( TC \\approx 100 + 89.959984 - 5058.00076 + 3791.7511 \\)<br>\\( TC \\approx \\)<span style='color:var(--orange);font-weight:bold;'>\\( -1076.289676 \\)</span><br>Calculate Profit:<br>\\( \\pi = TR - TC \\)<br>\\( \\pi = 1349.39976 - (-1076.289676) \\)<br>\\( \\pi = 1349.39976 + 1076.289676 \\)<br>\\( \\pi \\approx \\)<span style='color:var(--orange);font-weight:bold;'>\\( 2425.689436 \\)</span><br>This matches the profit calculated directly from the profit function. The negative total cost at this output level is a characteristic of the given cost function.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Profit-maximizing output (q) \\( \\approx 22.49 \\) units, Price (P) = #60, Maximum Profit \\( \\approx \\) #2425.69</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Output (q): \\( \\approx 22.49 \\) units<br>Price (P): #60<br>Maximum Profit: \\( \\approx \\) #2425.69"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4i)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the relative extremum of the function: \\( Y = x^3 + 27x^2 + 96x - 47 \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Unconstrained Optimization",
+      "Higher-order derivatives",
+      "Concavity and Convexity",
+      "Relative Extrema"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Finding Relative Extrema of a Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>relative extremum</em> (maximum or minimum) of a function occurs at a <em>critical point</em> where the first derivative is zero or undefined.<br>The <em>Second Derivative Test</em> helps classify these critical points:<br>1. Find the first derivative, \\( Y' \\), and set it to zero to find critical points \\( x \\).<br>2. Find the second derivative, \\( Y'' \\).<br>3. For each critical point \\( x_c \\):<br>&nbsp;&nbsp;&nbsp;&nbsp;If \\( Y''(x_c) > 0 \\), there is a relative minimum at \\( x_c \\).<br>&nbsp;&nbsp;&nbsp;&nbsp;If \\( Y''(x_c) < 0 \\), there is a relative maximum at \\( x_c \\).<br>&nbsp;&nbsp;&nbsp;&nbsp;If \\( Y''(x_c) = 0 \\), the test is inconclusive (use the First Derivative Test or higher-order derivatives).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( Y = x^3 + 27x^2 + 96x - 47 \\)</div><p style='margin:8px 0;'><strong>Step 1: Find the first derivative of the function</strong><br>We apply the power rule for differentiation: \\( \\frac{d}{dx}(ax^n) = anx^{n-1} \\).<br>\\[ Y' = \\frac{d}{dx}(x^3) + \\frac{d}{dx}(27x^2) + \\frac{d}{dx}(96x) - \\frac{d}{dx}(47) \\]<br>\\[ Y' = 3x^{3-1} + 27(2x^{2-1}) + 96(1x^{1-1}) - 0 \\]<br>\\[ Y' = 3x^2 + 54x + 96 \\]</p><p style='margin:8px 0;'><strong>Step 2: Find the critical points</strong><br>Set the first derivative equal to zero to find the critical points.<br>\\[ 3x^2 + 54x + 96 = 0 \\]<br>Divide the entire equation by 3 to simplify:<br>\\[ \\frac{3x^2}{3} + \\frac{54x}{3} + \\frac{96}{3} = \\frac{0}{3} \\]<br>\\[ x^2 + 18x + 32 = 0 \\]<br>Factor the quadratic equation:<br>\\[ (x+2)(x+16) = 0 \\]<br>Solve for \\( x \\):<br>\\[ x+2 = 0 \\Rightarrow x = -2 \\]<br>\\[ x+16 = 0 \\Rightarrow x = -16 \\]<br>The critical points are <span style='color:var(--orange);font-weight:bold;'>\\( x = -2 \\) and \\( x = -16 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Find the second derivative of the function</strong><br>Differentiate the first derivative \\( Y' = 3x^2 + 54x + 96 \\).<br>\\[ Y'' = \\frac{d}{dx}(3x^2) + \\frac{d}{dx}(54x) + \\frac{d}{dx}(96) \\]<br>\\[ Y'' = 3(2x^{2-1}) + 54(1x^{1-1}) + 0 \\]<br>\\[ Y'' = 6x + 54 \\]</p><p style='margin:8px 0;'><strong>Step 4: Apply the Second Derivative Test for the first critical point \\( x = -2 \\)</strong><br>Substitute \\( x = -2 \\) into the second derivative \\( Y'' = 6x + 54 \\).<br>\\[ Y''(-2) = 6(-2) + 54 \\]<br>\\[ Y''(-2) = -12 + 54 \\]<br>\\[ Y''(-2) = 42 \\]<br>Since <span style='color:var(--orange);font-weight:bold;'>\\( Y''(-2) = 42 > 0 \\)</span>, there is a relative minimum at \\( x = -2 \\).</p><p style='margin:8px 0;'><strong>Step 5: Calculate the y-coordinate for the relative minimum</strong><br>Substitute \\( x = -2 \\) into the original function \\( Y = x^3 + 27x^2 + 96x - 47 \\).<br>\\[ Y(-2) = (-2)^3 + 27(-2)^2 + 96(-2) - 47 \\]<br>\\[ Y(-2) = -8 + 27(4) - 192 - 47 \\]<br>\\[ Y(-2) = -8 + 108 - 192 - 47 \\]<br>\\[ Y(-2) = 100 - 192 - 47 \\]<br>\\[ Y(-2) = -92 - 47 \\]<br>\\[ Y(-2) = -139 \\]<br>The relative minimum is at the point <span style='color:var(--orange);font-weight:bold;'>\\( (-2, -139) \\)</span>.</p><p style='margin:8px 0;'><strong>Step 6: Apply the Second Derivative Test for the second critical point \\( x = -16 \\)</strong><br>Substitute \\( x = -16 \\) into the second derivative \\( Y'' = 6x + 54 \\).<br>\\[ Y''(-16) = 6(-16) + 54 \\]<br>\\[ Y''(-16) = -96 + 54 \\]<br>\\[ Y''(-16) = -42 \\]<br>Since <span style='color:var(--orange);font-weight:bold;'>\\( Y''(-16) = -42 < 0 \\)</span>, there is a relative maximum at \\( x = -16 \\).</p><p style='margin:8px 0;'><strong>Step 7: Calculate the y-coordinate for the relative maximum</strong><br>Substitute \\( x = -16 \\) into the original function \\( Y = x^3 + 27x^2 + 96x - 47 \\).<br>\\[ Y(-16) = (-16)^3 + 27(-16)^2 + 96(-16) - 47 \\]<br>\\[ Y(-16) = -4096 + 27(256) - 1536 - 47 \\]<br>\\[ Y(-16) = -4096 + 6912 - 1536 - 47 \\]<br>\\[ Y(-16) = 2816 - 1536 - 47 \\]<br>\\[ Y(-16) = 1280 - 47 \\]<br>\\[ Y(-16) = 1233 \\]<br>The relative maximum is at the point <span style='color:var(--orange);font-weight:bold;'>\\( (-16, 1233) \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We found critical points at \\( x = -2 \\) and \\( x = -16 \\).<br>For \\( x = -2 \\), \\( Y''(-2) = 42 > 0 \\), confirming a relative minimum.<br>For \\( x = -16 \\), \\( Y''(-16) = -42 < 0 \\), confirming a relative maximum.<br>The corresponding y-values were calculated by substituting these x-values back into the original function, yielding \\( Y(-2) = -139 \\) and \\( Y(-16) = 1233 \\). All steps and calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Relative maximum at \\( (-16, 1233) \\) and relative minimum at \\( (-2, -139) \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Relative maximum at \\( (-16, 1233) \\)<br>Relative minimum at \\( (-2, -139) \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4ii)",
+    "topic": [
+      "Calculus",
+      "Integration in Economics",
+      "Economic Applications of Calculus"
+    ],
+    "Question": {
+      "content": "Find the integral of the function: \\( \\int_{4}^{9} 12\\sqrt{x} dx \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Definite Integral Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>definite integral</em> calculates the net signed area between a function's graph and the x-axis over a specified interval. It is evaluated using the Fundamental Theorem of Calculus.<br><br>The <em>Fundamental Theorem of Calculus (Part 2)</em> states that if \\( F(x) \\) is an antiderivative of \\( f(x) \\), then:<br>\\[ \\int_{a}^{b} f(x) dx = F(b) - F(a) \\]<br>The <em>Power Rule for Integration</em> is used to find antiderivatives of power functions:<br>\\[ \\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\quad \\text{for } n \\neq -1 \\]<br>For definite integrals, the constant \\( C \\) is omitted as it cancels out during evaluation.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The definite integral: \\( \\int_{4}^{9} 12\\sqrt{x} dx \\)<br>Lower limit of integration: \\( a = 4 \\)<br>Upper limit of integration: \\( b = 9 \\)<br>Integrand: \\( f(x) = 12\\sqrt{x} \\)</div><p style='margin:8px 0;'><strong>Step 1: Rewrite the integrand in power form</strong><br>The square root can be expressed as a fractional exponent.<br>Formula: \\( \\sqrt{x} = x^{1/2} \\)<br>Substitute into the integrand:<br>\\[ f(x) = 12x^{1/2} \\]</p><p style='margin:8px 0;'><strong>Step 2: Find the antiderivative of the integrand using the Power Rule</strong><br>Formula: \\( \\int cx^n dx = c \\frac{x^{n+1}}{n+1} \\)<br>Substitute \\( c=12 \\) and \\( n=1/2 \\):<br>\\[ F(x) = \\int 12x^{1/2} dx = 12 \\frac{x^{1/2+1}}{1/2+1} \\]<br>Simplify the exponent and denominator:<br>\\[ F(x) = 12 \\frac{x^{3/2}}{3/2} \\]<br>Multiply by the reciprocal of the denominator:<br>\\[ F(x) = 12 \\cdot \\frac{2}{3} x^{3/2} \\]<br>Simplify the coefficient:<br>\\[ F(x) = \\frac{24}{3} x^{3/2} = 8x^{3/2} \\]<br>The antiderivative is: <span style='color:var(--orange);font-weight:bold;'>\\( F(x) = 8x^{3/2} \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Apply the Fundamental Theorem of Calculus</strong><br>Formula: \\( \\int_{a}^{b} f(x) dx = F(b) - F(a) \\)<br>Substitute the limits \\( a=4 \\) and \\( b=9 \\) into \\( F(x) = 8x^{3/2} \\):<br>\\[ \\int_{4}^{9} 12\\sqrt{x} dx = F(9) - F(4) = 8(9^{3/2}) - 8(4^{3/2}) \\]</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the terms with fractional exponents</strong><br>Recall that \\( x^{3/2} = (\\sqrt{x})^3 \\).<br>For the upper limit term \\( 8(9^{3/2}) \\):<br>\\[ 9^{3/2} = (\\sqrt{9})^3 = 3^3 = 27 \\]<br>So, \\( 8(9^{3/2}) = 8(27) = 216 \\)<br>For the lower limit term \\( 8(4^{3/2}) \\):<br>\\[ 4^{3/2} = (\\sqrt{4})^3 = 2^3 = 8 \\]<br>So, \\( 8(4^{3/2}) = 8(8) = 64 \\]</p><p style='margin:8px 0;'><strong>Step 5: Calculate the final value of the definite integral</strong><br>Substitute the evaluated terms back into the expression from Step 3:<br>\\[ \\int_{4}^{9} 12\\sqrt{x} dx = 216 - 64 \\]<br>Perform the subtraction:<br>\\[ 216 - 64 = 152 \\]<br>The value of the definite integral is: <span style='color:var(--orange);font-weight:bold;'>152</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can re-evaluate the antiderivative at the limits.<br>Antiderivative: \\( F(x) = 8x^{3/2} \\)<br>Evaluate at \\( x=9 \\): \\( F(9) = 8(9^{3/2}) = 8(\\sqrt{9})^3 = 8(3^3) = 8(27) = 216 \\)<br>Evaluate at \\( x=4 \\): \\( F(4) = 8(4^{3/2}) = 8(\\sqrt{4})^3 = 8(2^3) = 8(8) = 64 \\)<br>Subtract the lower limit value from the upper limit value:<br>\\( F(9) - F(4) = 216 - 64 = 152 \\)<br>The result matches the calculated answer, confirming its correctness. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The integral of the function \\( \\int_{4}^{9} 12\\sqrt{x} dx \\) is 152.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "152"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4iii)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the integral of the function: \\( \\int (25x^{1/4} + 16x^{1/3}) dx \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Calculus",
+      "Integration in Economics",
+      "Integration"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Integration of Power Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Integration</em> is the process of finding the antiderivative of a function. It is the reverse operation of differentiation.<br>The <em>Power Rule for Integration</em> states that for any real number \\( n \\neq -1 \\):<br>\\[ \\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\]<br>The <em>Sum Rule for Integration</em> states:<br>\\[ \\int [f(x) + g(x)] dx = \\int f(x) dx + \\int g(x) dx \\]<br>The <em>Constant Multiple Rule for Integration</em> states:<br>\\[ \\int c \\cdot f(x) dx = c \\cdot \\int f(x) dx \\]<br>where \\( C \\) is the constant of integration, representing any constant that would differentiate to zero.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function to integrate: \\( 25x^{1/4} + 16x^{1/3} \\)<br>Integral expression: \\( \\int (25x^{1/4} + 16x^{1/3}) dx \\)</div><p style='margin:8px 0;'><strong>Step 1: Apply the Sum Rule for Integration</strong><br>We can integrate each term separately due to the sum rule.<br>\\[ \\int (25x^{1/4} + 16x^{1/3}) dx = \\int 25x^{1/4} dx + \\int 16x^{1/3} dx \\]</p><p style='margin:8px 0;'><strong>Step 2: Apply the Constant Multiple Rule to each term</strong><br>Pull the constant coefficients out of their respective integrals.<br>\\[ = 25 \\int x^{1/4} dx + 16 \\int x^{1/3} dx \\]</p><p style='margin:8px 0;'><strong>Step 3: Integrate the first term using the Power Rule</strong><br>For the term \\( 25 \\int x^{1/4} dx \\), we identify \\( n = 1/4 \\).<br>The Power Rule is: \\( \\int x^n dx = \\frac{x^{n+1}}{n+1} \\)<br>Substitute \\( n = 1/4 \\):<br>\\[ \\int x^{1/4} dx = \\frac{x^{1/4 + 1}}{1/4 + 1} \\]<br>Simplify the exponent and denominator:<br>\\[ = \\frac{x^{1/4 + 4/4}}{1/4 + 4/4} = \\frac{x^{5/4}}{5/4} \\]<br>Rewrite the division as multiplication by the reciprocal:<br>\\[ = \\frac{4}{5} x^{5/4} \\]<br>Now, multiply by the constant coefficient 25:<br>\\[ 25 \\cdot \\frac{4}{5} x^{5/4} \\]<br>Simplify:<br>\\[ = \\frac{100}{5} x^{5/4} = \\text{<span style='color:var(--orange);font-weight:bold;'>20x^{5/4}</span>} \\]</p><p style='margin:8px 0;'><strong>Step 4: Integrate the second term using the Power Rule</strong><br>For the term \\( 16 \\int x^{1/3} dx \\), we identify \\( n = 1/3 \\).<br>The Power Rule is: \\( \\int x^n dx = \\frac{x^{n+1}}{n+1} \\)<br>Substitute \\( n = 1/3 \\):<br>\\[ \\int x^{1/3} dx = \\frac{x^{1/3 + 1}}{1/3 + 1} \\]<br>Simplify the exponent and denominator:<br>\\[ = \\frac{x^{1/3 + 3/3}}{1/3 + 3/3} = \\frac{x^{4/3}}{4/3} \\]<br>Rewrite the division as multiplication by the reciprocal:<br>\\[ = \\frac{3}{4} x^{4/3} \\]<br>Now, multiply by the constant coefficient 16:<br>\\[ 16 \\cdot \\frac{3}{4} x^{4/3} \\]<br>Simplify:<br>\\[ = \\frac{48}{4} x^{4/3} = \\text{<span style='color:var(--orange);font-weight:bold;'>12x^{4/3}</span>} \\]</p><p style='margin:8px 0;'><strong>Step 5: Combine the integrated terms and add the constant of integration</strong><br>Add the results from Step 3 and Step 4, and include the general constant of integration \\( C \\).<br>\\[ \\int (25x^{1/4} + 16x^{1/3}) dx = 20x^{5/4} + 12x^{4/3} + C \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the answer, we differentiate the result \\( F(x) = 20x^{5/4} + 12x^{4/3} + C \\) and check if it matches the original integrand.<br>Recall the Power Rule for Differentiation: \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\).<br>Differentiate the first term:<br>\\[ \\frac{d}{dx}(20x^{5/4}) = 20 \\cdot \\frac{5}{4} x^{(5/4)-1} = 25x^{1/4} \\]<br>Differentiate the second term:<br>\\[ \\frac{d}{dx}(12x^{4/3}) = 12 \\cdot \\frac{4}{3} x^{(4/3)-1} = 16x^{1/3} \\]<br>Differentiate the constant term:<br>\\[ \\frac{d}{dx}(C) = 0 \\]<br>Summing these derivatives:<br>\\[ \\frac{d}{dx}(20x^{5/4} + 12x^{4/3} + C) = 25x^{1/4} + 16x^{1/3} \\]<br>This matches the original function, so the integration is correct. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The integral is \\( 20x^{5/4} + 12x^{4/3} + C \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 20x^{5/4} + 12x^{4/3} + C \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4iv)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the integral of the function: \\( \\int_{2}^{4} (15x^2 - 6x) dx \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Integration",
+      "Calculus",
+      "Integration in Economics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Definite Integration</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>definite integral</em> calculates the net signed area between a function's graph and the x-axis over a specified interval. It is evaluated using the <em>Fundamental Theorem of Calculus</em>, which states that if \\( F(x) \\) is an antiderivative of \\( f(x) \\), then<br>\\[ \\int_{a}^{b} f(x) dx = F(b) - F(a) \\]<br>where \\( a \\) is the lower limit and \\( b \\) is the upper limit of integration.<br>The <em>power rule for integration</em> is: \\( \\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\) for \\( n \\neq -1 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The integral expression: \\( \\int_{2}^{4} (15x^2 - 6x) dx \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the integrand and limits of integration</strong><br>The function to be integrated (integrand) is \\( f(x) = 15x^2 - 6x \\).<br>The lower limit of integration is \\( a = 2 \\).<br>The upper limit of integration is \\( b = 4 \\).</p><p style='margin:8px 0;'><strong>Step 2: Find the indefinite integral (antiderivative) of the integrand</strong><br>We apply the power rule for integration to each term of the integrand.<br>Formula: \\( \\int x^n dx = \\frac{x^{n+1}}{n+1} \\)<br>For the first term, \\( 15x^2 \\):<br>\\[ \\int 15x^2 dx = 15 \\frac{x^{2+1}}{2+1} \\]<br>\\[ = 15 \\frac{x^3}{3} \\]<br>\\[ = 5x^3 \\]<br>For the second term, \\( -6x \\):<br>\\[ \\int -6x dx = -6 \\frac{x^{1+1}}{1+1} \\]<br>\\[ = -6 \\frac{x^2}{2} \\]<br>\\[ = -3x^2 \\]<br>Combining these, the antiderivative \\( F(x) \\) is:<br>\\[ F(x) = 5x^3 - 3x^2 \\]</p><p style='margin:8px 0;'><strong>Step 3: Apply the Fundamental Theorem of Calculus</strong><br>The definite integral is evaluated as the difference between the antiderivative evaluated at the upper limit and the antiderivative evaluated at the lower limit.<br>Formula: \\( \\int_{a}^{b} f(x) dx = F(b) - F(a) \\)</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the antiderivative at the upper limit (\\( x=4 \\))</strong><br>Substitute \\( x=4 \\) into \\( F(x) = 5x^3 - 3x^2 \\).<br>\\[ F(4) = 5(4)^3 - 3(4)^2 \\]<br>Calculate the powers:<br>\\[ 4^3 = 64 \\]<br>\\[ 4^2 = 16 \\]<br>Substitute these values:<br>\\[ F(4) = 5(64) - 3(16) \\]<br>Perform the multiplications:<br>\\[ F(4) = 320 - 48 \\]<br>Perform the subtraction:<br>\\[ F(4) = \\text{<span style='color:var(--orange);font-weight:bold;'>272</span>} \\]</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the antiderivative at the lower limit (\\( x=2 \\))</strong><br>Substitute \\( x=2 \\) into \\( F(x) = 5x^3 - 3x^2 \\).<br>\\[ F(2) = 5(2)^3 - 3(2)^2 \\]<br>Calculate the powers:<br>\\[ 2^3 = 8 \\]<br>\\[ 2^2 = 4 \\]<br>Substitute these values:<br>\\[ F(2) = 5(8) - 3(4) \\]<br>Perform the multiplications:<br>\\[ F(2) = 40 - 12 \\]<br>Perform the subtraction:<br>\\[ F(2) = \\text{<span style='color:var(--orange);font-weight:bold;'>28</span>} \\]</p><p style='margin:8px 0;'><strong>Step 6: Subtract the value at the lower limit from the value at the upper limit</strong><br>Using the Fundamental Theorem of Calculus:<br>\\[ \\int_{2}^{4} (15x^2 - 6x) dx = F(4) - F(2) \\]<br>Substitute the calculated values:<br>\\[ = 272 - 28 \\]<br>Perform the final subtraction:<br>\\[ = \\text{<span style='color:var(--orange);font-weight:bold;'>244</span>} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the antiderivative, we can differentiate \\( F(x) = 5x^3 - 3x^2 \\) to see if it matches the original integrand \\( f(x) = 15x^2 - 6x \\).<br>Formula for differentiation: \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\)<br>\\[ \\frac{d}{dx}(5x^3 - 3x^2) = \\frac{d}{dx}(5x^3) - \\frac{d}{dx}(3x^2) \\]<br>\\[ = 5(3x^{3-1}) - 3(2x^{2-1}) \\]<br>\\[ = 15x^2 - 6x \\]<br>This matches the original integrand, confirming our antiderivative is correct. The arithmetic for evaluating \\( F(4) \\) and \\( F(2) \\) and their difference is straightforward and has been checked.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The integral of the function is 244.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "244"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4v)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the integral of the function: \\( \\int \\frac{dx}{\\sqrt{x}} \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Calculus",
+      "Integration",
+      "Integration in Economics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Integration of Power Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Integration</em> is the process of finding the antiderivative of a function. An <em>indefinite integral</em> represents the family of all antiderivatives of a function, differing by a constant.<br>The <em>Power Rule for Integration</em> states that for any real number \\( n \\neq -1 \\):<br>\\[ \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\]<br>where \\( C \\) is the constant of integration.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The integral to find: \\( \\int \\frac{dx}{\\sqrt{x}} \\)</div><p style='margin:8px 0;'><strong>Step 1: Rewrite the integrand in exponential form</strong><br>The square root of \\( x \\) can be written as \\( x^{1/2} \\).<br>When a term is in the denominator, it can be brought to the numerator by changing the sign of its exponent.<br>\\[ \\frac{1}{\\sqrt{x}} = \\frac{1}{x^{1/2}} = x^{-1/2} \\]<br>So, the integral becomes: <span style='color:var(--orange);font-weight:bold;'>\\( \\int x^{-1/2} \\, dx \\)</span></p><p style='margin:8px 0;'><strong>Step 2: State the Power Rule for Integration</strong><br>The power rule for integration is used for functions of the form \\( x^n \\).<br>The formula is:<br>\\[ \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\]<br>In our case, \\( n = -\\frac{1}{2} \\).</p><p style='margin:8px 0;'><strong>Step 3: Apply the Power Rule</strong><br>Substitute \\( n = -\\frac{1}{2} \\) into the power rule formula.<br>First, calculate \\( n+1 \\):<br>\\[ n+1 = -\\frac{1}{2} + 1 = \\frac{1}{2} \\]<br>Now, apply the rule to the integral:<br>\\[ \\int x^{-1/2} \\, dx = \\frac{x^{-1/2 + 1}}{-1/2 + 1} + C \\]<br>\\[ = \\frac{x^{1/2}}{1/2} + C \\]</p><p style='margin:8px 0;'><strong>Step 4: Simplify the expression</strong><br>Dividing by a fraction is equivalent to multiplying by its reciprocal. The reciprocal of \\( \\frac{1}{2} \\) is \\( 2 \\).<br>Also, \\( x^{1/2} \\) can be rewritten as \\( \\sqrt{x} \\).<br>\\[ \\frac{x^{1/2}}{1/2} + C = 2x^{1/2} + C \\]<br>\\[ = 2\\sqrt{x} + C \\]<br>So, the integral is: <span style='color:var(--orange);font-weight:bold;'>\\( 2\\sqrt{x} + C \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the answer, we differentiate the result \\( 2\\sqrt{x} + C \\) and check if it matches the original integrand \\( \\frac{1}{\\sqrt{x}} \\).<br>Let \\( F(x) = 2\\sqrt{x} + C \\). We can rewrite \\( \\sqrt{x} \\) as \\( x^{1/2} \\):<br>\\[ F(x) = 2x^{1/2} + C \\]<br>Using the power rule for differentiation, \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\):<br>\\[ \\frac{d}{dx}(2x^{1/2} + C) = 2 \\cdot \\frac{1}{2} x^{1/2 - 1} + 0 \\]<br>\\[ = 1 \\cdot x^{-1/2} \\]<br>\\[ = \\frac{1}{x^{1/2}} \\]<br>\\[ = \\frac{1}{\\sqrt{x}} \\]<br>This matches the original integrand. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\( \\int \\frac{dx}{\\sqrt{x}} = 2\\sqrt{x} + C \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2\\sqrt{x} + C"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5a)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the Total Revenue, given the Marginal Revenue \\( MR = 185 - 0.4x - 0.3x^2 \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Integration in Economics",
+      "Integration",
+      "Revenue Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Total Revenue from Marginal Revenue</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In economics, <em>Marginal Revenue (MR)</em> represents the additional revenue generated by selling one more unit of a good or service. It is the derivative of the Total Revenue (TR) function with respect to the quantity sold, \\( x \\).<br>Conversely, <em>Total Revenue (TR)</em> is the total income a company receives from selling a certain quantity of goods or services. To find the total revenue function from the marginal revenue function, we must integrate the marginal revenue function with respect to \\( x \\).<br>The relationship is: \\( TR(x) = \\int MR(x) \\, dx \\).<br>When integrating, a constant of integration \\( C \\) is introduced. In the context of total revenue, it is generally assumed that total revenue is zero when zero units are sold (i.e., \\( TR(0) = 0 \\)), which helps determine the value of \\( C \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Marginal Revenue function: \\( MR = 185 - 0.4x - 0.3x^2 \\)<br>Relationship: \\( TR = \\int MR \\, dx \\)<br>Initial condition: \\( TR(0) = 0 \\) (Total Revenue is zero when zero units are sold).</div><p style='margin:8px 0;'><strong>Step 1: State the formula for Total Revenue</strong><br>Total Revenue (TR) is the integral of the Marginal Revenue (MR) function.<br>\\[ TR(x) = \\int MR(x) \\, dx \\]</p><p style='margin:8px 0;'><strong>Step 2: Substitute the given Marginal Revenue function into the integral</strong><br>Substitute the expression for \\( MR \\) into the formula.<br>\\[ TR(x) = \\int (185 - 0.4x - 0.3x^2) \\, dx \\]</p><p style='margin:8px 0;'><strong>Step 3: Apply the power rule of integration to each term</strong><br>The power rule for integration states that \\( \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\) for \\( n \\neq -1 \\). For a constant \\( k \\), \\( \\int k \\, dx = kx + C \\).<br>Integrate each term separately:<br>1. \\( \\int 185 \\, dx = 185x \\)<br>2. \\( \\int -0.4x \\, dx = -0.4 \\frac{x^{1+1}}{1+1} = -0.4 \\frac{x^2}{2} \\)<br>3. \\( \\int -0.3x^2 \\, dx = -0.3 \\frac{x^{2+1}}{2+1} = -0.3 \\frac{x^3}{3} \\)</p><p style='margin:8px 0;'><strong>Step 4: Perform the integration and include the constant of integration</strong><br>Combine the integrated terms and add the constant of integration, \\( C \\).<br>\\[ TR(x) = 185x - 0.4 \\frac{x^2}{2} - 0.3 \\frac{x^3}{3} + C \\]<br>Simplify the coefficients:<br>\\[ TR(x) = 185x - 0.2x^2 - 0.1x^3 + C \\]<br>The intermediate result for the Total Revenue function is: <span style='color:var(--orange);font-weight:bold;'>\\( TR(x) = 185x - 0.2x^2 - 0.1x^3 + C \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Determine the constant of integration (C)</strong><br>Use the initial condition that Total Revenue is zero when zero units are sold, i.e., \\( TR(0) = 0 \\).<br>Substitute \\( x=0 \\) and \\( TR(x)=0 \\) into the derived TR function:<br>\\[ 0 = 185(0) - 0.2(0)^2 - 0.1(0)^3 + C \\]<br>Simplify the equation:<br>\\[ 0 = 0 - 0 - 0 + C \\]<br>\\[ C = 0 \\]<br>The constant of integration is <span style='color:var(--orange);font-weight:bold;'>\\( C = 0 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 6: Write the final Total Revenue function</strong><br>Substitute the value of \\( C \\) back into the Total Revenue function from Step 4.<br>\\[ TR(x) = 185x - 0.2x^2 - 0.1x^3 + 0 \\]<br>\\[ TR(x) = 185x - 0.2x^2 - 0.1x^3 \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the Total Revenue function, we can differentiate it with respect to \\( x \\) to see if it yields the original Marginal Revenue function.<br>Given \\( TR(x) = 185x - 0.2x^2 - 0.1x^3 \\).<br>Differentiate \\( TR(x) \\):<br>\\[ \\frac{d}{dx}(TR(x)) = \\frac{d}{dx}(185x) - \\frac{d}{dx}(0.2x^2) - \\frac{d}{dx}(0.1x^3) \\]<br>\\[ = 185(1) - 0.2(2x) - 0.1(3x^2) \\]<br>\\[ = 185 - 0.4x - 0.3x^2 \\]<br>This matches the given Marginal Revenue function \\( MR = 185 - 0.4x - 0.3x^2 \\).<br>Also, check the initial condition: \\( TR(0) = 185(0) - 0.2(0)^2 - 0.1(0)^3 = 0 - 0 - 0 = 0 \\). This is correct. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Total Revenue function is \\( TR = 185x - 0.2x^2 - 0.1x^3 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( TR = 185x - 0.2x^2 - 0.1x^3 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5b)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A producer's Marginal Cost is given by \\( MC = \\frac{1}{8}x^2 - x + 320 \\). What is the Total Cost of producing 2 extra units if 6 units are currently being produced?",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Integration in Economics",
+      "Cost Functions",
+      "Definite Integration",
+      "Economic Applications of Calculus"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Calculating Total Cost from Marginal Cost using Definite Integration</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In economics, <em>Marginal Cost (MC)</em> is the cost of producing one additional unit of a good or service. It is the derivative of the Total Cost (TC) function.<br>Conversely, the <em>Total Cost (TC)</em> function can be found by integrating the Marginal Cost function.<br>To find the total cost of producing a specific number of <em>extra units</em> over a given range, we use a <em>definite integral</em> of the Marginal Cost function. The definite integral \\( \\int_{a}^{b} MC(x) dx \\) represents the change in total cost when production increases from \\( a \\) units to \\( b \\) units.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Marginal Cost function: \\( MC(x) = \\frac{1}{8}x^2 - x + 320 \\)<br>Current production level: \\( x_1 = 6 \\) units<br>Number of extra units to produce: 2 units</div><p style='margin:8px 0;'><strong>Step 1: Determine the new production level</strong><br>The current production level is 6 units. We need to produce 2 extra units.<br>New production level \\( x_2 = \\text{current production} + \\text{extra units} \\)<br>\\( x_2 = 6 + 2 \\)<br>\\( x_2 = \\)<span style='color:var(--orange);font-weight:bold;'>8 units</span></p><p style='margin:8px 0;'><strong>Step 2: Set up the definite integral for the total cost of extra units</strong><br>The total cost of producing the extra units is the definite integral of the Marginal Cost function from the current production level to the new production level.<br>Formula: \\( \\text{Total Cost of Extra Units} = \\int_{x_1}^{x_2} MC(x) dx \\)<br>Substitute values: \\( \\int_{6}^{8} \\left( \\frac{1}{8}x^2 - x + 320 \\right) dx \\)</p><p style='margin:8px 0;'><strong>Step 3: Find the antiderivative of the Marginal Cost function</strong><br>We integrate each term of the MC function using the power rule for integration \\( \\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\).<br>\\( \\int \\left( \\frac{1}{8}x^2 - x + 320 \\right) dx = \\frac{1}{8} \\int x^2 dx - \\int x dx + \\int 320 dx \\)<br>\\( = \\frac{1}{8} \\left( \\frac{x^{2+1}}{2+1} \\right) - \\left( \\frac{x^{1+1}}{1+1} \\right) + 320x \\)<br>\\( = \\frac{1}{8} \\cdot \\frac{x^3}{3} - \\frac{x^2}{2} + 320x \\)<br>Antiderivative \\( F(x) = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{x^3}{24} - \\frac{x^2}{2} + 320x \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Evaluate the antiderivative at the upper limit (x=8)</strong><br>Substitute \\( x=8 \\) into the antiderivative \\( F(x) \\).<br>\\( F(8) = \\frac{(8)^3}{24} - \\frac{(8)^2}{2} + 320(8) \\)<br>\\( = \\frac{512}{24} - \\frac{64}{2} + 2560 \\)<br>\\( = \\frac{64}{3} - 32 + 2560 \\)<br>\\( = \\frac{64}{3} + 2528 \\)<br>\\( = \\frac{64}{3} + \\frac{2528 \\times 3}{3} \\)<br>\\( = \\frac{64 + 7584}{3} \\)<br>\\( F(8) = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{7648}{3} \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Evaluate the antiderivative at the lower limit (x=6)</strong><br>Substitute \\( x=6 \\) into the antiderivative \\( F(x) \\).<br>\\( F(6) = \\frac{(6)^3}{24} - \\frac{(6)^2}{2} + 320(6) \\)<br>\\( = \\frac{216}{24} - \\frac{36}{2} + 1920 \\)<br>\\( = 9 - 18 + 1920 \\)<br>\\( = -9 + 1920 \\)<br>\\( F(6) = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 1911 \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Calculate the definite integral</strong><br>Subtract the value at the lower limit from the value at the upper limit.<br>\\( \\int_{6}^{8} MC(x) dx = F(8) - F(6) \\)<br>\\( = \\frac{7648}{3} - 1911 \\)<br>\\( = \\frac{7648}{3} - \\frac{1911 \\times 3}{3} \\)<br>\\( = \\frac{7648 - 5733}{3} \\)<br>\\( = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{1915}{3} \\)</span></p><p style='margin:8px 0;'><strong>Step 7: Convert the result to a decimal approximation</strong><br>\\( \\frac{1915}{3} \\approx 638.3333... \\)<br>Rounding to two decimal places, the total cost of producing 2 extra units is approximately <span style='color:var(--orange);font-weight:bold;'>\\( 638.33 \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-check the arithmetic for each part:<br>\\( F(8) = \\frac{8^3}{24} - \\frac{8^2}{2} + 320 \\times 8 = \\frac{512}{24} - \\frac{64}{2} + 2560 = 21.333... - 32 + 2560 = 2549.333... \\)<br>Using fractions: \\( \\frac{64}{3} - 32 + 2560 = \\frac{64}{3} - \\frac{96}{3} + \\frac{7680}{3} = \\frac{64 - 96 + 7680}{3} = \\frac{7648}{3} \\). This matches.<br><br>\\( F(6) = \\frac{6^3}{24} - \\frac{6^2}{2} + 320 \\times 6 = \\frac{216}{24} - \\frac{36}{2} + 1920 = 9 - 18 + 1920 = 1911 \\). This matches.<br><br>Difference: \\( \\frac{7648}{3} - 1911 = \\frac{7648 - 5733}{3} = \\frac{1915}{3} \\). This matches.<br>The calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Total Cost of producing 2 extra units is \\( \\frac{1915}{3} \\) or approximately \\( 638.33 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{1915}{3} \\) or approximately \\( 638.33 \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5c)",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the producer’s surplus at \\( x_0 = 6 \\) and \\( p_0 = 83.4 \\), given the supply function \\( p = 0.15x^2 + 8x + 30 \\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Microeconomics",
+      "Economic Applications of Calculus",
+      "Integration in Economics",
+      "Definite Integration"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Producer's Surplus Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Producer's Surplus (PS)</em> is the difference between the amount a producer actually receives for a product and the minimum amount they would have been willing to accept. Graphically, it is the area above the supply curve and below the equilibrium price, up to the equilibrium quantity.<br>The formula for producer's surplus is:<br>\\[ PS = x_0 p_0 - \\int_{0}^{x_0} S(x) dx \\]<br>where \\( x_0 \\) is the equilibrium quantity, \\( p_0 \\) is the equilibrium price, and \\( S(x) \\) is the supply function.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Supply function: \\( S(x) = 0.15x^2 + 8x + 30 \\)<br>Equilibrium quantity: \\( x_0 = 6 \\)<br>Equilibrium price: \\( p_0 = 83.4 \\)<br>Formula for Producer's Surplus: \\( PS = x_0 p_0 - \\int_{0}^{x_0} S(x) dx \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the formula for Producer's Surplus</strong><br>The formula to calculate the producer's surplus is:<br>\\[ PS = x_0 p_0 - \\int_{0}^{x_0} S(x) dx \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate the total revenue at equilibrium (\\( x_0 p_0 \\))</strong><br>Substitute the given values of \\( x_0 \\) and \\( p_0 \\) into the first part of the formula.<br>\\[ x_0 p_0 = 6 \\times 83.4 \\]<br>\\[ x_0 p_0 = \\text{<span style='color:var(--orange);font-weight:bold;'>500.4</span>} \\]</p><p style='margin:8px 0;'><strong>Step 3: Set up the definite integral for the area under the supply curve</strong><br>Substitute the supply function \\( S(x) \\) and the equilibrium quantity \\( x_0 \\) into the integral part of the formula.<br>\\[ \\int_{0}^{x_0} S(x) dx = \\int_{0}^{6} (0.15x^2 + 8x + 30) dx \\]</p><p style='margin:8px 0;'><strong>Step 4: Find the antiderivative of the supply function</strong><br>Integrate each term of the supply function with respect to \\( x \\).<br>Recall the power rule for integration: \\( \\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\).<br>\\[ \\int (0.15x^2 + 8x + 30) dx = 0.15\\frac{x^{2+1}}{2+1} + 8\\frac{x^{1+1}}{1+1} + 30\\frac{x^{0+1}}{0+1} + C \\]<br>\\[ = 0.15\\frac{x^3}{3} + 8\\frac{x^2}{2} + 30x + C \\]<br>\\[ = 0.05x^3 + 4x^2 + 30x + C \\]<br>Let \\( F(x) = 0.05x^3 + 4x^2 + 30x \\).</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the definite integral</strong><br>Apply the Fundamental Theorem of Calculus: \\( \\int_{a}^{b} f(x) dx = F(b) - F(a) \\).<br>Here, \\( a=0 \\) and \\( b=6 \\).<br>First, evaluate \\( F(6) \\):<br>\\[ F(6) = 0.05(6)^3 + 4(6)^2 + 30(6) \\]<br>\\[ = 0.05(216) + 4(36) + 180 \\]<br>\\[ = 10.8 + 144 + 180 \\]<br>\\[ = 334.8 \\]<br>Next, evaluate \\( F(0) \\):<br>\\[ F(0) = 0.05(0)^3 + 4(0)^2 + 30(0) \\]<br>\\[ = 0 + 0 + 0 \\]<br>\\[ = 0 \\]<br>Now, calculate the definite integral:<br>\\[ \\int_{0}^{6} S(x) dx = F(6) - F(0) = 334.8 - 0 \\]<br>\\[ \\int_{0}^{6} S(x) dx = \\text{<span style='color:var(--orange);font-weight:bold;'>334.8</span>} \\]</p><p style='margin:8px 0;'><strong>Step 6: Calculate the Producer's Surplus</strong><br>Substitute the values from Step 2 and Step 5 into the PS formula from Step 1.<br>\\[ PS = x_0 p_0 - \\int_{0}^{x_0} S(x) dx \\]<br>\\[ PS = 500.4 - 334.8 \\]<br>\\[ PS = \\text{<span style='color:var(--orange);font-weight:bold;'>165.6</span>} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The producer's surplus represents the economic benefit producers receive by selling at the market price \\( p_0 \\) rather than their minimum acceptable price (given by the supply curve).<br>Total revenue at equilibrium: \\( x_0 p_0 = 6 \\times 83.4 = 500.4 \\).<br>Total cost to produce \\( x_0 \\) units (area under the supply curve): \\( \\int_{0}^{6} (0.15x^2 + 8x + 30) dx = 334.8 \\).<br>The difference, \\( 500.4 - 334.8 = 165.6 \\), is the producer's surplus, which is a positive value, indicating a surplus for producers, as expected.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The producer's surplus is 165.6.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "165.6"
+    }
+  }
+]
